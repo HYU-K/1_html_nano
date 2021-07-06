@@ -5160,7 +5160,7 @@
   position: relative;
   width: 100%;
   height: 918px;
-  background-image: url(file:///D:/html_nanoweb/2_famicook/assets/img/error.png);
+  background-image: url(../img/error.png);
   background-size: 100% 100%;
 }
 .section_error .text {

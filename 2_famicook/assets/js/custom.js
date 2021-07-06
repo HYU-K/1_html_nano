@@ -24,7 +24,6 @@ $(document).ready(function(){
 		dots: true,
 		arrows: false,
 		autoplaySpeed: 2000,
-
 	});
 
 	$('.logo-mark').slick({
@@ -36,7 +35,6 @@ $(document).ready(function(){
 		autoplaySpeed: 2000,
 		prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/button-left.png' alt=''></button>",
 		nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/button-right.png' alt=''></button>",
-
 	});
 
 	$('.item-product-news').slick({
@@ -52,7 +50,6 @@ $(document).ready(function(){
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 1,
-
 			}
 		},
 		{
@@ -78,7 +75,6 @@ $(document).ready(function(){
 			settings: {
 				slidesToShow: 2,
 				slidesToScroll: 1,
-
 			}
 		},
 		{
@@ -112,7 +108,6 @@ $(document).ready(function(){
 			settings: {
 				slidesToShow: 4,
 				slidesToScroll: 1,
-
 			}
 		},
 		{
