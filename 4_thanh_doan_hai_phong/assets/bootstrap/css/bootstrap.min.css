@@ -4368,9 +4368,24 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
-    .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
-        max-height: 200px
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    body {
+        font-size: 9.5pt;
+    }
+    div.content {
+        width: 96ex;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 10pt;
+        margin: 0 4em;
+    }
+    div.content {
+        width: 96ex;
+        margin: 0;
     }
 }
 
