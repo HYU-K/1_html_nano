@@ -2666,7 +2666,7 @@
 .section-news-detail-content .item-link .item-news-list ul .das .main:hover a {
   color: #FFFFFF;
   font-family: Montserrat-bold;
-  font-style: bold;
+  font-weight: bold;
 }
 .section-news-detail-content .item-link .item-news-list ul .das01 {
   width: 100%;
@@ -2754,7 +2754,7 @@
 .section-news-detail-content .item-link .item-news-list ul .das01 .main01:hover a {
   color: #FFFFFF;
   font-family: Montserrat-bold;
-  font-style: bold;
+  font-weight: bold;
 }
 .section-news-detail-content .item-link .item-news-hot {
   width: 100%;
