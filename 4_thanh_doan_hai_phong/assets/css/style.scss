@@ -15,7 +15,7 @@
 	src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 @font-face {
-	font-family: San Francisco Text;
+	font-family: San-Francisco-Text;
 	src: url(../fonts/San-Francisco/SanFranciscoText-Light.otf);
 }
 @font-face {
@@ -3940,7 +3940,7 @@
 					a {
 						border-radius: 50%;
 						text-decoration: none;
-						font-family: San Francisco Text;
+						font-family: San-Francisco-Text;
 						font-style: normal;
 						font-weight: normal;
 						font-size: 16px;
@@ -5018,7 +5018,7 @@
 				a {
 					border-radius: 50%;
 					text-decoration: none;
-					font-family: San Francisco Text;
+					font-family: San-Francisco-Text;
 					font-style: normal;
 					font-weight: normal;
 					font-size: 16px;
@@ -5071,7 +5071,7 @@
 				a {
 					border-radius: 50%;
 					text-decoration: none;
-					font-family: San Francisco Text;
+					font-family: San-Francisco-Text;
 					font-style: normal;
 					font-weight: normal;
 					font-size: 16px;
@@ -5732,7 +5732,7 @@
 		height: 2px;
 		border-radius: 10px;
 		color: #000000;
-		background-color: #000000;
+		background-color: #0c0b0b;
 		position: absolute;
 		transform: rotate(0deg);
 		transition: .4s ease-in-out;

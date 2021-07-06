@@ -15,7 +15,7 @@
   src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 @font-face {
-  font-family: San Francisco Text;
+  font-family: San-Francisco-Text;
   src: url(../fonts/San-Francisco/SanFranciscoText-Light.otf);
 }
 @font-face {
@@ -4100,7 +4100,7 @@
 .section-file-content .item-product .pagination ul li a {
   border-radius: 50%;
   text-decoration: none;
-  font-family: San Francisco Text;
+  font-family: San-Francisco-Text;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5186,7 +5186,7 @@
 .section-news-pagination .pagination ul li a {
   border-radius: 50%;
   text-decoration: none;
-  font-family: San Francisco Text;
+  font-family: San-Francisco-Text;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5243,7 +5243,7 @@
 .section-document-pagination .pagination ul li a {
   border-radius: 50%;
   text-decoration: none;
-  font-family: San Francisco Text;
+  font-family: San-Francisco-Text;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -5906,7 +5906,7 @@
     height: 2px;
     border-radius: 10px;
     color: #000000;
-    background-color: #000000;
+    background-color: #0c0b0b;
     position: absolute;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
