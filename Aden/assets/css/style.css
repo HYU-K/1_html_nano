@@ -633,10 +633,6 @@
     height: 33px;
   }
 
-  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image {
-    height: 240px;
-  }
-
   .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .image {
     padding-left: 20px;
     padding-right: 20px;
@@ -651,6 +647,10 @@
     height: 170px;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image {
+    height: 240px;
   }
 }
 @media screen and (max-width: 400px) {
