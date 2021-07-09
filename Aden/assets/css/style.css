@@ -526,6 +526,24 @@
   .side40_foot_col10_aden {
     padding: 0 50px;
   }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header {
+    display: block;
+    padding-top: 75px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-product {
+    width: 100%;
+    padding: 0 30px;
+  }
 }
 /* man: 768px; ipad */
 @media screen and (max-width: 991px) {
@@ -556,6 +574,17 @@
   .side40_pro_col12_sp {
     padding: 30px 120px;
   }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header {
+    width: 90%;
+    height: 70%;
+    padding-top: 50px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .close {
+    top: 10px;
+    right: 20px;
+  }
 }
 /* man:  mobi */
 @media screen and (max-width: 676px) {
@@ -583,10 +612,45 @@
   .side40_html_col12_aden .list-slide-contact .item-product-contact {
     width: 88%;
   }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .slick-next::before {
+    font-size: 35px;
+    top: 1px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .slick-next {
+    width: 33px;
+    height: 33px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .slick-prev::before {
+    font-size: 35px;
+    top: 1px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .slick-prev {
+    width: 33px;
+    height: 33px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image {
+    height: 240px;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .image {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (max-width: 500px) {
   .side40_bann_col10_aden .text {
     display: none;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-product p {
+    height: 170px;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 }
 @media screen and (max-width: 400px) {
@@ -599,5 +663,9 @@
   .side40_bann_col10_aden .login {
     display: block;
     float: none;
+  }
+
+  .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-product h2 {
+    margin-bottom: 20px;
   }
 }
