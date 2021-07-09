@@ -1,0 +1,21 @@
+.container_fix {
+    max-width: 1570px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* overflow: hidden; */
+}
+
+@media (max-width: 1600px) {
+    .container_fix {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container_fix {
+        max-width: 1170px;
+    }
+}
