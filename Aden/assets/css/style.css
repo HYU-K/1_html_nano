@@ -292,6 +292,8 @@
   position: absolute;
   top: 2px;
   left: -2px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .slick-next {
   right: 0;
@@ -312,6 +314,8 @@
   position: absolute;
   top: 2px;
   left: -2px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .side40_pro_col12_sp .item-product .col-md-4 .overlay .popup .content .header .item-sp-image .image {
   width: 100%;
