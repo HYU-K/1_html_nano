@@ -47,6 +47,10 @@ $(document).ready(function () {
 			$('.backtotop').removeClass('show');
 		}
 	});
+	$(function () {
+		new WOW().init();
+	})
+
 
 
 }); // jQuery load
