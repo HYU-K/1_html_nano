@@ -76,14 +76,15 @@
 			background-blend-mode: soft-light, normal;
 			border-radius: 50px;
 			padding: 10px 30px;
+			transition: all 0.5s;
 			img {
 				margin: -3px 10px 0 0;
 				width: fit-content;
 				height: fit-content;
 			}
-		}
-		:hover {
-			background: #c00;
+			&:hover {
+				background: #c00;
+			}
 		}
 	}
 }

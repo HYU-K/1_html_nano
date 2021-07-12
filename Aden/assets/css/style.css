@@ -79,6 +79,8 @@
   background-blend-mode: soft-light, normal;
   border-radius: 50px;
   padding: 10px 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .side40_bann_col10_aden .login a img {
   margin: -3px 10px 0 0;
@@ -89,7 +91,7 @@
   height: -moz-fit-content;
   height: fit-content;
 }
-.side40_bann_col10_aden .login :hover {
+.side40_bann_col10_aden .login a:hover {
   background: #c00;
 }
 
