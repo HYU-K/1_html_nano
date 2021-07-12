@@ -31,6 +31,24 @@ $(document).ready(function () {
 	});
 
 
+	$(window).scroll(function (event) {
+		var pos_body = $('html,body').scrollTop();
+		// console.log(pos_body);
+		if (pos_body > 20) {
+			$('.side40_bann_col10_aden').addClass('croll');
+		}
+		else {
+			$('.side40_bann_col10_aden').removeClass('croll');
+		}
+		if (pos_body > 900) {
+			$('.backtotop').addClass('show');
+		}
+		else {
+			$('.backtotop').removeClass('show');
+		}
+	});
+
+
 }); // jQuery load
 
 

@@ -36,6 +36,8 @@
   padding: 20px 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(34.63%, rgba(255, 255, 255, 0.5)), color-stop(74.36%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 34.63%, rgba(255, 255, 255, 0) 74.36%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .side40_bann_col10_aden .logo {
   float: left;
@@ -89,6 +91,13 @@
 }
 .side40_bann_col10_aden .login :hover {
   background: #c00;
+}
+
+.croll {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
 }
 
 .side40_bann_col12_slide {
@@ -475,10 +484,18 @@
   right: 3%;
   outline: none;
   cursor: pointer;
-  z-index: 1;
   background: #FFFFFF;
   border-radius: 50%;
-  z-index: 9999;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* man: 1366px; */

@@ -30,17 +30,20 @@
 	font-family: Montserrat-bold;
 	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
 }
+
+
+
+
+
 .side40_bann_col10_aden {
 	width: 100%;
 	overflow: hidden;
 	padding: 20px 0;
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 34.63%, rgba(255, 255, 255, 0) 74.36%);
+	transition: all 0.5s;
 	.logo {
 		float: left;
 		display: flex;
-		img {
-
-		}
 	}
 	.text {
 		width: 78%;
@@ -83,6 +86,12 @@
 			background: #c00;
 		}
 	}
+}
+.croll {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 999;
 }
 .side40_bann_col12_slide {
 	width: 100%;
@@ -285,7 +294,6 @@
 										left: -2px;
 									}
 								}
-								
 								.image {
 									width: 100%;
 									height: 100%;
@@ -437,7 +445,6 @@
 					color: #E73B2B;
 					word-wrap: break-word;
 				}
-				
 			}
 		}
 	}
@@ -465,11 +472,20 @@
 	right: 3%;
 	outline: none;
 	cursor: pointer;
-	z-index: 1;
 	background: #FFFFFF;
 	border-radius: 50%;
-	z-index: 9999;
+	z-index: 99;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
 }
+.show {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
 
 
 
@@ -485,6 +501,12 @@
 		margin: 0 5%;
 	}
 }
+
+
+
+
+
+
 
 /* man: 1024px; ipad pro */
 @media screen and (max-width: 1300px) {
@@ -525,6 +547,14 @@
 	}
 }
 
+
+
+
+
+
+
+
+
 /* man: 768px; ipad */
 @media screen and (max-width: 991px) {
 	.side40_bann_col10_aden .text {
@@ -556,8 +586,17 @@
 		top: 10px;
 		right: 20px;
 	}
-	
 }
+
+
+
+
+
+
+
+
+
+
 
 /* man:  mobi */
 @media screen and (max-width: 676px) {
@@ -604,6 +643,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) {
 	.side40_bann_col10_aden .text {
 		display: none;
@@ -617,6 +665,14 @@
 		height: 240px;
 	}
 }
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 400px) {
 	.side40_bann_col10_aden .logo {
