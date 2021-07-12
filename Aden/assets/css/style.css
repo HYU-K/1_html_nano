@@ -34,10 +34,10 @@
   width: 100%;
   overflow: hidden;
   padding: 20px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(34.63%, rgba(255, 255, 255, 0.5)), color-stop(74.36%, rgba(255, 255, 255, 0)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 34.63%, rgba(255, 255, 255, 0) 74.36%);
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
 .side40_bann_col10_aden .logo {
   float: left;
@@ -95,6 +95,9 @@
 
 .croll {
   position: fixed;
+  background: #FFFFFF;
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.35);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.35);
   top: 0px;
   left: 0px;
   z-index: 999;
@@ -500,6 +503,10 @@
 
 /* man: 1366px; */
 @media screen and (max-width: 1400px) {
+  .side40_bann_col10_aden .text {
+    width: 74%;
+  }
+
   .side40_bann_col12_slide .item-product {
     padding: 0 20px;
   }

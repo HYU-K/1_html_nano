@@ -39,8 +39,8 @@
 	width: 100%;
 	overflow: hidden;
 	padding: 20px 0;
+	transition: all 0.3s;
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 34.63%, rgba(255, 255, 255, 0) 74.36%);
-	transition: all 0.5s;
 	.logo {
 		float: left;
 		display: flex;
@@ -89,6 +89,8 @@
 }
 .croll {
 	position: fixed;
+	background: #FFFFFF;
+	box-shadow: 2px 5px 5px rgb(0,0,0,0.35);
 	top: 0px;
 	left: 0px;
 	z-index: 999;
@@ -491,6 +493,9 @@
 
 /* man: 1366px; */
 @media screen and (max-width: 1400px) {
+	.side40_bann_col10_aden .text {
+		width: 74%;
+	}
 	.side40_bann_col12_slide .item-product {
 		padding: 0 20px;
 	}
