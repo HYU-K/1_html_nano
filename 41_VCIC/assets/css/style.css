@@ -83,6 +83,33 @@ li {
   color: #5C5C5C;
 }
 
+@media only screen and (min-width: 1400px) {
+  .title1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .title1 {
+    font-size: 30px;
+  }
+  .nd1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.19%;
+    text-align: justify;
+    color: #5C5C5C;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .title1 {
+    font-size: 26px;
+  }
+}
+
 .btn {
   max-width: 275px;
   max-height: 55px;
