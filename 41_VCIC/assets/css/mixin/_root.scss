@@ -1,0 +1,50 @@
+* {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.title {
+    &1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 150.19%;
+        text-transform: uppercase;
+        color: #333333;
+    }
+}
+
+.nd {
+    &1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150.19%;
+        text-align: justify;
+        color: #5C5C5C;
+    }
+}
