@@ -45,7 +45,10 @@
             max-height: 40px;
         }
 
-
+        &_sw {
+            max-width: 121px;
+            max-height: 39px;
+        }
     }
 
     &.btn_primary {
@@ -57,6 +60,13 @@
 
     &.btn_view {
         background-color: #2275BC;
+        color: #fff;
+    }
+
+    &.btn_header {
+        text-transform: uppercase;
+        border: 1px solid #FFFFFF;
+        background-color: #00B2E7;
         color: #fff;
     }
 
