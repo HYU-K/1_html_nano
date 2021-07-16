@@ -96,13 +96,13 @@ $(document).ready(function () {
 
 $(function () {
 	function slideMenu() {
-		var activeState = $(".menu .menu-list").hasClass("active");
-		$(".menu .menu-list").animate({ left: activeState ? "0%" : "-100%" }, 400);
+		var activeState = $(".menu-top .menu-list").hasClass("active");
+		$(".menu-top .menu-list").animate({ left: activeState ? "0%" : "-100%" }, 400);
 	}
 	$(".menu-wrapper").click(function (event) {
 		event.stopPropagation();
 		$(".hamburger").toggleClass("open");
-		$(".menu .menu-list").toggleClass("active");
+		$(".menu-top .menu-list").toggleClass("active");
 		slideMenu();
 
 		$("body").toggleClass("overflow-hidden");

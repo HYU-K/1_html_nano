@@ -1,4 +1,4 @@
-header {
+.site41_head_col0_vcic {
     .item-header-top {
         overflow: hidden;
     padding: 10px 0;
@@ -8,7 +8,7 @@ header {
         float: left;
         ul {
             display: contents;
-            .tell {
+            .header-tell {
                 position: relative;
                 padding-right: 40px;
                 ::before {
@@ -80,7 +80,7 @@ header {
                     width: 62%;
                     position: relative;
                     input {
-                        width: 92%;
+                        width: 90%;
                         padding: 10px
                     }
                     ::before {
@@ -98,7 +98,7 @@ header {
                         border: 1px solid #2275BC;
                         box-sizing: border-box;
                         border-radius: 0px 4px 4px 0px;
-                        width: 8%;
+                        width: 10%;
                         height: 100%;
                     }
                 }
@@ -162,46 +162,52 @@ header {
         overflow: hidden;
         padding-top: 8px;
         box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.1);
-        .main {
-            align-items: center;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            float: left;
-            padding: 10px 0;
-            li {
-                padding-right: 40px;
-                .menu1 {
-                    position: relative;
-                    text-decoration: none;
-                    padding-bottom: 5px;
-                    &::after {
-                        position: absolute;
-                        content: "";
-                        bottom: 0;
-                        left: 0;
-                        width: 0;
-                        height: 3px;
-                        transition: all 0.5s;
-                        background: #00B2E7;
+        .menu-top {
+            .menu-list {
+                align-items: center;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                float: left;
+                padding: 10px 0;
+                .logo-menu {
+                    display: none;
+                    padding: 100px 125px;
+                    img {
+                        width: 100%;
                     }
                 }
-                &:hover {
+                li {
+                    padding-right: 40px;
                     .menu1 {
-                        color: #FFFFFF;
+                        position: relative;
+                        text-decoration: none;
+                        padding-bottom: 5px;
                         &::after {
-                            width: 100%;
+                            position: absolute;
+                            content: "";
+                            bottom: 0;
+                            left: 0;
+                            width: 0;
+                            height: 3px;
+                            transition: all 0.5s;
+                            background: #00B2E7;
+                        }
+                    }
+                    &:hover {
+                        .menu1 {
+                            color: #00B2E7;
+                            &::after {
+                                width: 100%;
+                            }
                         }
                     }
                 }
             }
         }
+        
         .btn {
             float: right;
         }
-        .menu-top {
-            display: none;
-        }
     }
-    
 }

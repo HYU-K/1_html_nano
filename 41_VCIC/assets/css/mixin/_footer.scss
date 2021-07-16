@@ -1,0 +1,126 @@
+.site41_foot_col0_vcic {
+    overflow: hidden;
+    background-image: url('../img/bg_foot.png');
+    background-size: 100% 100%;
+    .col-md-4 {
+        padding: 20px 0;
+        .logo-foot {
+            padding-bottom: 20px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    color: #FFFFFF;
+                }
+            }
+        }
+        .contact {
+            ul {
+                li {
+                    width: 84%;
+                    display: flex;
+                    padding-bottom: 20px;
+                    img {
+                        padding: 0 20px 0 5px;
+                        width: fit-content;
+                        height: fit-content;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                    a {
+                        text-decoration: none;
+                        &:hover {
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+        .mxh {
+			margin-left: 4px;
+			img {
+                width: fit-content;
+                height: fit-content;
+				margin-right: 25px;
+			}
+		}
+        .title12 {
+            margin: 30px 0;
+        }
+        .item-input {
+            display: flex;
+            input {
+                width: 88%;
+                padding: 10px;
+            }
+            button {
+                width: 12%;
+                background: #56CCF2;
+            }
+        }
+    }
+    .col-md-2 {
+        padding: 20px 0;
+        .title12 {
+            padding-bottom: 30px;
+        }
+        .list-cate {
+            li {
+                padding-bottom: 30px;
+                .md3 {
+                    text-decoration: none;
+                    &:hover {
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+.tell {
+	position: fixed;
+	bottom: 200px;
+	right: 4%;
+	outline: none;
+	cursor: pointer;
+	background: #FFFFFF;
+	border-radius: 50%;
+	z-index: 99;
+}
+.zalo {
+	position: fixed;
+	bottom: 150px;
+	right: 4%;
+	outline: none;
+	cursor: pointer;
+	background: #FFFFFF;
+	border-radius: 50%;
+	z-index: 99;
+}
+.mes {
+	position: fixed;
+	bottom: 100px;
+	right: 4%;
+	outline: none;
+	cursor: pointer;
+	background: #FFFFFF;
+	border-radius: 50%;
+	z-index: 99;
+}
+.backtotop {
+	position: fixed;
+	bottom: 50px;
+	right: 4%;
+	outline: none;
+	cursor: pointer;
+	background: #FFFFFF;
+	border-radius: 50%;
+	z-index: 99;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.show {
+	visibility: visible;
+	opacity: 1;
+}
