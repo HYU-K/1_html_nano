@@ -36,6 +36,15 @@ li {
         line-height: 150.19%;
         text-transform: uppercase;
         color: #333333;
+        &1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 150.19%;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
         &2 {
             font-family: Roboto;
             font-style: normal;
@@ -59,8 +68,16 @@ li {
         font-weight: 500;
         font-size: 18px;
         line-height: 150.19%;
-        text-align: justify;
         color: #4F4F4F;
+    }
+    &4 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150.19%;
+        color: #5C5C5C;
+
     }
 }
 
@@ -86,7 +103,6 @@ li {
         font-weight: normal;
         font-size: 18px;
         line-height: 150.19%;
-        text-align: justify;
         text-transform: uppercase;
         color: #5C5C5C;
     }
@@ -98,7 +114,6 @@ li {
         font-weight: normal;
         font-size: 18px;
         line-height: 150.19%;
-        text-align: justify;
         color: #5C5C5C;
         &3{
             font-family: Roboto;
@@ -132,6 +147,14 @@ li {
         font-size: 16px;
         line-height: 150.5%;
         color: #2275BC;
+        &1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #828282;
+        }
     }
 }
 
@@ -143,6 +166,14 @@ li {
         font-size: 18px;
         line-height: 140.1%;
         color: #061A3A;
+        &1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150.19%;
+            color: #FFFFFF;
+        }
     } 
     &2 {
         font-family: Roboto;
@@ -166,7 +197,14 @@ li {
         font-weight: normal;
         font-size: 16px;
         line-height: 164.71%;
-        text-align: justify;
         color: #FFFFFF;
+    }
+    &5 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150.19%;
+        color: #828282;
     }
 }

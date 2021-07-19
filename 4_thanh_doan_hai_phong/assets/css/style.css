@@ -5541,7 +5541,7 @@
     font-family: Montserrat-bold;
   }
 
-  .section-news-detail-content .item-link .item-news-list ul .das input[type=radio]:checked + .main > .lil_arrow {
+  .section-news-detail-content .item-link .item-news-list ul .das input[type=checkbox]:checked + .main > .lil_arrow {
     -webkit-transition: -webkit-transform 0.8s;
     transition: -webkit-transform 0.8s;
     transition: transform 0.8s;

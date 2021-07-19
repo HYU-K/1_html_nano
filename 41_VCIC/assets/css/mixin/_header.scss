@@ -42,118 +42,138 @@
         }
     }
     }
+    .croll {
+        position: fixed;
+        background: #FFFFFF;
+        box-shadow: 2px 5px 5px rgb(0,0,0,0.35);
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: 999;
+    }
     .item-header-input {
         overflow: hidden;
         padding: 15px 0;
+        transition: all 0.3s;
         .container {
-            display: flex;
-            align-items: center;
-            .logo-top {
+            .header-display {
                 display: flex;
-                img {
-                    width: fit-content;
-                    height: fit-content
-                }
-            }
-            .item-recta {
-                margin-left: 50px;
+                align-items: center;
                 width: 100%;
-                display: flex;
                 float: left;
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 150.19%;
-                color: #828282;
-                border: 1px solid #E0E0E0;
-                box-sizing: border-box;
-                border-radius: 5px;
-                .soe {
-                    width: 38%;
-                    padding: 10px;
-                    .luachon {
-                        width: 100%;
+                .logo-top {
+                    display: flex;
+                    img {
+                        width: fit-content;
+                        height: fit-content
                     }
                 }
-                .search {
-                    width: 62%;
-                    position: relative;
-                    input {
-                        width: 90%;
-                        padding: 10px
-                    }
-                    ::before {
-                        position: absolute;
-                        width: 1px;
-                        height: 16px;
-                        content: "";
-                        background: #DBDBDB;
-                        top: 12px;
-                        left: 0;
-                    }
-                    button {
-                        float: right;
-                        background: #2275BC;
-                        border: 1px solid #2275BC;
-                        box-sizing: border-box;
-                        border-radius: 0px 4px 4px 0px;
-                        width: 10%;
-                        height: 100%;
-                    }
-                }
-            }
-            .cart {
-                position: relative;
-                padding: 0 40px;
-                img {
-                    width: fit-content;
-                    height: fit-content;
-                }
-                span {
-                    position: absolute;
-                    font-family: Poppins;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 14px;
-                    line-height: 21px;
-                    color: #FFFFFF;
-                    background: #FF0B00;
-                    border-radius: 50%;
-                    padding: 0px 6px;
-                    top: -6px;
-                    left: 50px;
-                }
-            }
-            .login {
-                width: 25%;
-                .conten {
-                    position: relative;
-                    &::before {
-                        position: absolute;
-                        content: "";
-                        height: 15px;
-                        width: 1px;
-                        background: #4F4F4F;
-                        top: 3px;
-                        right: -4px;
-                        transform: rotateZ( 15deg);
-                    }
-                }
-                a {
-                    text-decoration: none;
+                .item-recta {
+                    margin-left: 50px;
+                    width: 100%;
+                    display: flex;
+                    float: left;
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: normal;
-                    font-size: 16px;
-                    line-height: 19px;
-                    color: #4F4F4F;
-                    margin-right: 10px;
+                    font-size: 14px;
+                    line-height: 150.19%;
+                    color: #828282;
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    .soe {
+                        width: 38%;
+                        padding: 10px;
+                        .luachon {
+                            outline: 0;
+                            width: 100%;
+                        }
+                    }
+                    .search {
+                        width: 62%;
+                        position: relative;
+                        input {
+                            outline: 0;
+                            width: 90%;
+                            padding: 10px
+                        }
+                        ::before {
+                            position: absolute;
+                            width: 1px;
+                            height: 16px;
+                            content: "";
+                            background: #DBDBDB;
+                            top: 12px;
+                            left: 0;
+                        }
+                        button {
+                            float: right;
+                            background: #2275BC;
+                            border: 1px solid #2275BC;
+                            box-sizing: border-box;
+                            border-radius: 0px 4px 4px 0px;
+                            width: 10%;
+                            height: 100%;
+                        }
+                    }
                 }
-                img {
-                    float: right;
+                .cart {
+                    position: relative;
+                    padding: 0 40px;
+                    img {
+                        width: fit-content;
+                        height: fit-content;
+                    }
+                    span {
+                        position: absolute;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #FFFFFF;
+                        background: #FF0B00;
+                        border-radius: 50%;
+                        padding: 0px 6px;
+                        top: -6px;
+                        left: 50px;
+                    }
+                }
+                .login {
+                    width: 25%;
+                    .conten {
+                        margin-right: 10px;
+                        position: relative;
+                        &::before {
+                            position: absolute;
+                            content: "";
+                            height: 15px;
+                            width: 1px;
+                            background: #4F4F4F;
+                            top: 3px;
+                            right: -6px;
+                            transform: rotateZ( 15deg);
+                        }
+                    }
+                    .log_in {
+                        margin-right: 10px;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #4F4F4F;
+                    }
+                    img {
+                        float: right;
+                    }
                 }
             }
+            
         }
     }
     .item-header-menu-top {
@@ -172,7 +192,7 @@
                 padding: 10px 0;
                 .logo-menu {
                     display: none;
-                    padding: 100px 125px;
+                    padding: 50px 222px 100px 50px;
                     img {
                         width: 100%;
                     }
@@ -205,7 +225,72 @@
                 }
             }
         }
-        
+        .search-box {
+            display: none;
+            border: solid 2px #FFFFFF;
+            position: relative;
+            border-radius: 50px;
+            float: right;
+            margin-right: 30px;
+            margin-top: 3px;
+            input[type="text"] {
+                background: #2275BC;
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: normal;
+                color: #FFFFFF;
+                width: 20px;
+                height: 20px;
+                padding: 5px 15px 7px 5px;
+                border: none;
+                box-sizing: border-box;
+                border-radius: 50px;
+                transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 0.5) 600ms;
+                &:focus {
+                    outline: none;
+                }
+                &:focus, &:not(:placeholder-shown) {
+                    width: 300px;
+                    transition: width 800ms cubic-bezier(0.5, -0.5, 0.5, 1.5);
+                    + span {
+                        bottom: -1px;
+                        right: 10px;
+                        transition: bottom 300ms ease-out 800ms, right 300ms ease-out 800ms;
+                    }
+                    + span:after {
+                        top: 5px;
+                        right: 12px;
+                        opacity: 1;
+                        transition: top 300ms ease-out 1100ms, right 300ms ease-out 1100ms, opacity 300ms ease 1100ms;
+                    }
+                }
+            }
+            span {
+                width: 25px;
+                height: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                bottom: -15px;
+                right: -15px;
+                transition: bottom 300ms ease-out 300ms, right 300ms ease-out 300ms;
+                &:before, &:after {
+                    content: '';
+                    height: 15px;
+                    border-left: solid 2px #FFFFFF;
+                    position: absolute;
+                    transform: rotate(-45deg);
+                }
+                &:after {
+                    transform: rotate(45deg);
+                    opacity: 0;
+                    top: -20px;
+                    right: -10px;
+                    transition: top 300ms ease-out, right 300ms ease-out, opacity 300ms ease-out;
+                }
+            }
+        }
         .btn {
             float: right;
         }

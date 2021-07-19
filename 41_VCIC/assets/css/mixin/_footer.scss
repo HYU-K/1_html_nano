@@ -1,4 +1,6 @@
 .site41_foot_col0_vcic {
+    width: 100%;
+    float: left;
     overflow: hidden;
     background-image: url('../img/bg_foot.png');
     background-size: 100% 100%;
@@ -52,6 +54,7 @@
             input {
                 width: 88%;
                 padding: 10px;
+                outline: 0;
             }
             button {
                 width: 12%;
@@ -62,11 +65,11 @@
     .col-md-2 {
         padding: 20px 0;
         .title12 {
-            padding-bottom: 30px;
+            padding-bottom: 25px;
         }
         .list-cate {
             li {
-                padding-bottom: 30px;
+                padding-bottom: 25px;
                 .md3 {
                     text-decoration: none;
                     &:hover {

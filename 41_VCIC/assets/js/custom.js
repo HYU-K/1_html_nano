@@ -30,18 +30,34 @@ $('.slide-six').slick({
 		infinite: true,
 		speed: 500,
 		fade: false,
+		responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 4,
+				slidesToScroll: 1,
+			}
+		},
+		{
+			breakpoint: 800,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1
+			}
+		},
+		]
 	});
 
-
+	
 
 	$(window).scroll(function (event) {
 		var pos_body = $('html,body').scrollTop();
 		// console.log(pos_body);
 		if (pos_body > 20) {
-			$('.side40_bann_col10_aden').addClass('croll');
+			$('.item-header-input').addClass('croll');
 		}
 		else {
-			$('.side40_bann_col10_aden').removeClass('croll');
+			$('.item-header-input').removeClass('croll');
 		}
 		if (pos_body > 900) {
 			$('.backtotop').addClass('show');
