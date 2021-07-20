@@ -46,7 +46,7 @@
 				margin-right: 25px;
 			}
 		}
-        .title12 {
+        h2 {
             margin: 30px 0;
         }
         .item-input {
@@ -64,13 +64,13 @@
     }
     .col-md-2 {
         padding: 20px 0;
-        .title12 {
+        h2 {
             padding-bottom: 25px;
         }
         .list-cate {
             li {
                 padding-bottom: 25px;
-                .md3 {
+                a {
                     text-decoration: none;
                     &:hover {
                         color: #FFFFFF;
