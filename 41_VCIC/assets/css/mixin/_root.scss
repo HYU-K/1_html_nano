@@ -64,10 +64,49 @@ li {
             align-items: center;
             color: #5C5C5C;
         }
+
+        &_4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 150.5%;
+            color: #4F4F4F;
+        }
+
+        &_5 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 150.19%;
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            color: #4F4F4F;
+        }
     }
 
     &2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #5C5C5C;
 
+        &_2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            display: flex;
+            align-items: center;
+            color: #828282;
+        }
     }
 
     &3 {
@@ -108,9 +147,35 @@ li {
             font-weight: normal;
             font-size: 18px;
             line-height: 150.19%;
-            display: flex;
-            align-items: center;
             color: #828282;
+        }
+
+        &_4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150.19%;
+            text-align: center;
+            color: #2D9CDB;
+        }
+
+        &_5 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150.5%;
+            color: #5C5C5C;
+        }
+        
+        &_6 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 150.5%;
+            color: #F32323;
         }
     }
 
@@ -138,6 +203,7 @@ li {
             display: flex;
             color: #4F4F4F;
         }
+
         &_3 {
             font-family: Roboto;
             font-style: normal;
@@ -145,6 +211,15 @@ li {
             font-size: 18px;
             line-height: 150.19%;
             color: #333333;
+        }
+
+        &_4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150.19%;
+            color: #5C5C5C;
         }
     }
     
@@ -272,5 +347,5 @@ li {
         line-height: 75px;
         color: #FFFFFF;
     }
-    
+
 }

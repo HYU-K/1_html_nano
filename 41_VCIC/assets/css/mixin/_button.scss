@@ -78,23 +78,33 @@
     &.btn_red {
         height: 100%;
         width: 100%;
+        color: #fff;
         background: #F32323;
     }
 
     &:hover {
         &.btn_primary {
-            background: #2275BC;
+            background: #004a8b;
             border: 1px solid #2275BC;
+            color: #fff;
+        }
+
+        &.btn_header {
+            border: 1px solid #FFFFFF;
+            background-color: #1cc0f1a4;
+            color: #fff;
         }
 
         &.btn_view {
             background-color: #2275BC;
             border: 1px solid #2275BC;
+            color: #fff;
         }
 
         &.btn_red {
             background: #F32323;
             border: 1px solid #F32323;
+            color: #fff;
         }
     }
 }

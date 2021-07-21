@@ -250,14 +250,14 @@
                   left: 0;
                   z-index: 1;
                   &::before {
-                    content: url('../img/button-left.png');
+                    content: url('../img/butt-left.png');
                   }
                 }
                 .slick-next {
                   right: 7px;
                   z-index: 1;
                   &::before {
-                    content: url('../img/button-right.png');
+                    content: url('../img/butt-right.png');
                   }
                 }
               }
