@@ -210,22 +210,21 @@
   padding: 50px 0;
   background: #FAFAFA;
   .item-title {
+    float: left;
+    width: 100%;
     padding-bottom: 30px;
-    display: flex;
-    align-items: center;
     .title {
+      float: left;
       h2 {
         margin: 0;
       }
     }
     .item-more_all {
-      right: 30px;
-      position: absolute;
+      float: right;
       a {
-      text-decoration: none;
+        text-decoration: none;
+      }
     }
-    }
-    
   }
   .item-product {
     float: left;

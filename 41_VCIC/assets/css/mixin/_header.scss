@@ -324,9 +324,13 @@
                 }
             }
         }
-        .btn {
-            float: right;
+        .item-popup {
+            margin-top: 3px;
+            .btn {
+                float: right;
+            }
         }
+        
     }
 }
 
