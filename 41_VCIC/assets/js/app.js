@@ -55,8 +55,8 @@ $(document).ready(function () {
 })
 
 let renderHeaderTop = () => {
-    return '<section class="item-header-top"><div class="row">' +
-        '<div class="container"><div class="header-contact"><ul>' +
+    return '<section class="item-header-top"><div class="container">' +
+        '<div class="row"><div class="header-contact"><ul>' +
         '<li class="header-tell"><a class="md3" href="" title="" style="text-decoration: none;"><span ><img src = "./assets/img/tell.png" alt = "" > </span>' +
         '(+84) 243 853 3333 </a> </li> <li> <a class="md3" href="" title = "" style="text-decoration: none;" >' +
         '<span><img src="./assets/img/mail.png" alt="" ></span>information @vietnamcic.org</a></li> </ul> </div> ' +
@@ -65,7 +65,7 @@ let renderHeaderTop = () => {
 }
 
 let renderHeaderInput = () => {
-    var header_input = ' <section class="item-header-input"><div class="row"><div class="container">' +
+    var header_input = ' <section class="item-header-input"><div class="container"><div class="row">' +
         '<div class="header-display"><div class="logo-top"><img src="./assets/img/VCIC.png" alt=""></div>' +
         '<div class="item-recta"><div class="soe"><select class="luachon">';
     var search = '<span class="search"><input type="text" name="search" placeholder="Từ khóa tìm kiếm..."><button type="submit"><img src="./assets/img/search.png" alt=""></button></span>';
@@ -80,7 +80,7 @@ let renderHeaderInput = () => {
 }
 
 let renderMenu = () => {
-    var menu = '<section class="item-header-menu-top"><div class="row"><div class="container"><div class="menu-top"><div class="menu-wrapper"><div class="hamburger"><span></span><span></span><span></span></div></div>';
+    var menu = '<section class="item-header-menu-top"><div class="container"><div class="row"><div class="menu-top"><div class="menu-wrapper"><div class="hamburger"><span></span><span></span><span></span></div></div>';
     var list = '<ul class="menu-list accordion"><li class="logo-menu"><a href="" title=""><img src="./assets/img/VCIC.png" alt=""></a></li>';
     var search_box = '<div class="search-box"><input type="text" placeholder=" " /><span></span></div>';
     var btn_buy = '<div class="item-popup"><a href="#popup1" title="" class="btn btn_header btn_sw">Đặt mua</a></div>'
@@ -90,3 +90,28 @@ let renderMenu = () => {
     menu += list + '</ul></div>' + search_box + btn_buy + '</div></section>';
     return menu;
 }
+
+
+
+
+$(function () {
+    function slideMenu() {
+        var activeState = $(".menu-top .menu-list").hasClass("active");
+        $(".menu-top .menu-list").animate({ left: activeState ? "0%" : "-100%" }, 400);
+    }
+    $(".menu-wrapper").click(function (event) {
+        event.stopPropagation();
+        $(".hamburger").toggleClass("open");
+        $(".menu-top .menu-list").toggleClass("active");
+        slideMenu();
+
+        $("body").toggleClass("overflow-hidden");
+    });
+
+    $(".menu-list").find(".accordion-toggle").click(function () {
+
+
+        $(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
+        $(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
+    });
+}); // jQuery load
