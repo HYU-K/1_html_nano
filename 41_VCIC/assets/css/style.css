@@ -528,8 +528,8 @@ li {
   line-height: 19px;
   text-align: center;
   color: #848484;
-  -webkit-transition: all 0.5;
-  transition: all 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .view-all .ne {
   visibility: hidden;
