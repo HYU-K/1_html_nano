@@ -2133,16 +2133,24 @@ li {
   margin: 0;
   background: #FAFAFA;
 }
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .ex_more li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .ex_more li input {
+  margin-top: 15px;
+}
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .ex_more li label {
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 0 10px 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .ex_more li label input {
-  margin-right: 10px;
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .ex_more li input[type=checkbox]:checked + label {
+  color: #2275BC;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das .show_more .item-more {
   padding: 15px 0;
