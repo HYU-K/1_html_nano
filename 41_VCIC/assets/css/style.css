@@ -4649,8 +4649,11 @@ li {
 
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
     width: 15%;
-    position: revert;
+    position: relative;
     margin-left: -50px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
