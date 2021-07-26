@@ -3297,7 +3297,7 @@ li {
   margin-top: 1px;
 }
 .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .title1_6 {
-  text-transform: revert;
+  text-transform: inherit;
   margin: 0;
   padding-bottom: 50px;
 }
@@ -4933,7 +4933,7 @@ li {
     font-size: 12px;
   }
   .md2_2 {
-    font-size: 13x;
+    font-size: 13px;
   }
   .md2_3 {
     font-size: 12px;
