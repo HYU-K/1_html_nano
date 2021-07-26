@@ -2097,16 +2097,24 @@ li {
   margin: 0;
   background: #FAFAFA;
 }
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input {
+  margin-top: 15px;
+}
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li label {
   margin: 0;
-  padding: 10px 0;
+  padding: 10px 0 10px 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li label input {
-  margin-right: 10px;
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input[type=checkbox]:checked + label {
+  color: #2275BC;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .das {
   width: 100%;
@@ -4338,6 +4346,10 @@ li {
     display: flex;
     position: absolute;
     right: 50px;
+  }
+
+  .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input {
+    margin-top: 12px;
   }
 
   .site41_head_col0_vcic .item-header-input .container .header-display .login .log_in {
