@@ -198,7 +198,8 @@
                 .item_personal_information {
                     float: left;
                     width: 30%;
-                    padding: 10px;
+                    overflow: hidden;
+                    padding: 25px 10px;
                     background: #F5F8FE;
                     .avt {
                         text-align: center;
@@ -219,7 +220,7 @@
                             padding-bottom: 25px;
                             .image {
                                 float: left;
-                                height: 44px;
+                                height: 66px;
                                 padding-right: 15px;
                             }
                             .md1_2 {
@@ -228,14 +229,81 @@
                             .md2_5 {
                                 display: flex;
                             }
+                            .mail {
+                                word-wrap: break-word;
+                                display: contents;
+                            }
                             a {
                                 text-decoration: none;
                             }
                         }
                     }
                     .introduce {
-                        .md2_5 {
-                            font-weight: 500;
+                        padding: 0 25px;
+                    }
+                }
+                .item_job_information {
+                    float: right;
+                    width: 70%;
+                    overflow: hidden;
+                    padding: 50px 30px;
+                    .list_job {
+                        padding-bottom: 35px;
+                        .title {
+                            display: flex;
+                            padding-bottom: 15px;
+                            align-items: center;
+                            .title2_4 {
+                                margin: 0 0 0 20px;
+                                padding: 3px 7px;
+                                background: #2275BC;
+                            }
+                        }
+                        .time_list_job {
+                            position: relative;
+                            padding-left: 55px;
+                            .list_yearh {
+                                position: relative;
+                                padding-top: 15px;
+                                .md_title {
+                                    padding-bottom: 10px;
+                                    display: flex;
+                                    h2 {
+                                    margin: 0;
+                                    }
+                                    span {
+                                        padding-left: 25px;
+                                        font-weight: bold;
+                                    }
+                                }
+                                .list_2_5 {
+                                    padding-left: 140px;
+                                    li {
+                                        list-style: disc;
+                                    }
+                                }
+                                &::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: 13px;
+                                    height: 13px;
+                                    top: 20px;
+                                    left: -44px;
+                                    background: #FFFFFF;
+                                    border: 1px solid #2275BC;
+                                    box-sizing: border-box;
+                                    border-radius: 75px;
+                                }
+                            }
+                            &::before {
+                                position: absolute;
+                                content: "";
+                                width: 1px;
+                                height: 100%;
+                                top: 0px;
+                                left: 17px;
+                                background: #2275BC;
+                            }
                         }
                     }
                 }

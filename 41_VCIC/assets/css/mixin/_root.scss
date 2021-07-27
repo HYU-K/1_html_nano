@@ -28,7 +28,6 @@ li {
 }
 
 .color {
-    
     &1 {
         color: #FA110D;
     }
@@ -95,6 +94,25 @@ li {
             text-transform: uppercase;
             color: #4F4F4F;
         }
+
+        &_6 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 140.1%;
+            text-transform: uppercase;
+            color: #333333;
+        }
+
+        &_7 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 150.19%;
+            color: #061A3A;
+        }
     }
 
     &2 {
@@ -117,6 +135,7 @@ li {
             align-items: center;
             color: #828282;
         }
+
         &_3 {
             font-family: Roboto;
             font-style: normal;
@@ -125,6 +144,16 @@ li {
             line-height: 150.19%;
             text-transform: uppercase;
             color: #4F4F4F;
+        }
+
+        &_4 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 150.19%;
+            text-transform: uppercase;
+            color: #FFFFFF;
         }
     }
 
@@ -199,12 +228,26 @@ li {
     }
 
     &4 {
-        
+        font-family: SVN-Gotham;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #494D52;
+
+        &_1 {
+            font-family: SVN-Gotham-500;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            color: #424242;
+        }
     }
+
 }
 
 .md {
-
     &1 {
         font-family: Roboto;
         font-style: normal;
@@ -335,9 +378,38 @@ li {
     }
 }
 
+.italic {
+    &2 {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150.19%;
+        color: #5C5C5C;
+    }
+
+    &3 {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150.19%;
+        text-align: justify;
+        color: #5C5C5C;
+        
+        &_1 {
+            font-family: Roboto;
+            font-style: italic;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150.19%;
+            text-align: justify;
+            color: #5C5C5C;
+        }
+    }
+}
 
 .nd {
-
     &1 {
         font-family: Roboto;
         font-style: normal;

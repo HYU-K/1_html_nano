@@ -1,0 +1,96 @@
+.site41_bann_col0_slide_news_detail {
+  background-image: url("../img/bg_news_detail.png");
+  background-size: 100% 100%;
+  overflow: hidden;
+  height: 280px;
+  width: 100%;
+}
+.site41_bann_col0_slide_news_detail .item-title {
+  padding-top: 85px;
+}
+.site41_bann_col0_slide_news_detail .item-title a {
+  text-decoration: none;
+}
+.site41_bann_col0_slide_news_detail .item-title a:hover {
+  color: #FFFFFF;
+}
+.site41_bann_col0_slide_news_detail .item-title .main {
+  position: relative;
+  padding-right: 20px;
+}
+.site41_bann_col0_slide_news_detail .item-title .main::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  top: 7px;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+.site41_new_col12_hoithaosukien {
+  overflow: hidden;
+  padding: 50px 0;
+}
+.site41_new_col12_hoithaosukien .col-md-6 {
+  padding: 15px;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .img {
+  width: 50%;
+  float: left;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .img img {
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.site41_new_col12_hoithaosukien .col-md-6 .img :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product {
+  width: 48%;
+  float: right;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product .date {
+  padding-bottom: 10px;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product .date img {
+  margin-top: -4px;
+  margin-right: 10px;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product .date .md2_4 {
+  display: contents;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product .title {
+  padding-bottom: 7px;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product .title .md1_4 {
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.site41_new_col12_hoithaosukien .col-md-6 .product a {
+  text-decoration: none;
+}
+.site41_new_col12_hoithaosukien .col-md-6:hover .title {
+  color: #2275BC;
+}

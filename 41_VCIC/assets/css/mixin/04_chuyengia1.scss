@@ -1,36 +1,36 @@
-.site41_bann_col0_slide {
-    background-image: url('../img/bg_cn.png');
-    background-size: 100% 100%;
-    overflow: hidden;
-    height: 280px;
-    width: 100%;
-    .item-title {
-      padding-top: 85px;
-      a {
-        text-decoration: none;
-        &:hover {
-          color: #FFFFFF;
-        }
+.site41_bann_col0_slide_cg {
+  background-image: url('../img/bg_cn.png');
+  background-size: 100% 100%;
+  overflow: hidden;
+  height: 280px;
+  width: 100%;
+  .item-title {
+    padding-top: 85px;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: #FFFFFF;
       }
-      .main {
-        position: relative;
-        padding-right: 20px;
-        &::after {
-          position: absolute;
-        content: "";
-        width: 6px;
-        height: 6px;
-        top: 7px;
-        border-top: 1px solid #FFFFFF;
-        border-right: 1px solid #FFFFFF;
-        -webkit-transform: rotateZ(45deg);
-        transform: rotateZ(45deg);
-        margin-left: 10px;
-        margin-top: 1px;
-        }
+    }
+    .main {
+      position: relative;
+      padding-right: 20px;
+      &::after {
+        position: absolute;
+      content: "";
+      width: 6px;
+      height: 6px;
+      top: 7px;
+      border-top: 1px solid #FFFFFF;
+      border-right: 1px solid #FFFFFF;
+      -webkit-transform: rotateZ(45deg);
+      transform: rotateZ(45deg);
+      margin-left: 10px;
+      margin-top: 1px;
       }
     }
   }
+}
 .site41_html_col12_chuyengia {
     overflow: hidden;
     padding-bottom: 50px;

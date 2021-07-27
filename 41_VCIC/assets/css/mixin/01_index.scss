@@ -73,6 +73,11 @@
       display: flex;
       .col-md-4 {
         text-align: center;
+        a {
+          justify-content: center;
+          text-decoration: none;
+          display: flex;
+        }
       }
     }
   }
@@ -253,7 +258,7 @@
                   }
                 }
                 .slick-next {
-                  right: 7px;
+                  right: 0;
                   z-index: 1;
                   &::before {
                     content: url('../img/butt-right.png');
@@ -365,7 +370,7 @@
       position: absolute;
       right: 0;
       li {
-        .menu2 {
+        a {
           text-decoration: none;
         }
         .mid {

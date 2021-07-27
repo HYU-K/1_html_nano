@@ -1,4 +1,4 @@
-.site41_bann_col0_slide {
+.site41_bann_col0_slide_sp {
   background-image: url('../img/bg_sp.png');
   background-size: 100% 100%;
   overflow: hidden;
@@ -31,238 +31,214 @@
     }
   }
 }
-  .site41_sanpham {
-    overflow: hidden;
-    width: 100%;
-    padding: 50px 0;
+.site41_sanpham {
+  overflow: hidden;
+  width: 100%;
+  padding: 50px 0;
+  float: left;
+  .site41_profil_col3_danhmuckqnc {
+    width: 25%;
     float: left;
-    .site41_pro_col9_ketquanghiencuu {
-      width: 75%;
-      float: right;
-      .item-title {
-        float: left;
+    padding-right: 25px;
+    .item_fields {
+      margin-bottom: 15px;
+      .item_title {
         width: 100%;
-        padding: 0 15px;
-        padding-bottom: 20px;
-        .title {
-          display: flex;
-          align-items: center;
-          float: left;
-          h2 {
+        margin: 0;
+        background: #2275BC;
+        position: relative;
+          .title3_2 {
+            text-transform: uppercase;
+            text-align: center;
+            padding: 10px 20px;
             margin: 0;
-            padding-right: 15px;
           }
-        }
-        .item-sapxep {
-          position: relative;
-          float: right;
-          .sapxep {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            -ms-appearance: none;
-            appearance: none;
-            outline: 0;
-            box-shadow: none;
-            padding:5px 30px 5px 5px;
-          }
-          &::before {
-            position: absolute;
-            content: url('../img/sapxep.png');
-            top: 2px;
-            right: 0;
-            cursor: pointer;
-            pointer-events: none;
-            transition: all 0.5s;
-          }
-        }
-      }
-      .item-list-sp {
-        width: 100%;
-        float: right;
-        .col-md-4 {
-          padding-top: 10px;
-          padding-bottom: 10px;
-          .product {
-            width: 100%;
-            .item-img {
-              overflow: hidden;
-              position: relative;
-              width: 100%;
-              height: 192px;
-              border-radius: 5px;
-              img {
-                width: 100%;
-                height: 100%;
-                transform: scale(1);
-                transition: all 0.5s;
-              }
-            }
-            .content {
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              padding-top: 30%;
-              top: 0;
-              left: 0;
-              text-align: center;
-              z-index: -1;
-              background: rgba(52, 52, 52, 0.2);
-              .btn {
-                padding: 10px 12px;
-              }
-            }
-            &:hover {
-              transition: all 0.5s;
-              .content {
-                z-index: 1;
-              }
-              img {
-                transform: scale(1.1);
-              }
-              .detai {
-                .md1 {
-                  color: #2275BC;
-                }
-                .md3_1 {
-                  color: #2275BC;
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    .site41_profil_col3_danhmuckqnc {
-          width: 25%;
-          float: left;
-          padding-right: 25px;
-          .item-dssp-list {
-              ul {
-                  padding: 0;
-          .das01 {
-                      width: 100%;
-                      margin: 0;
-            background: #2275BC;
-            .main {
-              text-align: center;
-                          width: 100%;
-                          float: left;
-              h2 {
-                text-transform: uppercase;
-                padding: 10px 20px;
-                margin: 0;
-              }
-              .extra {
-                padding-left: 15px;
-                padding-right: 10px;
-                text-align: left;
-                border-top: 1px solid #F3F3F3;
-                background: #FAFAFA;
-                li {
-                  label {
-                    margin: 0;
-                    padding-top: 20px;
-                    width: 100%;
-                    display: flex;
-                    input {
-                      margin-right: 15px;
-                    }
-                  }
-                }
-                .item-more {
-                  padding: 15px 0;
-                  text-align: center;
-                  border-top: 1px solid #E0E0E0;
-                  a {
-                    text-decoration: none;
-                  }
-                }
-              }
-            }
-          }
-                  .das {
-                      width: 100%;
-                      margin: 0;
-            background: #2275BC;
+          .lil_arrow {
+            width: 8px;
+            height: 8px;
+            transition: transform 0.8s;
+            -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            border-top: 2px solid rgb(255, 255, 255);
+            border-right: 2px solid rgb(255, 255, 255);
+            float: right;
             position: relative;
-                      .main {
-              text-align: center;
-                          width: 100%;
-                          float: left;
-                          position: relative;
-              h2 {
-                text-transform: uppercase;
-                padding: 10px 20px;
+            top: -27px;
+            right: 20px;
+            transform: rotate(135deg);
+        }
+        .bar {
+          width: 0px;
+          transition: width 0.15s;
+          height: 2px;
+          position: absolute;
+          display: block;
+          background: #355789;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      .extra {
+        padding-left: 15px;
+        padding-top: 15px;
+        text-align: left;
+        margin: 0;
+        background: #FAFAFA;
+        li {
+          display: flex;
+          input {
+            margin-top: 15px;
+          }
+          label {
+            margin: 0;
+            padding: 10px 0 10px 10px;
+            width: 100%;
+            display: flex;
+          }
+          input[type=checkbox]:checked + label {
+            color: #2275BC;
+          }
+        }
+      }
+      .das {
+        width: 100%;
+        margin: 0;
+        background: #FAFAFA;
+        position: relative;
+        .Dashboard {
+          display: none;
+        }
+        .show_more {
+          .ex_more {
+            display: none;
+            padding-left: 15px;
+            padding-bottom: 15px;
+            text-align: left;
+            margin: 0;
+            background: #FAFAFA;
+            li {
+              display: flex;
+              input {
+                margin-top: 15px;
+              }
+              label {
                 margin: 0;
+                padding: 10px 0 10px 10px;
+                width: 100%;
+                display: flex;
               }
-                          .lil_arrow {
-                              width: 8px;
-                              height: 8px;
-                              transition: transform 0.8s;
-                              -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-                              border-top: 2px solid rgb(255, 255, 255);
-                              border-right: 2px solid rgb(255, 255, 255);
-                              float: right;
-                              position: relative;
-                              top: -27px;
-                              right: 20px;
-                              transform: rotate(45deg);
-                          }
-                          .bar {
-                              width: 0px;
-                              transition: width 0.15s;
-                              height: 2px;
-                              position: absolute;
-                              display: block;
-                              background: #355789;
-                              bottom: 0;
-                              left: 0;
-                          }
-              .extra {
-                padding-left: 15px;
-                display: none;
-                text-align: left;
-                border-top: 1px solid #F3F3F3;
-                background: #FAFAFA;
-                li {
-                  label {
-                    margin: 0;
-                    padding-top: 20px;
-                    width: 100%;
-                    display: flex;
-                    input {
-                      margin-right: 10px;
-                    }
-                  }
-                }
-                .item-more {
-                  padding: 15px 0;
-                  text-align: center;
-                  border-top: 1px solid #E0E0E0;
-                  a {
-                    text-decoration: none;
-                  }
-                }
+              input[type=checkbox]:checked + label {
+                color: #2275BC;
               }
-                      }
-            .Dashboard {
-              display: none;
             }
-            input[type=checkbox]:checked + .main > .lil_arrow {
-              -webkit-transition: -webkit-transform 0.8s;
-              transition: transform 0.8s;
-              -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-              -webkit-transform: rotate(135deg);
-              -ms-transform: rotate(135deg);
-              transform: rotate(135deg);
-              border-top: 2px solid rgb(255, 255, 255);
-              border-right: 2px solid rgb(255, 255, 255);
-            }
-            input[type=checkbox]:checked + .main > .extra {
-              display: block;
-            }
-                  }
+          }
+          .item-more {
+            padding: 15px 0;
+            border-top: 1px solid #E0E0E0;
+            border-bottom: 1px solid #E0E0E0;
+            text-align: center;
+          }
+        }
+        
+        input[type=checkbox]:checked + .show_more > .ex_more {
+          display: block;
         }
       }
     }
   }
+  .site41_pro_col9_ketquanghiencuu {
+    width: 75%;
+    float: right;
+    .item-title {
+      float: left;
+      width: 100%;
+      padding: 0 15px;
+      padding-bottom: 20px;
+      .title {
+        display: flex;
+        align-items: center;
+        float: left;
+        h2 {
+          margin: 0;
+          padding-right: 15px;
+        }
+      }
+      .item-sapxep {
+        position: relative;
+        float: right;
+        .sapxep {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          -ms-appearance: none;
+          appearance: none;
+          outline: 0;
+          box-shadow: none;
+          padding:5px 30px 5px 5px;
+        }
+        &::before {
+          position: absolute;
+          content: url('../img/sapxep.png');
+          top: 2px;
+          right: 0;
+          cursor: pointer;
+          pointer-events: none;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .item-list-sp {
+      width: 100%;
+      float: right;
+      .col-md-4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .product {
+          width: 100%;
+          .item-img {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 192px;
+            border-radius: 5px;
+            img {
+              width: 100%;
+              height: 100%;
+              transform: scale(1);
+              transition: all 0.5s;
+            }
+          }
+          .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding-top: 30%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            z-index: -1;
+            background: rgba(52, 52, 52, 0.2);
+            .btn {
+              padding: 10px 12px;
+            }
+          }
+          &:hover {
+            transition: all 0.5s;
+            .content {
+              z-index: 1;
+            }
+            img {
+              transform: scale(1.1);
+            }
+            .detai {
+              .md1 {
+                color: #2275BC;
+              }
+              .md3_1 {
+                color: #2275BC;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

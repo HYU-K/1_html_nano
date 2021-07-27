@@ -213,23 +213,23 @@ $('.title_it_content').slick({
 
 
 $(function () {
-	function slideMenu() {
-		var activeState = $(".menu-top .menu-list").hasClass("active");
-		$(".menu-top .menu-list").animate({ left: activeState ? "0%" : "-100%" }, 400);
-	}
-	$(".menu-wrapper").click(function (event) {
-		event.stopPropagation();
-		$(".hamburger").toggleClass("open");
-		$(".menu-top .menu-list").toggleClass("active");
-		slideMenu();
+    function slideMenu() {
+        var activeState = $(".menu-top .menu-list").hasClass("active");
+        $(".menu-top .menu-list").animate({ left: activeState ? "0%" : "-100%" }, 400);
+    }
+    $(".menu-wrapper").click(function (event) {
+        event.stopPropagation();
+        $(".hamburger").toggleClass("open");
+        $(".menu-top .menu-list").toggleClass("active");
+        slideMenu();
 
-		$("body").toggleClass("overflow-hidden");
-	});
+        $("body").toggleClass("overflow-hidden");
+    });
 
-	$(".menu-list").find(".accordion-toggle").click(function () {
+    $(".menu-list").find(".accordion-toggle").click(function () {
 
 
-		$(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
-		$(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
-	});
+        $(".menu-list .accordion-content").not($(this).next()).slideUp("fast").removeClass("open");
+        $(".menu-list .accordion-toggle").not(jQuery(this)).removeClass("active-tab").find(".menu-link").removeClass("active");
+    });
 }); // jQuery load
