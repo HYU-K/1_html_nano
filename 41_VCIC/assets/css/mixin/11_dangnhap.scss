@@ -1,0 +1,482 @@
+.site41_form_col12_dangnhap {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    padding    : 100px 0;
+
+    .container {
+        .row {
+            display: flex;
+
+            .login_form {
+                background: rgba(250, 250, 250, 0.9);
+                padding   : 65px 87px 0 88px;
+                width     : 50%;
+
+                h2 {
+                    font-weight   : 500;
+                    font-size     : 32px;
+                    line-height   : 150.19%;
+                    text-transform: uppercase;
+                    color         : #4F4F4F;
+                    margin-bottom : 27px;
+                    text-align    : center;
+                }
+
+                form {
+                    color: #4F4F4F;
+
+                    font-size  : 18px;
+                    line-height: 150.19%;
+
+                    input {
+                        border       : 1px solid rgba(0, 63, 87, 0.3);
+                        box-sizing   : border-box;
+                        border-radius: 5px;
+                        padding      : 12px;
+                        width        : 100%;
+                        margin-bottom: 20px;
+                        outline: 0;
+                        &::placeholder {
+
+                            font-size  : 18px;
+                            line-height: 150.19%;
+                            color      : #A5A5A5;
+                        }
+
+                        &::-webkit-input-placeholder {
+
+                            font-size  : 18px;
+                            line-height: 150.19%;
+                            color      : #A5A5A5;
+                        }
+
+                        &:nth-child(1) {
+                            background: url(../../img/input_img.png);
+
+                            background-position  : right;
+                            background-repeat    : no-repeat;
+                            background-position-x: 96%;
+                        }
+
+                        &:nth-child(2) {
+                            background           : url(../../img/input_img1.png);
+                            background-position  : right;
+                            background-repeat    : no-repeat;
+                            background-position-x: 96%;
+                        }
+
+                        &:nth-child(3) {
+                            width       : 3%;
+                            float       : left;
+                            margin-right: 7.32px;
+
+                            padding: 0;
+                        }
+                    }
+
+
+
+                    .QMK {
+                        width        : auto;
+                        display      : inline-block;
+                        font-size    : 18px;
+                        float        : right;
+                        line-height  : 150.19%;
+                        color        : #2275BC;
+                        margin-bottom: 13.36px;
+                        height       : auto;
+                    }
+
+                    button {
+                        background   : #2275BC;
+                        border-radius: 5px;
+                        width        : 100%;
+                        height       : 50px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #FFFFFF;
+                    }
+
+
+                }
+
+                .or {
+                    font-size    : 18px;
+                    line-height  : 150.19%;
+                    color        : #4F4F4F;
+                    margin-top   : 22px;
+                    margin-bottom: 16px;
+                    text-align   : center;
+                }
+
+                a {
+                    font-size  : 18px;
+                    line-height: 150.19%;
+                    color      : #FFFFFF;
+
+                    display: inline-block;
+                    height : 50px;
+
+
+
+                }
+
+                .login_flex {
+                    display      : flex;
+                    margin-bottom: 23px;
+
+                    .btn_f {
+                        background     : #2275BC;
+                        border-radius  : 5px;
+                        display        : flex;
+                        justify-content: center;
+                        align-items    : center;
+                        width          : 48%;
+                        img {
+                            margin-right :22.5px;
+                        }
+                    }
+
+                    .btn_g {
+                        background     : #ED4A47;
+                        border-radius  : 5px;
+                        display        : flex;
+                        justify-content: center;
+                        align-items    : center;
+                        width          : 48%;
+                        margin-left    : auto;
+                        img {
+                            margin-right :22.5px;
+                        }
+                    }
+                }
+
+                p {
+
+                    font-size  : 18px;
+                    line-height: 150.19%;
+                    color      : #4F4F4F;
+                    text-align : center;
+
+                    a {
+                        color: #2275BC;
+
+                    }
+                }
+            }
+
+            .img_login {
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .site41_form_col12_dangnhap {
+
+      padding: 50px 0;
+        .container {
+            .row {
+
+
+                .login_form {
+
+                    padding: 35px 35px 0 35px;
+                    width  : 47%;
+
+                    h2 {}
+
+                    form {
+
+
+                        input {
+
+
+                            &::placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &::-webkit-input-placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &:nth-child(1) {}
+
+                            &:nth-child(2) {}
+
+                            &:nth-child(3) {}
+                        }
+
+
+
+                        .QMK {
+
+                            font-size: 18px;
+
+                        }
+
+                        button {
+
+
+                            font-size: 18px;
+
+                        }
+
+
+                    }
+
+                    .or {
+                        font-size: 18px;
+
+                    }
+
+                    a {
+                        font-size: 18px;
+                    }
+
+                    .login_flex {
+
+                        .btn_f {}
+
+                        .btn_g {
+
+                            width: 48%;
+
+                        }
+                    }
+
+                    p {
+
+                        font-size: 18px;
+
+
+                        a {}
+                    }
+                }
+
+                .img_login {
+                    width: 53%;
+
+                    img {
+                        width     : 100%;
+                        height    : 100%;
+                        object-fit: cover;
+                        max-width : 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .site41_form_col12_dangnhap {
+        padding: 40px 0;
+        .container {
+            .row {
+
+                flex-direction: column;
+
+                .login_form {
+
+                    padding: 50px;
+                    width  : 100%;
+
+                    h2 {}
+
+                    form {
+
+
+                        input {
+
+
+                            &::placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &::-webkit-input-placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &:nth-child(1) {}
+
+                            &:nth-child(2) {}
+
+                            &:nth-child(3) {}
+                        }
+
+
+
+                        .QMK {
+
+                            font-size: 18px;
+
+                        }
+
+                        button {
+
+
+                            font-size: 18px;
+
+                        }
+
+
+                    }
+
+                    .or {
+                        font-size: 18px;
+
+                    }
+
+                    a {
+                        font-size: 18px;
+                    }
+
+                    .login_flex {
+
+                        .btn_f {
+                           
+                        }
+
+                        .btn_g {
+                            
+                            width: 48%;
+
+                        }
+                    }
+
+                    p {
+
+                        font-size: 18px;
+
+
+                        a {}
+                    }
+                }
+
+                .img_login {
+                    display: none;
+                    width  : 100%;
+                    padding: 50px;
+
+                    img {
+                        width     : 100%;
+                        height    : 100%;
+                        object-fit: cover;
+                        max-width : 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .site41_form_col12_dangnhap {
+        padding: 0;
+        .container {
+            .row {
+
+              
+
+                .login_form {
+
+                    padding: 15px;
+                    width  : 100%;
+
+                    h2 {}
+
+                    form {
+
+
+                        input {
+
+
+                            &::placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &::-webkit-input-placeholder {
+
+                                font-size: 18px;
+
+                            }
+
+                            &:nth-child(1) {}
+
+                            &:nth-child(2) {}
+
+                            &:nth-child(3) {}
+                        }
+
+
+
+                        .QMK {
+
+                            font-size: 18px;
+
+                        }
+
+                        button {
+
+
+                            font-size: 18px;
+
+                        }
+
+
+                    }
+
+                    .or {
+                        font-size: 18px;
+
+                    }
+
+                    a {
+                        font-size: 18px;
+                    }
+
+                    .login_flex {
+
+                        .btn_f {
+                           
+                        }
+
+                        .btn_g {
+                            
+                            
+
+                        }
+                    }
+
+                    p {
+
+                        font-size: 18px;
+
+
+                        a {}
+                    }
+                }
+
+                .img_login {
+                    
+
+                    img {
+                      
+                    }
+                }
+            }
+        }
+    }
+}

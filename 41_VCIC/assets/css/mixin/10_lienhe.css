@@ -1,0 +1,186 @@
+.site41_bann_col0_slidemap {
+  position: relative;
+  height: 448px;
+}
+.site41_bann_col0_slidemap .imap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+.site41_bann_col0_slidemap .bg_lienhe {
+  position: absolute;
+  background: url(../../img/nenheadlienhe.png);
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 448px;
+}
+.site41_bann_col0_slidemap .bg_lienhe .container .row .item-title {
+  padding-top: 183px;
+}
+.site41_bann_col0_slidemap .bg_lienhe .container .row .item-title a {
+  text-decoration: none;
+}
+.site41_bann_col0_slidemap .bg_lienhe .container .row .item-title a:hover {
+  color: #FFFFFF;
+}
+.site41_bann_col0_slidemap .bg_lienhe .container .row .item-title .main {
+  position: relative;
+  padding-right: 20px;
+}
+.site41_bann_col0_slidemap .bg_lienhe .container .row .item-title .main::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  top: 7px;
+  border-top: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+.site41_form_col8_guiyeucaulienhe {
+  width: 100%;
+  background: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+}
+.site41_form_col8_guiyeucaulienhe .form {
+  width: 769px;
+  height: auto;
+  margin: auto;
+}
+.site41_form_col8_guiyeucaulienhe .form h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #58595B;
+  text-align: center;
+  margin-top: 82px;
+  margin-bottom: 27px;
+}
+.site41_form_col8_guiyeucaulienhe .form p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #5C5C5C;
+  margin-bottom: 28px;
+}
+.site41_form_col8_guiyeucaulienhe .form form input,
+.site41_form_col8_guiyeucaulienhe .form form textarea {
+  width: 100%;
+  padding: 7px;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #E2E2E2;
+  margin-bottom: 28px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+.site41_form_col8_guiyeucaulienhe .form form input::placeholder,
+.site41_form_col8_guiyeucaulienhe .form form textarea::placeholder {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #C4C4C4;
+}
+.site41_form_col8_guiyeucaulienhe .form form input:nth-child(2),
+.site41_form_col8_guiyeucaulienhe .form form input:nth-child(3) {
+  width: 48%;
+}
+.site41_form_col8_guiyeucaulienhe .form form input:nth-child(3) {
+  float: right;
+}
+.site41_form_col8_guiyeucaulienhe .form form textarea {
+  resize: none;
+  padding-bottom: 94px;
+  margin-bottom: 30px;
+}
+.site41_form_col8_guiyeucaulienhe .form form button {
+  width: 100%;
+  height: 55px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #2275BC;
+  border-radius: 5px;
+  margin-bottom: 82px;
+}
+.site41_form_col8_guiyeucaulienhe .form form button img {
+  padding-left: 10px;
+}
+
+@media (max-width: 1200px) {
+  .site41_bann_col0_slidemap {
+    height: 250px;
+  }
+  .site41_bann_col0_slidemap .imap iframe {
+    height: 250px;
+  }
+  .site41_bann_col0_slidemap .bg_lienhe {
+    height: 250px;
+  }
+  .site41_bann_col0_slidemap .bg_lienhe .container .row .item-title {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .site41_bann_col0_slidemap {
+    height: 180px;
+  }
+  .site41_bann_col0_slidemap .imap iframe {
+    height: 180px;
+  }
+  .site41_bann_col0_slidemap .bg_lienhe {
+    height: 180px;
+  }
+  .site41_bann_col0_slidemap .bg_lienhe .container .row {
+    margin: 0;
+  }
+  .site41_bann_col0_slidemap .bg_lienhe .container .row .item-title {
+    padding-top: 50px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form h2 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form form input,
+.site41_form_col8_guiyeucaulienhe .form form textarea {
+    font-size: 16px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form form input::placeholder,
+.site41_form_col8_guiyeucaulienhe .form form textarea::placeholder {
+    font-size: 16px;
+  }
+  .site41_form_col8_guiyeucaulienhe .form form input:nth-child(2),
+.site41_form_col8_guiyeucaulienhe .form form input:nth-child(3) {
+    width: 100%;
+  }
+  .site41_form_col8_guiyeucaulienhe .form form button {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+}
+
+/*# sourceMappingURL=10_lienhe.css.map */
