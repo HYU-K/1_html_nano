@@ -1,6 +1,6 @@
 let menu_list = {
     1: {
-        "link": "",
+        "link": "index",
         "title": "Trang chủ",
     },
     2: {
@@ -8,15 +8,15 @@ let menu_list = {
         "title": "Giới thiệu",
     },
     3: {
-        "link": "",
+        "link": "02_sanpham",
         "title": "Kết quả nghiên cứu",
     },
     4: {
-        "link": "",
+        "link": "04_chuyengia1",
         "title": "Chuyên gia",
     },
     5: {
-        "link": "",
+        "link": "06_tintuc",
         "title": "Tin tức",
     },
     6: {
@@ -51,7 +51,6 @@ let selection_header = {
 
 $(document).ready(function () {
     $('.site41_head_col0_vcic').append(renderHeaderTop(), renderHeaderInput(), renderMenu());
-    console.log(renderHeaderTop());
 })
 
 let renderHeaderTop = () => {
@@ -85,7 +84,7 @@ let renderMenu = () => {
     var search_box = '<div class="search-box"><input type="text" placeholder=" " /><span></span></div>';
     var btn_buy = '<div class="item-popup"><a href="#popup1" title="" class="btn btn_header btn_sw">Đặt mua</a></div>'
     $.each(menu_list, function (index, value) {
-        list += '<li><a class="menu1 md2_1" href="' + value.link + '" title="">' + value.title + '</a></li>'
+        list += '<li><a class="menu1 md2_1" href="' + value.link + '.html" title="">' + value.title + '</a></li>'
     })
     menu += list + '</ul></div>' + search_box + btn_buy + '</div></section>';
     return menu;
