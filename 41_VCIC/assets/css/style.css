@@ -834,10 +834,14 @@ li {
   padding: 25px 0;
 }
 .order .popup .content label .item-product .guiyeucau .btn {
-  bottom: 25px;
-  left: 41%;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
+  font-size: 21px;
+  line-height: 150.19%;
+  text-transform: uppercase;
   padding: 10px;
+  color: #FFFFFF;
 }
 
 ::-webkit-scrollbar {
@@ -4934,6 +4938,9 @@ li {
     width: 20px;
     margin: -6px 13px 0 0;
   }
+  .order .popup .content label .item-product .guiyeucau .btn {
+    font-size: 18px;
+  }
 
   .chuyengia .popup .content .item-product .item_personal_information {
     width: 35%;
@@ -5449,6 +5456,9 @@ li {
   }
   .order .popup .content label .item-product .input-name h2 {
     margin: 10px 0;
+  }
+  .order .popup .content label .item-product .guiyeucau .btn {
+    font-size: 16px;
   }
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
