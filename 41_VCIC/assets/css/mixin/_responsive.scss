@@ -41,12 +41,7 @@
 
 
 @media (max-width:1600px) {
-    .order .popup .content .item-product {
-        width: 65%;
-    }
-    .order .popup .content .item-product .input-name {
-        padding-top: 50px;
-    }
+
     h {
         &1 {
             font-size: 36px;
@@ -77,6 +72,16 @@
         font-size: 16px;
     }
 
+    .order .popup .content {
+        label {
+            width: 60%;
+            .item-title {
+                h2 {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
     .site41_intr_col12_vcic .item-image {
         right: -7%;
     }
@@ -87,15 +92,30 @@
 @media (max-width: 1425px) {
     .site41_intr_col12_vcic .item-image {
       right: -15%;
-  }
-  .order .popup .content .item-product .btn {
-      left: 39%;
-  }
-  .chuyengia .popup .content .item-product .item_personal_information .introduce {
-    padding: 0 10px;
-}
+    }
+    .chuyengia .popup .content .item-product .item_personal_information .introduce {
+        padding: 0 10px;
+    }
+    .order .popup .content {
+        label {
+            .item-product {
+                .input-mail {
+                    width: 100%;
+                    float: left;
+                    padding-right: 0;
+                }
+                .input-tell {
+                    width: 100%;
+                    float: left;
+                    padding-left: 0;
+                }
+            }
+        }
+    }
 }
 
+@media (max-height: 768px) {
+}
 
 @media (max-width:1200px) {
     h {
@@ -127,12 +147,14 @@
     p {
         font-size: 14px;
     }
-    .order .popup .content .item-title h2 {
-        font-size: 26px;
-        margin: 15px 0;
-    }
-    .order .popup .content .item-product .btn {
-        left: 37%;
+    .order .popup .content label .item-title {
+        h2 {
+            font-size: 28px;
+            img {
+                width: 30px;
+                margin: -9px 13px 0 0;
+            }
+        }
     }
     .chuyengia .popup .content .item-product {
         width: 70%;
@@ -465,6 +487,10 @@
             &_1 {
                 font-size: 14px;
             }
+
+            &_2 {
+                font-size: 14px;
+            }
         }
     }
 
@@ -563,38 +589,28 @@
         }
     }
 
-
-
-
-
-    .order .popup .content .item-product .input-mail {
-        width: 100%;
-        float: left;
-        padding-right: 0;
-    }
-    .order .popup .content .item-title h2 {
-        font-size: 21px;
-    }
-    .order .popup .content .item-title h2 img {
-        width: 30px;
-    }
-    .order .popup .content .item-product .input-name input {
-        padding: 7px;
-    }
-    .order .popup .content .item-product .input-name {
-        padding-top: 25px;
-    }
-    .order .popup .content .item-product .input-fl input {
-        height: 130px;
-        padding-bottom: 100px;
-    }
-    .order .popup .content .item-product .btn {
-        left: 34%;
-    }
-    .order .popup .content .item-product .input-tell {
-        width: 100%;
-        float: right;
-        padding-left: 0;
+    .order .popup .content label {
+        width: 55%;
+        .item-title {
+            margin-top: -80px;
+            h2 {
+                width: 60%;
+                font-size: 24px;
+                img {
+                    width: 26px;
+                    margin: -9px 13px 0 0;
+                }
+            }
+        }
+        .item-product {
+            .close {
+                top: 0;
+                right: 15px;
+            }
+            .guiyeucau .btn {
+                max-width: 155px;
+            }
+        }
     }
     .chuyengia .popup .content .item-product .item_personal_information ul li .image {
         height: 60px;
@@ -812,17 +828,19 @@
             }
         }
     }
-    .order .popup .content .item-title h2 {
-        font-size: 18px;
-        img {
-            width: 20px;
-            margin: -5px 9px 0 0;
-        }
-    }
-    .order .popup .content .item-product {
-        width: 80%;
-        .btn {
-            left: 33%;
+
+
+    .order .popup .content label {
+        width: 75%;
+        .item-title {
+            margin-top: -75px;
+            h2 {
+                font-size: 20px;
+                img {
+                    width: 20px;
+                    margin: -6px 13px 0 0;
+                }
+            }
         }
     }
     .chuyengia .popup .content .item-product .item_personal_information {
@@ -967,10 +985,6 @@
     }
     .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
         font-size: 16px;
-    }
-    .order .popup .content .close {
-        top: 0px;
-        right: 10px;
     }
     .site41_prodel_col12_chitietsp {
         padding: 0 15px 50px 15px ;
@@ -1246,6 +1260,10 @@
             &_1 {
                 font-size: 12px;
             }
+
+            &_2 {
+                font-size: 12px;
+            }
         }
     }
 
@@ -1343,6 +1361,33 @@
         }
     }
     
+
+
+    .order .popup .content label {
+        .item-title {
+            h2 {
+                font-size: 20px;
+                img {
+                    width: 20px;
+                    margin: -6px 13px 0 0;
+                }
+            }
+        }
+        .item-product {
+            padding: 0 15px;
+            .close {
+                font-size: 35px;
+                top: 0;
+                right: 10px;
+            }
+            .input-name {
+                padding: 0;
+                h2 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
     .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
         font-size: 14px;
     }
@@ -1354,32 +1399,6 @@
         width: 100%;
         padding-left: 10px;
         float: left;
-    }
-    .order .popup .content .item-product {
-        .input-name {
-            padding-top: 20px;
-            h2 {
-                margin: 10px 0;
-            }
-        }
-        .input-mail h2 {
-            margin: 10px 0;
-        }
-        .input-tell h2 {
-            margin: 10px 0;
-        }
-        .input-sp h2 {
-            margin: 10px 0;
-        }
-        .input-fl h2 {
-            margin: 10px 0;
-        }
-        .btn {
-            left: 28%;
-        }
-    }
-    .order .popup .content .item-title h2 {
-        font-size: 15px;
     }
     .chuyengia .popup .content .item-product {
         .item_personal_information {
@@ -1478,10 +1497,6 @@
         position: absolute;
         right: 100px;
     }
-    .order .popup .content .item-title {
-        width: 47%;
-        left: 26%;
-    }
     .site41_head_col0_vcic .item-header-input .container .header-display .cart span {
         top: -6px;
         left: 50px;
@@ -1516,12 +1531,6 @@
         justify-content: center;
         border-bottom: 1px solid #F2F2F2;
         border-top: 1px solid #F2F2F2;
-    }
-    .order .popup .content .item-title h2 {
-        font-size: 12px;
-    }
-    .order .popup .content .item-product .btn {
-        font-size: 18px;
     }
     .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
         display: flex;
@@ -1654,6 +1663,29 @@
 
 
 @media screen and (max-width: 460px) {
+    .order .popup .content label {
+        .item-title {
+            h2 {
+                font-size: 16px;
+                img {
+                    width: 19px;
+                    margin: -6px 9px 0 0;
+                }
+            }
+        }
+        .item-product {
+            padding: 0 15px;
+            .close {
+                font-size: 30px;
+            }
+            .input-name {
+                padding: 0;
+                h2 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
     .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
         width: 100%;
     }
@@ -1662,9 +1694,6 @@
     }
     .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
         padding: 50px 50px 50px 25px;
-    }
-    .order .popup .content .item-product .btn {
-        left: 23%;
     }
     .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
         width: 60%;
@@ -1716,6 +1745,18 @@
 
 
 @media screen and (max-width: 400px) {
+    .order .popup .content label {
+        .item-title {
+            margin-top: -70px;
+            h2 {
+                font-size: 14spx;
+                width: 65%;
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
     .site41_head_col0_vcic .item-header-input .container .header-display .cart {
         right: 60px;
     }
@@ -1727,9 +1768,6 @@
     }
     .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
         font-size: 10px;
-    }
-    .order .popup .content .item-product .btn {
-        left: 14%;
     }
     .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
         width: 0%;
@@ -1799,12 +1837,6 @@
     }
     .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
         font-size: 9px;
-    }
-    .order .popup .content .item-product .btn {
-        font-size: 11px;
-    }
-    .order .popup .content .item-product .btn {
-        left: 11%;
     }
     .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
         height: 95px;
