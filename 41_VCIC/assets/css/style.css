@@ -1645,14 +1645,31 @@ li {
 }
 .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 .product .item-img {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   width: 100%;
   height: 192px;
   border-radius: 5px;
+  background: #FAFAFA;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 .product .item-img img {
-  width: 100%;
-  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s;
@@ -2336,14 +2353,31 @@ li {
 }
 .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   width: 100%;
   height: 192px;
   border-radius: 5px;
+  background: #FAFAFA;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img img {
-  width: 100%;
-  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s;
@@ -2421,7 +2455,6 @@ li {
 }
 .site41_prodel_col12_chitietsp .item_Information .column .slider-single {
   border-radius: 5px;
-  margin: 0 10px;
   background: #F6F6F6;
 }
 .site41_prodel_col12_chitietsp .item_Information .column .slider-single .img_single {
@@ -2607,9 +2640,6 @@ li {
   display: none;
   color: #353535;
   overflow: auto;
-}
-.site41_prodel_col12_content_sp .main .contents .content .single {
-  padding: 0 15px;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .title2 {
   padding: 20px 0;
@@ -4447,10 +4477,6 @@ li {
     padding-left: 15px;
   }
 
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
-    height: 155px;
-  }
-
   .site41_sanpham .site41_profil_col3_danhmuckqnc {
     padding: 0;
   }
@@ -4464,14 +4490,6 @@ li {
 
   .site41_head_col0_vcic .item-header-input .container .header-display .login .conten {
     display: none;
-  }
-
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 .product .item-img {
-    height: 155px;
-  }
-
-  .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
-    height: 155px;
   }
 
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
@@ -5584,10 +5602,6 @@ li {
     width: 13%;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 .product .item-img {
-    height: 180px;
-  }
-
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
     width: 50%;
   }
@@ -5598,10 +5612,6 @@ li {
 
   .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
     width: 50%;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
-    height: 180px;
   }
 
   .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
@@ -5821,10 +5831,6 @@ li {
     width: 100%;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 .product .item-img {
-    height: 230px;
-  }
-
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     padding: 50px 50px 50px 25px;
   }
@@ -5837,19 +5843,11 @@ li {
     left: 40px;
   }
 
-  .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
-    height: 125px;
-  }
-
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
     height: 130px;
   }
 
   .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 130px;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
     height: 130px;
   }
 
@@ -5890,6 +5888,10 @@ li {
     display: none;
   }
 
+  .site41_prodel_col12_relate_to_Information .col-md-3 {
+    width: 100%;
+  }
+
   .site41_head_col0_vcic .item-header-input .container .header-display .cart {
     right: 60px;
   }
@@ -5908,10 +5910,6 @@ li {
 
   .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
     width: 0%;
-  }
-
-  .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
-    height: 105px;
   }
 
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
@@ -5980,10 +5978,6 @@ li {
     display: none;
   }
 
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
-    height: 130px;
-  }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
     display: none;
   }
@@ -5994,10 +5988,6 @@ li {
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
     font-size: 9px;
-  }
-
-  .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
-    height: 95px;
   }
 
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
