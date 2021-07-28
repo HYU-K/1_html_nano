@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @font-face {
@@ -2134,7 +2135,7 @@ li {
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc {
   width: 100%;
 }
-.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .Dashboard {
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc input {
   display: none;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc input[type=checkbox]:checked + .item_fields > .extra {
@@ -2199,30 +2200,80 @@ li {
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra {
   display: none;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 15px;
   text-align: left;
   margin: 0;
+  padding-right: 10px;
   background: #FAFAFA;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li input {
-  margin-top: 15px;
+  display: none;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li label {
   margin: 0;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:not(:checked) + label:before,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #BDBDBD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  background: #FFF;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+  -webkit-transition: all 0.275s;
+  transition: all 0.275s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:not(:checked) + label:after,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:checked + label:after {
+  content: "✓";
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  font-size: 13px;
+  color: #2275BC;
+  line-height: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(45deg);
+  transform: scale(0) rotate(45deg);
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li [type=checkbox]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li input[type=checkbox]:checked + label {
   color: #2275BC;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra li input[type=checkbox]:checked + label:before {
+  border: 1px solid #2275BC;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das {
   display: none;
@@ -2230,9 +2281,6 @@ li {
   margin: 0;
   background: #FAFAFA;
   position: relative;
-}
-.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .Dashboard {
-  display: none;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more {
   display: none;
@@ -2246,20 +2294,69 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li input {
-  margin-top: 15px;
+  display: none;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li label {
   margin: 0;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:not(:checked) + label:before,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #BDBDBD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  background: #FFF;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+  -webkit-transition: all 0.275s;
+  transition: all 0.275s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:not(:checked) + label:after,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:checked + label:after {
+  content: "✓";
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  font-size: 13px;
+  color: #2275BC;
+  line-height: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(45deg);
+  transform: scale(0) rotate(45deg);
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li [type=checkbox]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li input[type=checkbox]:checked + label {
   color: #2275BC;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .ex_more li input[type=checkbox]:checked + label:before {
+  border: 1px solid #2275BC;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .das .show_more .item-more {
   padding: 15px 0;
@@ -2286,8 +2383,9 @@ li {
   margin: 0;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra {
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 15px;
+  padding-right: 10px;
   text-align: left;
   margin: 0;
   background: #FAFAFA;
@@ -2296,20 +2394,69 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /* checkbox aspect */
+  /* checked mark aspect */
+  /* checked mark aspect changes */
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li input {
-  margin-top: 15px;
+  display: none;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li label {
   margin: 0;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:not(:checked) + label:before,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:checked + label:before {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #BDBDBD;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  background: #FFF;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 rgba(203, 34, 237, 0.2);
+  -webkit-transition: all 0.275s;
+  transition: all 0.275s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:not(:checked) + label:after,
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:checked + label:after {
+  content: "✓";
+  position: absolute;
+  top: 22px;
+  left: 5px;
+  font-size: 13px;
+  color: #2275BC;
+  line-height: 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0) rotate(45deg);
+  transform: scale(0) rotate(45deg);
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li [type=checkbox]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(0);
+  transform: scale(1) rotate(0);
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li input[type=checkbox]:checked + label {
   color: #2275BC;
+}
+.site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra li input[type=checkbox]:checked + label:before {
+  border: 1px solid #2275BC;
 }
 .site41_sanpham .site41_pro_col9_ketquanghiencuu {
   width: 73%;
