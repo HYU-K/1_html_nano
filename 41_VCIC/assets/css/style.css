@@ -2714,6 +2714,16 @@ li {
   text-align: center;
   float: left;
   width: 100%;
+  /*huy fix*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
   font-family: Roboto;
@@ -2887,7 +2897,7 @@ li {
 .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title {
   float: left;
   width: 100%;
-  padding: 30px 0 20px 0;
+  padding: 30px 0;
 }
 .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .title {
   float: left;
@@ -2903,7 +2913,7 @@ li {
   text-decoration: none;
 }
 .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp {
-  width: 100%;
+  margin: 0 -15px;
   float: left;
 }
 .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
@@ -5878,6 +5888,10 @@ li {
     width: 85%;
   }
 
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
+    /*huy fix*/
+    display: block;
+  }
   .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
     font-size: 16px;
   }

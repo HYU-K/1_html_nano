@@ -32,87 +32,85 @@
   }
 }
 .site41_html_col12_chuyengia {
-    overflow: hidden;
-    padding-bottom: 50px;
-    .item_lits_content_chuyengia {
+  overflow: hidden;
+  padding-bottom: 50px;
+  .item_lits_content_chuyengia {
+    float: left;
+    width: 100%;
+    position: relative;
+    .item-title {
+      float: left;
+      width: 100%;
+      padding: 30px 0;
+      .title {
         float: left;
-        width: 100%;
-        position: relative;
-        .item-title {
-            float: left;
-            width: 100%;
-            padding: 30px 0 20px 0;
-            .title {
-              float: left;
-              h2 {
-                margin: 0;
-              }
-            }
-            .item-more_all {
-              padding-right: 30px;
-              float: right;
-              a {
-                text-decoration: none;
-              }
-            }
+        h2 {
+          margin: 0;
         }
-          .item-list-sp {
-              width: 100%;
-              float: left;
-              .col-md-3 {
-                padding-top: 10px;
-                padding-bottom: 10px;
-                .product {
-                  width: 100%;
-                  .item-img {
-                    overflow: hidden;
-                    position: relative;
-                    width: 100%;
-                    height: 192px;
-                    border-radius: 5px;
-                    img {
-                      width: 100%;
-                      height: 100%;
-                      transform: scale(1);
-                      transition: all 0.5s;
-                    }
-                  }
-                  .content {
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    padding-top: 30%;
-                    top: 0;
-                    left: 0;
-                    text-align: center;
-                    z-index: -1;
-                    background: rgba(52, 52, 52, 0.2);
-                    .btn {
-                      padding: 10px 12px;
-                    }
-                  }
-                  &:hover {
-                    transition: all 0.5s;
-                    .content {
-                      z-index: 1;
-                    }
-                    img {
-                      transform: scale(1.1);
-                    }
-                    .detai {
-                      h2 {
-                          font-weight: bold;
-                        color: #2275BC;
-                      }
-                      p {
-                        color: #2275BC;
-                      }
-                    }
-                  }
-                }
-              }
-          }
+      }
+      .item-more_all {
+        padding-right: 30px;
+        float: right;
+        a {
+          text-decoration: none;
+        }
+      }
     }
-
-
+    .item-list-sp {
+      margin: 0 -15px;
+      float: left;
+      .col-md-3 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .product {
+          width: 100%;
+          .item-img {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 192px;
+            border-radius: 5px;
+            img {
+              width: 100%;
+              height: 100%;
+              transform: scale(1);
+              transition: all 0.5s;
+            }
+          }
+          .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding-top: 30%;
+            top: 0;
+            left: 0;
+            text-align: center;
+            z-index: -1;
+            background: rgba(52, 52, 52, 0.2);
+            .btn {
+              padding: 10px 12px;
+            }
+          }
+          &:hover {
+            transition: all 0.5s;
+            .content {
+              z-index: 1;
+            }
+            img {
+              transform: scale(1.1);
+            }
+            .detai {
+              h2 {
+                  font-weight: bold;
+                color: #2275BC;
+              }
+              p {
+                color: #2275BC;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
