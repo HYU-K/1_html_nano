@@ -2200,7 +2200,7 @@ li {
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .linhvuc .item_fields .extra {
   display: none;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 15px;
   text-align: left;
   margin: 0;
@@ -2286,6 +2286,7 @@ li {
   display: none;
   padding-left: 15px;
   padding-bottom: 15px;
+  padding-right: 10px;
   text-align: left;
   margin: 0;
   background: #FAFAFA;
@@ -2383,7 +2384,7 @@ li {
   margin: 0;
 }
 .site41_sanpham .site41_profil_col3_danhmuckqnc .item_das .extra {
-  padding-left: 10px;
+  padding-left: 15px;
   padding-top: 15px;
   padding-right: 10px;
   text-align: left;
