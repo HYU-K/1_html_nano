@@ -342,6 +342,15 @@ li {
   line-height: 150.19%;
   color: #5C5C5C;
 }
+.md1_5 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ADADAD;
+}
 .md2 {
   font-family: Roboto;
   font-style: normal;
@@ -2302,7 +2311,7 @@ li {
   outline: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
-  padding: 5px 30px 5px 5px;
+  padding: 5px 35px 5px 5px;
 }
 .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-title .item-sapxep::before {
   position: absolute;
@@ -2411,6 +2420,7 @@ li {
   float: left;
 }
 .site41_prodel_col12_chitietsp .item_Information .column .slider-single {
+  border-radius: 5px;
   margin: 0 10px;
   background: #F6F6F6;
 }
@@ -2427,6 +2437,7 @@ li {
   padding: 10px 0;
 }
 .site41_prodel_col12_chitietsp .item_Information .column .slider-nav .img_nav {
+  border-radius: 5px;
   background: #F6F6F6;
   margin: 10px;
   display: -webkit-box;
@@ -2508,10 +2519,11 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
-.site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
-  padding: 15px 0;
+.site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+  padding: 18px 0;
 }
 .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+  padding: 15px 0;
   margin-right: 15px;
 }
 .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red img {
@@ -2572,12 +2584,13 @@ li {
   height: 3px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  background: #00B2E7;
+  background: #2275BC;
 }
 .site41_prodel_col12_content_sp .item_lits_content nav .noxop {
   margin: 0;
 }
 .site41_prodel_col12_content_sp .item_lits_content nav a:hover, .site41_prodel_col12_content_sp .item_lits_content nav a.active {
+  padding-bottom: 5px;
   font-weight: bold;
   color: #333333;
 }
@@ -2623,10 +2636,12 @@ li {
   padding: 25px 0;
   text-align: center;
 }
-.site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-  padding: 10px 0;
+.site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_primary {
+  padding-top: 12px;
+  padding-bottom: 11px;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red {
+  padding: 10px 0;
   margin-right: 25px;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red img {
@@ -2665,14 +2680,30 @@ li {
 }
 .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   width: 100%;
   height: 192px;
-  border-radius: 5px;
+  background: #FAFAFA;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 .product .item-img img {
-  width: 100%;
-  height: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s;
@@ -4647,6 +4678,9 @@ li {
   .md1_4 {
     font-size: 14px;
   }
+  .md1_5 {
+    font-size: 14px;
+  }
   .md2 {
     font-size: 14px;
   }
@@ -4938,9 +4972,6 @@ li {
     width: 20px;
     margin: -6px 13px 0 0;
   }
-  .order .popup .content label .item-product .guiyeucau .btn {
-    font-size: 18px;
-  }
 
   .chuyengia .popup .content .item-product .item_personal_information {
     width: 35%;
@@ -5053,7 +5084,7 @@ li {
   }
 
   .site41_prodel_col12_relate_to_Information .col-md-3 {
-    width: 40%;
+    width: 50%;
   }
 
   .site41_head_col0_vcic .item-header-input {
@@ -5382,6 +5413,9 @@ li {
   .md1_4 {
     font-size: 12px;
   }
+  .md1_5 {
+    font-size: 12px;
+  }
   .md2 {
     font-size: 12px;
   }
@@ -5456,9 +5490,6 @@ li {
   }
   .order .popup .content label .item-product .input-name h2 {
     margin: 10px 0;
-  }
-  .order .popup .content label .item-product .guiyeucau .btn {
-    font-size: 16px;
   }
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
@@ -5574,10 +5605,6 @@ li {
   }
 
   .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-    width: 50%;
-  }
-
-  .site41_prodel_col12_relate_to_Information .col-md-3 {
     width: 50%;
   }
 
