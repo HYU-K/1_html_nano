@@ -32,7 +32,7 @@
 }
 
 
-.site41_html_col0_profilekhachhang {
+.site41_html_col0_yeucaudangky {
     font-family: Roboto;
     font-style : normal;
     font-weight: normal;
@@ -52,21 +52,10 @@
     .container_fix {
         display        : flex;
         justify-content: space-between;
-        .bghome.active {
-            width     : 100%;
-            height    : 110%;
-            background: rgba(0, 0, 0, 0.7);
-            position  : absolute;
-            top       : -58px;
-            left      : 0;
-            overflow  : hidden;
-            visibility: visible;
-            z-index   : 5000;
-        }
+
         .bghome {
 
             background: #FFFFFF;
-            height    : auto;
 
             .pro_left.active {
                 visibility: visible;
@@ -76,8 +65,9 @@
 
             .pro_left {
                 background: #FFFFFF;
-                position: relative;
-                width   : 300px;
+                position  : relative;
+                width     : 300px;
+                height    : auto;
 
                 .icon_open_menu1 {
                     position: absolute;
@@ -238,6 +228,8 @@
             }
         }
 
+
+
         .pro_right {
             width      : calc(100% - 300px - 15px);
             height     : 871px;
@@ -286,134 +278,65 @@
                 }
             }
 
-            .form_tt {
-                padding-bottom: 50px;
+            .body_card {
+                width  : 100%;
+                padding: 20px 31.37px 0 25px;
 
-                form {
-                    label {
-                        display      : inline-block;
-                        width        : 100%;
-                        margin-bottom: 10px;
-                        font-size    : 18px;
-                        line-height  : 150.19%;
-                        color        : #000000;
+                .card_flex {
+                    display  : flex;
+                    flex-wrap: wrap;
 
-                        span {
-                            color: #EF4524;
+                    .card {
+                        width      : calc(100% / 4 - 18px);
+                        margin-left: 18px;
+
+                        .card_img {
+                            position: relative;
+                            height  : 169px;
+
+                            img {
+                                width     : 100%;
+                                height    : 100%;
+                                object-fit: cover;
+                            }
+                            .button_card {
+                                position  : absolute;
+                                top       : 0;
+                                bottom    : auto;
+                                left      : 0;
+                                right     : auto;
+                                width     : 100%;
+                                height    : 100%;
+                                background: rgba(0, 0, 0, 0.7);
+                                overflow  : hidden;
+                                z-index   : 100;
+    
+                                button {
+                                    font-weight: 500;
+                                    font-size  : 16px;
+                                    line-height: 150.19%;
+                                    text-align : center;
+                                    color      : #FFFFFF;
+                                    &:nth-child(1) {
+                                        background   : #2275BC;
+                                        border-radius: 3px;
+                                    }
+    
+                                    &:nth-child(2) {
+                                        background   : rgba(255, 255, 255, 0.5);
+                                        border-radius: 3px;
+                                    }
+                                }
+    
+                            }
                         }
 
-                        &:nth-child(1) {
-                            margin-top: 45px;
-                        }
+                       
 
-                        &:nth-child(3) {
-                            width: 48%;
-                        }
+                        .card_title {
+                            h3 {}
 
-                        &:nth-child(4) {
-                            width      : calc(100% - 48% - 22px);
-                            margin-left: 22px;
-
-                        }
-
-                        &:nth-child(7) {
-                            margin-bottom: 17px;
-                        }
-                    }
-
-                    input,
-                    select {
-                        border       : 1px solid rgba(0, 63, 87, 0.3);
-                        box-sizing   : border-box;
-                        border-radius: 5px;
-                        padding      : 12px 0 12px 15px;
-                        width        : 100%;
-                        outline      : 0;
-                        font-size    : 18px;
-                        line-height  : 150.19%;
-                        color        : #000000;
-
-                        &::placeholder {
-                            font-size  : 18px;
-                            line-height: 150.19%;
-                            color      : #BDBDBD;
-                        }
-
-                        &::-webkit-input-placeholder {
-                            font-size  : 18px;
-                            line-height: 150.19%;
-                            color      : #BDBDBD;
-                        }
-                    }
-
-                    input {
-                        margin-bottom: 30px;
-                    }
-
-                    input:nth-child(2) {
-                        width: 100%;
-
-                    }
-
-                    input:nth-child(5) {
-                        width: 48%;
-                    }
-
-                    input:nth-child(6) {
-                        width      : calc(100% - 48% - 22px);
-                        margin-left: 22px;
-                    }
-
-                    select * {
-                        color        : #000000;
-                        padding      : 12px 0 12px 15px;
-                        border       : 1px solid rgba(0, 63, 87, 0.3);
-                        box-sizing   : border-box;
-                        border-radius: 5px;
-                        outline      : 0;
-                        height       : 50px;
-
-                        option {
-                            color        : #000000;
-                            padding      : 12px 0 12px 15px;
-                            border       : 1px solid rgba(0, 63, 87, 0.3);
-                            box-sizing   : border-box;
-                            border-radius: 5px;
-                            outline      : 0;
-                            width        : 100%;
-                        }
-                    }
-
-                    select::selection {
-                        color: #000000;
-                    }
-
-                    select:nth-child(8),
-                    select:nth-child(9),
-                    select:nth-child(10) {
-                        width        : calc(100% / 3 - 16px);
-                        margin-right : 20px;
-                        font-size    : 18px;
-                        line-height  : 150.19%;
-                        color        : #BDBDBD;
-                        margin-bottom: 20px;
-                    }
-
-                    select:nth-child(10) {
-                        margin-right: 0;
-                    }
-
-                    button {
-                        background   : #2275BC;
-                        border-radius: 5px;
-                        font-weight  : normal;
-                        font-size    : 18px;
-                        line-height  : 150.19%;
-                        color        : #FFFFFF;
-                        padding      : 12px 20px;
-
-                        img {
-                            margin-right: 12px;
+                            p {}
                         }
                     }
                 }
@@ -424,7 +347,7 @@
 
 @media (max-width:1400px) {
 
-    .site41_html_col0_profilekhachhang {
+    .site41_html_col0_yeucaudangky {
 
 
         .copyright {
@@ -437,11 +360,9 @@
 
 
             .bghome {
-
-
                 .pro_left {
-
                     width: 260px;
+
 
                     .avt {
                         padding: 32px 0;
@@ -511,78 +432,7 @@
                     }
                 }
 
-                .form_tt {
-                    form {
-                        label {
-                            font-size: 15px;
 
-                            span {}
-
-                            &:nth-child(1) {
-                                margin-top: 30px;
-                            }
-
-                            &:nth-child(3) {}
-
-                            &:nth-child(4) {}
-
-                            &:nth-child(7) {}
-                        }
-
-                        input,
-                        select {
-
-                            font-size: 15px;
-
-
-                            &::placeholder {
-                                font-size: 15px;
-
-                            }
-
-                            &::-webkit-input-placeholder {
-                                font-size: 15px;
-
-                            }
-                        }
-
-                        input {
-                            margin-bottom: 20px;
-                        }
-
-                        input:nth-child(2) {}
-
-                        input:nth-child(5) {}
-
-                        input:nth-child(6) {}
-
-                        select * {
-
-
-                            option {}
-                        }
-
-                        select::selection {}
-
-                        select:nth-child(8),
-                        select:nth-child(9),
-                        select:nth-child(10) {
-
-                            font-size: 15px;
-
-                        }
-
-                        select:nth-child(10) {}
-
-                        button {
-
-                            font-size: 15px;
-
-
-                            img {}
-                        }
-                    }
-                }
             }
         }
 
@@ -591,7 +441,7 @@
 
 @media (max-width:1000px) {
 
-    .site41_html_col0_profilekhachhang {
+    .site41_html_col0_yeucaudangky {
 
 
         .copyright {
@@ -600,7 +450,7 @@
         }
 
         .container_fix {
-            padding: 0 15px;
+
 
 
             .bghome {
@@ -679,74 +529,7 @@
                     }
                 }
 
-                .form_tt {
-                    form {
-                        label {
-                            font-size: 14px;
 
-                            span {}
-
-                            &:nth-child(1) {}
-
-                            &:nth-child(3) {}
-
-                            &:nth-child(4) {}
-
-                            &:nth-child(7) {}
-                        }
-
-                        input,
-                        select {
-
-                            font-size: 14px;
-
-
-                            &::placeholder {
-                                font-size: 14px;
-
-                            }
-
-                            &::-webkit-input-placeholder {
-                                font-size: 14px;
-
-                            }
-                        }
-
-                        input {}
-
-                        input:nth-child(2) {}
-
-                        input:nth-child(5) {}
-
-                        input:nth-child(6) {}
-
-                        select * {
-
-
-                            option {}
-                        }
-
-                        select::selection {}
-
-                        select:nth-child(8),
-                        select:nth-child(9),
-                        select:nth-child(10) {
-
-                            font-size: 14px;
-
-                        }
-
-                        select:nth-child(10) {}
-
-                        button {
-
-                            font-size: 14px;
-
-
-                            img {}
-                        }
-                    }
-                }
             }
         }
 
@@ -755,7 +538,7 @@
 
 @media (max-width:768px) {
 
-    .site41_html_col0_profilekhachhang {
+    .site41_html_col0_yeucaudangky {
 
 
         .copyright {
@@ -775,6 +558,7 @@
                     transition: opacity 500ms;
                     visibility: hidden;
                     opacity   : 0;
+
 
                     .avt {
                         padding: 15px 0;
@@ -879,90 +663,19 @@
                         font-size: 16px;
                     }
                 }
-
-                .form_tt {
-                    form {
-                        label {
-                            font-size: 14px;
-
-                            span {}
-
-                            &:nth-child(1) {}
-
-                            &:nth-child(3) {
-                                width: 49%;
-                            }
-
-                            &:nth-child(4) {
-                                width      : calc(100% - 49% - 15px);
-                                margin-left: 15px;
-                            }
-
-                            &:nth-child(7) {}
-                        }
-
-                        input,
-                        select {
-
-                            font-size: 14px;
-
-
-                            &::placeholder {
-                                font-size: 14px;
-
-                            }
-
-                            &::-webkit-input-placeholder {
-                                font-size: 14px;
-
-                            }
-                        }
-
-                        input {}
-
-                        input:nth-child(2) {}
-
-                        input:nth-child(5) {
-                            width: 49%;
-                        }
-
-                        input:nth-child(6) {
-                            width      : calc(100% - 49% - 15px);
-                            margin-left: 15px;
-                        }
-
-                        select * {
-
-
-                            option {}
-                        }
-
-                        select::selection {}
-
-                        select:nth-child(8),
-                        select:nth-child(9),
-                        select:nth-child(10) {
-
-                            width    : 100%;
-                            font-size: 14px;
-
-                        }
-
-                        select:nth-child(10) {}
-
-                        button {
-
-                            font-size: 14px;
-
-
-                            img {}
-                        }
-                    }
-                }
             }
         }
 
     }
 
-    
+    .bghome.active {
+        width     : 100%;
+        height    : 110%;
+        background: rgba(0, 0, 0, 0.7) !important;
+        position  : absolute;
+        top       : -58px;
+        left      : 0;
+        overflow  : hidden;
+        z-index   : 5000;
+    }
 }

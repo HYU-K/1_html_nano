@@ -45,13 +45,30 @@
   display: flex;
   justify-content: space-between;
 }
+.site41_html_col0_profilekhachhang .container_fix .bghome.active {
+  width: 100%;
+  height: 110%;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: -58px;
+  left: 0;
+  overflow: hidden;
+  visibility: visible;
+  z-index: 5000;
+}
 .site41_html_col0_profilekhachhang .container_fix .bghome {
-  width: 300px;
   background: #FFFFFF;
   height: auto;
 }
+.site41_html_col0_profilekhachhang .container_fix .bghome .pro_left.active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 100;
+}
 .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left {
+  background: #FFFFFF;
   position: relative;
+  width: 300px;
 }
 .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .icon_open_menu1 {
   position: absolute;
@@ -170,11 +187,6 @@
   align-items: center;
   color: #4F4F4F;
   white-space: nowrap;
-}
-.site41_html_col0_profilekhachhang .container_fix .pro_left.active {
-  visibility: visible;
-  opacity: 1;
-  z-index: 100;
 }
 .site41_html_col0_profilekhachhang .container_fix .pro_right {
   width: calc(100% - 300px - 15px);
@@ -328,16 +340,16 @@
   .site41_html_col0_profilekhachhang .copyright {
     font-size: 14px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left {
     width: 260px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt {
     padding: 32px 0;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt h2 {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt h2 {
     font-size: 15px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li a .text {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li a .text {
     font-size: 15px;
   }
   .site41_html_col0_profilekhachhang .container_fix .pro_right {
@@ -384,19 +396,19 @@
   .site41_html_col0_profilekhachhang .container_fix {
     padding: 0 15px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left {
     width: 200px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt {
     padding: 15px 0;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt h2 {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt h2 {
     font-size: 14px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li {
     height: 50px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li a .text {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li a .text {
     font-size: 14px;
   }
   .site41_html_col0_profilekhachhang .container_fix .pro_right {
@@ -441,7 +453,7 @@
   .site41_html_col0_profilekhachhang .container_fix {
     padding: 0;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left {
     width: 200px;
     position: absolute;
     top: 11%;
@@ -449,26 +461,26 @@
     visibility: hidden;
     opacity: 0;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt {
     padding: 15px 0;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left .avt h2 {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left .avt h2 {
     font-size: 14px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li {
     height: 50px;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li:hover a .text {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li:hover a .text {
     display: block;
     color: #2275BC;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li:hover a .img_cn .img_show {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li:hover a .img_cn .img_show {
     display: block;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li:hover a .img_cn .img_hide {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li:hover a .img_cn .img_hide {
     display: none;
   }
-  .site41_html_col0_profilekhachhang .container_fix .pro_left ul li a .text {
+  .site41_html_col0_profilekhachhang .container_fix .bghome .pro_left ul li a .text {
     font-size: 14px;
   }
   .site41_html_col0_profilekhachhang .container_fix .pro_right {
@@ -523,16 +535,6 @@
   }
   .site41_html_col0_profilekhachhang .container_fix .pro_right .form_tt form button {
     font-size: 14px;
-  }
-  .bghome.active {
-    width: 100%;
-    height: 110%;
-    background: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: -58px;
-    left: 0;
-    overflow: hidden;
-    z-index: 5000;
   }
 }
 
