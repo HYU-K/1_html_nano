@@ -1751,6 +1751,7 @@ li {
   margin: 0;
 }
 .site41_new_col12_tintuc .item-title .item-more_all {
+  padding-right: 30px;
   float: right;
 }
 .site41_new_col12_tintuc .item-title .item-more_all a {
@@ -2576,12 +2577,28 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
+.site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150.19%;
+}
 .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
-  padding: 18px 0;
+  padding: 15px 0;
 }
 .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
-  padding: 15px 0;
+  padding: 13px 0;
   margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red img {
   padding-left: 15px;
@@ -2661,34 +2678,49 @@ li {
   border-bottom: 1px solid #F2F2F2;
 }
 .site41_prodel_col12_content_sp .main .contents .content {
+  padding-bottom: 50px;
   display: none;
   color: #353535;
   overflow: auto;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .title2 {
-  padding: 20px 0;
+  margin: 0;
+  padding: 35px 0;
   float: left;
   width: 100%;
+}
+.site41_prodel_col12_content_sp .main .contents .content .single p {
+  float: left;
+  margin: 0;
+  padding-bottom: 25px;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .title2_2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0;
+  margin: 0;
+  padding: 35px 0;
   float: left;
   width: 100%;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .image {
   width: 100%;
   float: left;
-  padding: 25px 0;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .image img {
   width: 100%;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
-  padding: 25px 0;
   text-align: center;
+  float: left;
+  width: 100%;
+}
+.site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150.19%;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_primary {
   padding-top: 12px;
@@ -2697,9 +2729,18 @@ li {
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red {
   padding: 10px 0;
   margin-right: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red img {
-  margin-left: 15px;
+  padding-left: 15px;
 }
 .site41_prodel_col12_content_sp .main .contents .content .single .detail {
   width: 100%;
@@ -2714,16 +2755,14 @@ li {
 
 .site41_prodel_col12_relate_to_Information {
   width: 100%;
-  float: left;
+  padding: 30px 0;
   overflow: hidden;
 }
 .site41_prodel_col12_relate_to_Information .title1_5 {
-  padding: 15px 0;
+  padding-bottom: 30px;
 }
 .site41_prodel_col12_relate_to_Information .item-list-sp {
-  width: 100%;
-  float: left;
-  padding: 30px 0;
+  margin: 0 -15px;
 }
 .site41_prodel_col12_relate_to_Information .item-list-sp .col-md-3 {
   padding-top: 10px;
@@ -5381,6 +5420,17 @@ li {
   .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
     padding: 0 0 15px 15px;
   }
+
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: block;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 15px;
+  }
 }
 /* man:  mobi */
 @media screen and (max-width: 576px) {
@@ -5724,16 +5774,6 @@ li {
     border-top: 1px solid #F2F2F2;
   }
 
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin: 20px 35px 0 0;
-  }
-
   .site41_bann_col0_slide_sp {
     height: 130px;
   }
@@ -5837,6 +5877,32 @@ li {
   .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
     width: 85%;
   }
+
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+    font-size: 16px;
+  }
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_primary {
+    margin-top: 15px;
+  }
+
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+    font-size: 16px;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: 0 15px 0 0;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 0;
+  }
 }
 @media screen and (max-width: 460px) {
   .order .popup .content label .item-title h2 {
@@ -5889,6 +5955,17 @@ li {
 
   .chuyengia .popup .content .item-product .item_personal_information ul {
     padding-left: 10px;
+  }
+
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: block;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 15px;
   }
 
   .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit {
@@ -6036,5 +6113,13 @@ li {
 
   .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
     font-size: 12px;
+  }
+
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+    font-size: 14px;
+  }
+
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+    font-size: 14px;
   }
 }

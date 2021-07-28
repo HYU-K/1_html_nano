@@ -1165,6 +1165,22 @@
             }
         }
     }
+    .site41_prodel_col12_chitietsp {
+        .item_Information {
+            .detail {
+                .item_btn {
+                    display: block;
+                    text-align: center;
+                    .btn_red {
+                        margin: auto;
+                    }
+                    .btn_primary {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -1512,6 +1528,7 @@
     .site41_html_col12_chuyengia .item_lits_content_chuyengia {
         padding-bottom: 50px;
     }
+
     .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
         position: absolute;
         padding: 10px 0;
@@ -1521,11 +1538,6 @@
         justify-content: center;
         border-bottom: 1px solid #F2F2F2;
         border-top: 1px solid #F2F2F2;
-    }
-    .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-        display: flex;
-        justify-content: center;
-        margin: 20px 35px 0 0;
     }
     .site41_bann_col0_slide_sp {
         height: 130px;
@@ -1649,6 +1661,36 @@
             }
         }
     }
+    .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
+        .btn {
+            font-size: 16px;
+        }
+        .btn_red {
+            margin: auto;
+        }
+        .btn_primary {
+            margin-top: 15px;
+        }
+    }
+    .site41_prodel_col12_chitietsp {
+        .item_Information {
+            .detail {
+                .item_btn {
+                    display: flex;
+                    text-align: center;
+                    .btn {
+                        font-size: 16px;
+                    }
+                    .btn_red {
+                        margin: 0 15px 0 0;
+                    }
+                    .btn_primary {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -1699,6 +1741,22 @@
     }
     .chuyengia .popup .content .item-product .item_personal_information ul {
         padding-left: 10px;
+    }
+    .site41_prodel_col12_chitietsp {
+        .item_Information {
+            .detail {
+                .item_btn {
+                    display: block;
+                    text-align: center;
+                    .btn_red {
+                        margin: auto;
+                    }
+                    .btn_primary {
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
     }
     .site41_new_col8_page_chitiettintuc {
         .site41_new_col8_chitiettintuc {
@@ -1827,5 +1885,11 @@
     }
     .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
         font-size: 12px;
+    }
+    .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+        font-size: 14px;
+    }
+    .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+        font-size: 14px;
     }
 }
