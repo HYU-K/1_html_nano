@@ -136,8 +136,8 @@
     }
   }
   .item-list-sp {
-    width: 100%;
     float: left;
+    margin: 0 -15px;
     padding-top: 30px;
     .col-md-3 {
       padding-top: 10px;
@@ -151,7 +151,7 @@
           align-items: center;
           position: relative;
           width: 100%;
-          height: 192px;
+          height: 203px;
           border-radius: 5px;
           background: #FAFAFA;
           border: 1px solid #F2F2F2;
@@ -167,10 +167,11 @@
           position: absolute;
           width: 100%;
           height: 100%;
-          padding-top: 30%;
           top: 0;
           left: 0;
-          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           z-index: -1;
           background: rgba(52, 52, 52, 0.2);
           .btn {
@@ -408,18 +409,22 @@
   .slide-six {
     height: 200px;
     padding: 20px 0;
+    margin: 0 -10px;
     .img {
       text-align: center;
       height: 157px;
-      padding: 30px;
+      padding: 20px;
+      margin: 0 10px;
+      border: 0.74586px solid rgba(34, 117, 188, 0.15);
+      box-sizing: border-box;
+      filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+      border-radius: 5px;
       justify-content: center;
       align-items: center;
       display: flex !important;
       &:hover {
-        border: 0.74586px solid rgba(34, 117, 188, 0.15);
-        box-sizing: border-box;
-        filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
         background: #FFFFFF;
       }
     }
@@ -477,11 +482,17 @@
   background: #FAFAFA;
   .slide-six {
     height: 200px;
+    margin: 0 -10px;
     padding: 20px 0;
     .img {
       text-align: center;
       height: 157px;
-      padding: 30px;
+      padding: 20px;
+      margin: 0 10px;
+      border: 0.74586px solid rgba(34, 117, 188, 0.15);
+      box-sizing: border-box;
+      filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+      border-radius: 5px;
       justify-content: center;
       -webkit-box-align: center;
       -ms-flex-align: center;
@@ -490,11 +501,9 @@
       display: -ms-flexbox !important;
       display: flex !important;
       &:hover {
-        border: 0.74586px solid rgba(34, 117, 188, 0.15);
-        box-sizing: border-box;
-        filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-        border-radius: 5px;
+        border: none;
         background: #FFFFFF;
+        box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
       }
     }
     .slick-dots {

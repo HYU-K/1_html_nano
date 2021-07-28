@@ -1632,8 +1632,8 @@ li {
   right: 25px;
 }
 .site41_pro_col12_ketquanghiencuu .item-list-sp {
-  width: 100%;
   float: left;
+  margin: 0 -15px;
   padding-top: 30px;
 }
 .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
@@ -1656,7 +1656,7 @@ li {
           align-items: center;
   position: relative;
   width: 100%;
-  height: 192px;
+  height: 203px;
   border-radius: 5px;
   background: #FAFAFA;
   border: 1px solid #F2F2F2;
@@ -1679,10 +1679,17 @@ li {
   position: absolute;
   width: 100%;
   height: 100%;
-  padding-top: 30%;
   top: 0;
   left: 0;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: -1;
   background: rgba(52, 52, 52, 0.2);
 }
@@ -1930,11 +1937,19 @@ li {
 .site41_html_col12_doitac .slide-six {
   height: 200px;
   padding: 20px 0;
+  margin: 0 -10px;
 }
 .site41_html_col12_doitac .slide-six .img {
   text-align: center;
   height: 157px;
-  padding: 30px;
+  padding: 20px;
+  margin: 0 10px;
+  border: 0.74586px solid rgba(34, 117, 188, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+          filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+  border-radius: 5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1946,12 +1961,9 @@ li {
   display: flex !important;
 }
 .site41_html_col12_doitac .slide-six .img:hover {
-  border: 0.74586px solid rgba(34, 117, 188, 0.15);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-          filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
+          box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
   background: #FFFFFF;
 }
 .site41_html_col12_doitac .slide-six .slick-dots li button {
@@ -2002,12 +2014,20 @@ li {
 }
 .site41_html_col12_linklienket .slide-six {
   height: 200px;
+  margin: 0 -10px;
   padding: 20px 0;
 }
 .site41_html_col12_linklienket .slide-six .img {
   text-align: center;
   height: 157px;
-  padding: 30px;
+  padding: 20px;
+  margin: 0 10px;
+  border: 0.74586px solid rgba(34, 117, 188, 0.15);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+          filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
+  border-radius: 5px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2019,13 +2039,10 @@ li {
   display: flex !important;
 }
 .site41_html_col12_linklienket .slide-six .img:hover {
-  border: 0.74586px solid rgba(34, 117, 188, 0.15);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-          filter: drop-shadow(0px 2.98344px 14.9172px rgba(210, 106, 0, 0.12));
-  border-radius: 5px;
+  border: none;
   background: #FFFFFF;
+  -webkit-box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
+          box-shadow: 0px 2.98344px 14.9172px rgba(210, 106, 0, 0.08);
 }
 .site41_html_col12_linklienket .slide-six .slick-dots li button {
   border: 1px solid #C4C4C4;
@@ -2454,6 +2471,7 @@ li {
   float: left;
 }
 .site41_prodel_col12_chitietsp .item_Information .column .slider-single {
+  margin: 0 10px;
   border-radius: 5px;
   background: #F6F6F6;
 }
@@ -5058,7 +5076,7 @@ li {
   }
 
   .site41_intr_col12_vcic {
-    padding: 0 10px 20px 10px;
+    padding: 0 15px 20px 15px;
   }
 
   .site41_head_col0_vcic .item-header-menu-top {
@@ -5067,19 +5085,19 @@ li {
   }
 
   .site41_new_col12_tintuc {
-    padding: 50px 10px;
+    padding: 50px 15px;
   }
 
   .site41_pro_col12_ketquanghiencuu {
-    padding: 30px 10px;
+    padding: 30px 15px;
   }
 
   .site41_html_col12_doitac {
-    padding: 30px 10px;
+    padding: 30px 15px;
   }
 
   .site41_html_col12_linklienket {
-    padding: 30px 10px;
+    padding: 30px 15px;
   }
 
   .site41_foot_col0_vcic {
