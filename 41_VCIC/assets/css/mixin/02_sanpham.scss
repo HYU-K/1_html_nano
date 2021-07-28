@@ -121,7 +121,7 @@
               cursor: pointer;
   
             }
-            /* checkbox aspect */
+            /* huy fix */
             [type="checkbox"]:not(:checked) + label:before,
             [type="checkbox"]:checked + label:before {
               content: '';
@@ -138,7 +138,7 @@
               -webkit-transition: all .275s;
               transition: all .275s;
             }
-            /* checked mark aspect */
+            /* huy fix */
             [type="checkbox"]:not(:checked) + label:after,
             [type="checkbox"]:checked + label:after {
               content: '✓';
@@ -151,7 +151,7 @@
               -webkit-transition: all .2s;
               transition: all .2s;
             }
-            /* checked mark aspect changes */
+            /* huy fix */
             [type="checkbox"]:not(:checked) + label:after {
               opacity: 0;
               -webkit-transform: scale(0) rotate(45deg);
@@ -200,7 +200,7 @@
                   cursor: pointer;
       
                 }
-                /* checkbox aspect */
+                /* huy fix */
                 [type="checkbox"]:not(:checked) + label:before,
                 [type="checkbox"]:checked + label:before {
                   content: '';
@@ -217,7 +217,7 @@
                   -webkit-transition: all .275s;
                   transition: all .275s;
                 }
-                /* checked mark aspect */
+                /* huy fix */
                 [type="checkbox"]:not(:checked) + label:after,
                 [type="checkbox"]:checked + label:after {
                   content: '✓';
@@ -230,7 +230,7 @@
                   -webkit-transition: all .2s;
                   transition: all .2s;
                 }
-                /* checked mark aspect changes */
+                /* huy fix */
                 [type="checkbox"]:not(:checked) + label:after {
                   opacity: 0;
                   -webkit-transform: scale(0) rotate(45deg);
@@ -299,7 +299,7 @@
             cursor: pointer;
 
           }
-          /* checkbox aspect */
+          /* huy fix */
           [type="checkbox"]:not(:checked) + label:before,
           [type="checkbox"]:checked + label:before {
             content: '';
@@ -316,7 +316,7 @@
             -webkit-transition: all .275s;
             transition: all .275s;
           }
-          /* checked mark aspect */
+          /* huy fix */
           [type="checkbox"]:not(:checked) + label:after,
           [type="checkbox"]:checked + label:after {
             content: '✓';
@@ -329,7 +329,7 @@
             -webkit-transition: all .2s;
             transition: all .2s;
           }
-          /* checked mark aspect changes */
+          /* huy fix */
           [type="checkbox"]:not(:checked) + label:after {
             opacity: 0;
             -webkit-transform: scale(0) rotate(45deg);
