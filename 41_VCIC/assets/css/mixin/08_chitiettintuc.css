@@ -1,7 +1,7 @@
 .site41_new_col8_page_chitiettintuc {
   overflow: hidden;
   width: 100%;
-  padding: 50px 0;
+  padding: 35px 0;
 }
 .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc {
   width: 66%;
@@ -11,7 +11,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
 .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page a {
   display: block;
@@ -43,7 +43,7 @@
   margin-top: 1px;
 }
 .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .title1_6 {
-  text-transform: revert;
+  text-transform: inherit;
   margin: 0;
   padding-bottom: 50px;
 }
@@ -70,7 +70,7 @@
 .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .operation .btn {
   outline: 0;
   width: auto;
-  margin-right: 10px;
+  margin-left: 10px;
   padding: 2px 5px;
   color: #FFFFFF;
 }
@@ -233,7 +233,7 @@
 .site41_new_col8_page_chitiettintuc .item_product_right {
   width: 31%;
   float: right;
-  padding-top: 35px;
+  padding-top: 50px;
 }
 .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
   width: 100%;
@@ -289,6 +289,7 @@
   padding-top: 15px;
 }
 .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .title1_7 {
+  padding-bottom: 15px;
   margin: 0;
 }
 .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
@@ -322,4 +323,111 @@
 }
 .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot .title_news_hot .md1_4 {
   text-decoration: none;
+}
+
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 75%;
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .title1_7 {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
+    padding-left: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    float: left;
+    width: 70%;
+    padding: 25px 0 25px 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 75%;
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .title1_7 {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_new_col8_page_chitiettintuc {
+    padding: 50px 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page {
+    display: block;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page .main {
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
+    padding: 0 0 15px 15px;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_new_col8_page_chitiettintuc {
+    padding-top: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .title1_6 {
+    padding-bottom: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .date img {
+    margin-top: -1px;
+    margin-right: 2px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .operation .btn {
+    margin-right: 7px;
+    margin-bottom: 5px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 85%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    width: 85%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit {
+    display: block;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .date {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    width: 100%;
+    padding: 25px 0;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
+    padding-left: 0;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
+    padding-left: 0;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-comment .check-cmt span {
+    padding-right: 10px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
+    padding: 0px 0 4px 10px;
+  }
 }

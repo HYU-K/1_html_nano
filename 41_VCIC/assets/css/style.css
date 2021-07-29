@@ -3201,6 +3201,152 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
+    margin-right: 88px;
+  }
+  .site41_prodel_col12_content_sp .item_lits_content nav .noxop {
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
+    margin-right: 65px;
+  }
+  .site41_prodel_col12_content_sp .item_lits_content nav .noxop {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_prodel_col12_chitietsp {
+    padding: 0 15px 50px 15px;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: block;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 15px;
+  }
+
+  .site41_prodel_col12_content_sp {
+    padding: 0 15px;
+  }
+  .site41_prodel_col12_content_sp .item_lits_content .nac {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  .site41_prodel_col12_content_sp .item_lits_content .title_it_content {
+    visibility: visible;
+    opacity: 1;
+    display: inline-block;
+  }
+  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
+    margin-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
+    width: 55%;
+  }
+
+  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
+    left: 55px;
+  }
+
+  .site41_prodel_col12_relate_to_Information {
+    padding: 0 15px;
+  }
+  .site41_prodel_col12_relate_to_Information .col-md-3 {
+    width: 50%;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_prodel_col12_chitietsp .item_Information .column {
+    width: 100%;
+    float: left;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail {
+    width: 100%;
+    padding-left: 10px;
+    float: left;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+    font-size: 16px;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: 0 15px 0 0;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 0;
+  }
+
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
+    /*huy fix*/
+    display: block;
+  }
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+    font-size: 16px;
+  }
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_primary {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
+    display: block;
+    text-align: center;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
+    margin: auto;
+  }
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
+    margin-top: 15px;
+  }
+
+  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
+    width: 60%;
+  }
+
+  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
+    left: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
+    width: 0%;
+  }
+
+  .site41_prodel_col12_relate_to_Information .col-md-3 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 285px) {
+  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
+    font-size: 14px;
+  }
+
+  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
+    font-size: 14px;
+  }
+}
 .site41_bann_col0_slide_cg {
   background-image: url("../img/bg_cn.png");
   background-size: 100% 100%;
@@ -3330,6 +3476,79 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 155px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_cg {
+    padding: 0 15px;
+    height: 200px;
+  }
+  .site41_bann_col0_slide_cg .item-title {
+    padding-top: 40px;
+  }
+
+  .site41_html_col12_chuyengia {
+    padding: 0 15px 50px 15px;
+  }
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
+    width: 33.33333333%;
+  }
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
+    padding-right: 50px;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_cg {
+    height: 130px;
+  }
+  .site41_bann_col0_slide_cg .item-title {
+    padding-top: 10px;
+  }
+
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia {
+    padding-bottom: 50px;
+  }
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
+    width: 50%;
+  }
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
+    position: absolute;
+    padding: 10px 0;
+    bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-bottom: 1px solid #F2F2F2;
+    border-top: 1px solid #F2F2F2;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 130px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
+    width: 100%;
+  }
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 240px;
+  }
+}
+@media screen and (max-width: 285px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 180px;
+  }
+}
 .site41_bann_col0_slidemap {
   position: relative;
   height: 448px;
@@ -3679,6 +3898,60 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 155px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_html_col12_danhsachchuyengia {
+    padding: 25px 15px 50px 15px;
+  }
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
+    width: 33.33333333%;
+  }
+  .site41_html_col12_danhsachchuyengia .Frame_13723 {
+    display: block;
+    padding: 20px 0;
+  }
+  .site41_html_col12_danhsachchuyengia .Frame_13723 .result {
+    padding-bottom: 20px;
+  }
+  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
+    width: 150px;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 130px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
+    width: 100%;
+  }
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 240px;
+  }
+  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 285px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 180px;
+  }
+  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
+    width: 70px;
+  }
+}
 .site41_bann_col0_slide_news {
   background-image: url("../img/bg_news.png");
   background-size: 100% 100%;
@@ -3999,6 +4272,203 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 0 0 20px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 93.6%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 93.6%;
+    left: 83%;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 30%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 69%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 25px;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 30%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 69%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_new_col12_hot_news .slide_hot_news .image_news {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 95.6%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 95.6%;
+    left: 89%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 15px 0 10px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
+    padding-bottom: 10px;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 35%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 64%;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 35%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 64%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_news {
+    padding: 0 15px;
+    height: 200px;
+  }
+  .site41_bann_col0_slide_news .item-title {
+    padding-top: 40px;
+  }
+
+  .site41_new_col12_hot_news {
+    padding: 50px 15px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 50%;
+    right: 3%;
+    width: 26px;
+    height: 63px;
+    background: #2f80ed38;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next:hover {
+    background: #8fc6f7ad;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 50%;
+    left: 3%;
+    width: 26px;
+    height: 63px;
+    background: #2f80ed38;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev:hover {
+    background: #8fc6f7ad;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 15px 0 10px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
+    padding-bottom: 10px;
+  }
+
+  .site41_new_col12_seminor_events {
+    padding: 0 15px 30px 15px;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 40%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 59%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+
+  .site41_new_col12_INVENT {
+    padding: 0 15px 50px 15px;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 40%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 59%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_news {
+    height: 130px;
+  }
+  .site41_bann_col0_slide_news .item-title {
+    padding-top: 10px;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all {
+    font-size: 13px;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all img {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all {
+    font-size: 13px;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all img {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
+}
 .site41_bann_col0_slide_news_detail {
   background-image: url("../img/bg_news_detail.png");
   background-size: 100% 100%;
@@ -4096,6 +4566,78 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_new_col12_hoithaosukien .col-md-6 {
+    width: 100%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .img {
+    width: 30%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product {
+    width: 69%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product p {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_new_col12_hoithaosukien .col-md-6 .img {
+    width: 35%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product {
+    width: 64%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_news_detail {
+    padding: 0 15px;
+    height: 200px;
+  }
+  .site41_bann_col0_slide_news_detail .item-title {
+    padding-top: 40px;
+  }
+
+  .site41_new_col12_hoithaosukien {
+    padding: 50px 15px;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .img {
+    width: 40%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product {
+    width: 59%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_news_detail {
+    height: 130px;
+  }
+  .site41_bann_col0_slide_news_detail .item-title {
+    padding-top: 10px;
+  }
+
+  .site41_new_col12_hoithaosukien .col-md-6 .img {
+    width: 100%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product {
+    padding-left: 0;
+    width: 100%;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product .view-all {
+    font-size: 13px;
+  }
+  .site41_new_col12_hoithaosukien .col-md-6 .product .view-all img {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
+}
 .site41_new_col8_page_chitiettintuc {
   overflow: hidden;
   width: 100%;
@@ -4423,6 +4965,112 @@ li {
   text-decoration: none;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 75%;
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .title1_7 {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
+    padding-left: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    float: left;
+    width: 70%;
+    padding: 25px 0 25px 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 75%;
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .title1_7 {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
+    padding-left: 25px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_new_col8_page_chitiettintuc {
+    padding: 50px 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page {
+    display: block;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page .main {
+    float: left;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
+    padding: 0 0 15px 15px;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_new_col8_page_chitiettintuc {
+    padding-top: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .title1_6 {
+    padding-bottom: 25px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .date img {
+    margin-top: -1px;
+    margin-right: 2px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .operation .btn {
+    margin-right: 7px;
+    margin-bottom: 5px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 85%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    width: 85%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit {
+    display: block;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .date {
+    padding-bottom: 15px;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
+    width: 100%;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
+    width: 100%;
+    padding: 25px 0;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
+    padding-left: 0;
+  }
+  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
+    padding-left: 0;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-comment .check-cmt span {
+    padding-right: 10px;
+  }
+  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
+    padding: 0px 0 4px 10px;
+  }
+}
 .site41_foot_col0_vcic {
   width: 100%;
   float: left;
@@ -4674,47 +5322,22 @@ li {
     height: 90%;
   }
 
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-    display: block;
+  .site41_head_col0_vcic .item-header-input .container .item-recta .search button {
+    width: 15%;
   }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper {
-    display: block;
+  .site41_head_col0_vcic .item-header-input .container .item-recta .search input {
+    width: 85%;
   }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(1) {
-    top: 0;
+  .site41_head_col0_vcic .item-header-input .container .header-display .login {
+    width: 27%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(2) {
-    top: 9px;
+  .site41_head_col0_vcic .item-header-input .container .header-display .login .conten {
+    display: none;
   }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(3) {
-    top: 18px;
-  }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(1) {
-    -webkit-transform: translateY(9px) rotate(135deg);
-            transform: translateY(9px) rotate(135deg);
-  }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(2) {
-    opacity: 0;
-    -webkit-transform: translateX(-60px);
-            transform: translateX(-60px);
-  }
-
-  .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(3) {
-    -webkit-transform: translateY(-9px) rotate(-135deg);
-            transform: translateY(-9px) rotate(-135deg);
-  }
-
-  .site41_head_col0_vcic .item-header-menu-top .item-popup .btn {
-    float: left;
-  }
-
-  .item-header-menu-top .container .menu-top .menu-list {
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list {
     padding-left: 0;
     top: 0;
     display: block;
@@ -4731,138 +5354,49 @@ li {
     width: 35%;
     right: 100%;
   }
-
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
+    display: block;
+  }
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li {
     padding: 30px 0px 30px 40px;
   }
-
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
     font-size: 20px;
     color: #2275BC;
   }
-
-  .site41_head_col0_vcic .item-header-menu-top .btn {
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-wrapper {
+    display: block;
+  }
+  .site41_head_col0_vcic .item-header-menu-top .item-popup .btn {
     float: none;
   }
 
-  .site41_head_col0_vcic .item-header-input .container .item-recta .search button {
-    width: 15%;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(1) {
+    top: 0;
   }
 
-  .site41_head_col0_vcic .item-header-input .container .item-recta .search input {
-    width: 85%;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(2) {
+    top: 9px;
   }
 
-  .site41_head_col0_vcic .item-header-input .container .header-display .login {
-    width: 27%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(3) {
+    top: 18px;
   }
 
-  .site41_head_col0_vcic .item-header-input .container .header-display .login .conten {
-    display: none;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(1) {
+    -webkit-transform: translateY(9px) rotate(135deg);
+            transform: translateY(9px) rotate(135deg);
   }
 
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 155px;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(2) {
+    opacity: 0;
+    -webkit-transform: translateX(-60px);
+            transform: translateX(-60px);
   }
 
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 155px;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
-    margin-right: 88px;
-  }
-  .site41_prodel_col12_content_sp .item_lits_content nav .noxop {
-    margin: 0;
-  }
-
-  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
-    padding: 0 0 20px 0;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe p {
-    padding-bottom: 5px;
-  }
-
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
-    top: 93.6%;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
-    top: 93.6%;
-    left: 83%;
-  }
-
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 {
-    width: 100%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
-    width: 30%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
-    width: 69%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
-    padding-bottom: 25px;
-  }
-
-  .site41_new_col12_INVENT .list-post-news .col-md-6 {
-    width: 100%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
-    width: 30%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
-    width: 69%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
-    padding-bottom: 25px;
-  }
-
-  .site41_new_col12_hoithaosukien .col-md-6 {
-    width: 100%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .img {
-    width: 30%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product {
-    width: 69%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product p {
-    padding-bottom: 25px;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc {
-    width: 100%;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right {
-    width: 100%;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
-    width: 75%;
-    float: left;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .title1_7 {
-    padding-bottom: 15px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
-    padding-left: 25px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
-    float: left;
-    width: 70%;
-    padding: 25px 0 25px 25px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
-    width: 75%;
-    float: left;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .title1_7 {
-    padding-bottom: 15px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
-    padding-left: 25px;
+  .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(3) {
+    -webkit-transform: translateY(-9px) rotate(-135deg);
+            transform: translateY(-9px) rotate(-135deg);
   }
 }
 @media (max-width: 1000px) {
@@ -5051,6 +5585,38 @@ li {
     max-width: 155px;
   }
 
+  .site41_head_col0_vcic .item-header-input .container .header-display {
+    position: relative;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
+    width: 50%;
+    margin-left: 25px;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .soe {
+    display: none;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search {
+    width: 100%;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .login {
+    position: absolute;
+    width: 10%;
+    right: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .login .log_in {
+    display: none;
+  }
+  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
+    padding: 0 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    right: 50px;
+  }
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     padding: 25px 0 50px 0;
   }
@@ -5062,108 +5628,11 @@ li {
   .site41_foot_col0_vcic .col-md-2 .list-cate li {
     padding-bottom: 15px;
   }
-
   .site41_foot_col0_vcic .col-md-2 .title12 {
     padding-bottom: 15px;
   }
-
   .site41_foot_col0_vcic .col-md-4 .title12 {
     margin: 20px 0;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .soe {
-    display: none;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
-    width: 50%;
-    margin-left: 25px;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search {
-    width: 100%;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display {
-    position: relative;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .login {
-    position: absolute;
-    right: 80px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-    padding: 0 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    right: 50px;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .login .log_in {
-    display: none;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .login {
-    width: 10%;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
-    margin-right: 65px;
-  }
-  .site41_prodel_col12_content_sp .item_lits_content nav .noxop {
-    margin: 0;
-  }
-
-  .site41_new_col12_hot_news .slide_hot_news .image_news {
-    width: 100%;
-    float: left;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
-    top: 95.6%;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
-    top: 95.6%;
-    left: 89%;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe {
-    width: 100%;
-    float: left;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
-    padding: 15px 0 10px 0;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe p {
-    padding-bottom: 5px;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
-    padding-bottom: 10px;
-  }
-
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
-    width: 35%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
-    width: 64%;
-  }
-
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
-    width: 35%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
-    width: 64%;
-  }
-
-  .site41_new_col12_hoithaosukien .col-md-6 .img {
-    width: 35%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product {
-    width: 64%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -5248,7 +5717,6 @@ li {
   .chuyengia .popup .content .item-product .item_personal_information ul {
     padding: 20px 0;
   }
-
   .chuyengia .popup .content .item-product .item_job_information {
     width: 65%;
   }
@@ -5262,34 +5730,19 @@ li {
     padding-left: 20px;
   }
 
-  .site41_head_col0_vcic .item-header-menu-top {
-    padding: 8px 15px;
+  .site41_foot_col0_vcic {
+    padding: 0 15px;
   }
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list {
-    width: 45%;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .cart {
-    padding: 0 25px;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .cart span {
-    left: 35px;
-  }
-
   .site41_foot_col0_vcic .col-md-4 {
     width: 100%;
     padding-bottom: 50px;
   }
-
   .site41_foot_col0_vcic .col-md-4 .item-input {
     padding-bottom: 50px;
   }
-
   .site41_foot_col0_vcic .col-md-4 .item-input input {
     width: 75%;
   }
-
   .site41_foot_col0_vcic .col-md-4 .item-input button {
     width: 7%;
   }
@@ -5297,61 +5750,26 @@ li {
   .site41_head_col0_vcic .item-header-top {
     padding: 10px;
   }
-
-  .site41_foot_col0_vcic {
-    padding: 0 15px;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-    width: 33.33333333%;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-    width: 33.33333333%;
-  }
-
-  .site41_prodel_col12_relate_to_Information .col-md-3 {
-    width: 50%;
-  }
-
   .site41_head_col0_vcic .item-header-input {
     padding: 15px 10px;
   }
-
-  .site41_bann_col0_slide_cg {
-    padding: 0 15px;
-  }
-
-  .site41_bann_col0_slide_news {
-    padding: 0 15px;
-  }
-
-  .site41_bann_col0_slide_news_detail {
-    padding: 0 15px;
-  }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
     width: 48%;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search input {
     width: 85%;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search button {
     width: 15%;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .cart {
     padding: 0 20px 0 63px;
     position: relative;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .cart span {
     top: -5px;
     left: 73px;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
     width: 15%;
     position: relative;
@@ -5360,195 +5778,18 @@ li {
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-
+  .site41_head_col0_vcic .item-header-menu-top {
+    padding: 8px 15px;
+  }
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list {
+    width: 45%;
+  }
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
     font-size: 16px;
   }
 
-  .site41_prodel_col12_chitietsp {
-    padding: 0 15px 50px 15px;
-  }
-
-  .site41_prodel_col12_content_sp {
-    padding: 0 15px;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content .nac {
-    visibility: hidden;
-    opacity: 0;
-    display: none;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content .title_it_content {
-    visibility: visible;
-    opacity: 1;
-    display: inline-block;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
-    margin-right: 0;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-    width: 55%;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
-    left: 55px;
-  }
-
   .btn.btn_lg {
     max-width: 220px;
-  }
-
-  .site41_prodel_col12_relate_to_Information {
-    padding: 0 15px;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
-    padding-right: 50px;
-  }
-
-  .site41_html_col12_chuyengia {
-    padding: 0 15px 50px 15px;
-  }
-
-  .site41_bann_col0_slide_cg {
-    height: 200px;
-  }
-  .site41_bann_col0_slide_cg .item-title {
-    padding-top: 40px;
-  }
-
-  .site41_bann_col0_slide_news {
-    height: 200px;
-  }
-  .site41_bann_col0_slide_news .item-title {
-    padding-top: 40px;
-  }
-
-  .site41_bann_col0_slide_news_detail {
-    height: 200px;
-  }
-  .site41_bann_col0_slide_news_detail .item-title {
-    padding-top: 40px;
-  }
-
-  .site41_html_col12_danhsachchuyengia {
-    padding: 25px 15px 50px 15px;
-  }
-  .site41_html_col12_danhsachchuyengia .Frame_13723 {
-    display: block;
-    padding: 20px 0;
-  }
-  .site41_html_col12_danhsachchuyengia .Frame_13723 .result {
-    padding-bottom: 20px;
-  }
-  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
-    width: 150px;
-  }
-
-  .site41_new_col12_hot_news {
-    padding: 50px 15px;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
-    top: 50%;
-    right: 3%;
-    width: 26px;
-    height: 63px;
-    background: #2f80ed38;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next:hover {
-    background: #8fc6f7ad;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
-    top: 50%;
-    left: 3%;
-    width: 26px;
-    height: 63px;
-    background: #2f80ed38;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev:hover {
-    background: #8fc6f7ad;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe {
-    width: 100%;
-    float: left;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
-    padding: 15px 0 10px 0;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe p {
-    padding-bottom: 5px;
-  }
-  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
-    padding-bottom: 10px;
-  }
-
-  .site41_new_col12_seminor_events {
-    padding: 0 15px 30px 15px;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
-    width: 40%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
-    width: 59%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-
-  .site41_new_col12_INVENT {
-    padding: 0 15px 50px 15px;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
-    width: 40%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
-    width: 59%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-
-  .site41_new_col12_hoithaosukien {
-    padding: 50px 15px;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .img {
-    width: 40%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product {
-    width: 59%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-
-  .site41_new_col8_page_chitiettintuc {
-    padding: 50px 15px;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page {
-    display: block;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item_title_page .main {
-    float: left;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
-    padding: 0 0 15px 15px;
-  }
-
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
-    display: block;
-    text-align: center;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
-    margin: auto;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
-    margin-top: 15px;
   }
 }
 /* man:  mobi */
@@ -5711,17 +5952,6 @@ li {
     margin: 10px 0;
   }
 
-  .site41_prodel_col12_chitietsp .item_Information .column {
-    width: 100%;
-    float: left;
-  }
-
-  .site41_prodel_col12_chitietsp .item_Information .detail {
-    width: 100%;
-    padding-left: 10px;
-    float: left;
-  }
-
   .chuyengia .popup .content .item-product .item_personal_information {
     width: 100%;
   }
@@ -5746,51 +5976,17 @@ li {
     width: 100%;
   }
 
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list {
-    width: 50%;
-  }
-
   .site41_head_col0_vcic .item-header-top .language {
     display: none;
   }
-
-  .site41_head_col0_vcic .item-header-input .container .cart {
-    padding: 0 0 0 15px;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .cart span {
-    left: 25px;
-  }
-
   .site41_head_col0_vcic .item-header-input {
     padding: 15px 10px;
   }
-
-  .site41_foot_col0_vcic .col-md-4 .item-input input {
-    width: 70%;
-  }
-
-  .site41_foot_col0_vcic .col-md-4 .item-input button {
-    width: 13%;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-    width: 50%;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-    width: 50%;
-  }
-
-  .site41_head_col0_vcic .item-header-menu-top .search-box {
-    display: inline-block;
-  }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
     display: none;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .cart {
+    padding: 0 0 0 15px;
     padding: 0 40px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5798,12 +5994,10 @@ li {
     position: absolute;
     right: 100px;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .cart span {
-    top: -6px;
     left: 50px;
+    top: -6px;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
     position: absolute;
     right: 50px;
@@ -5815,167 +6009,30 @@ li {
     display: -ms-flexbox;
     display: flex;
   }
-
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .croll_menu {
-    top: 16px;
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list {
+    width: 50%;
   }
-
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     padding: 25px 0;
   }
-
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li {
-    padding: 20px 0px 25px 30px;
-  }
-
-  .foot2 {
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu .foot2 {
     font-size: 65px;
   }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia {
-    padding-bottom: 50px;
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu li {
+    padding: 20px 0px 25px 30px;
+  }
+  .site41_head_col0_vcic .item-header-menu-top .search-box {
+    display: inline-block;
+  }
+  .site41_head_col0_vcic .item-header-menu-top .croll_menu {
+    top: 16px;
   }
 
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
-    position: absolute;
-    padding: 10px 0;
-    bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    border-bottom: 1px solid #F2F2F2;
-    border-top: 1px solid #F2F2F2;
+  .site41_foot_col0_vcic .col-md-4 .item-input input {
+    width: 70%;
   }
-
-  .site41_bann_col0_slide_cg {
-    height: 130px;
-  }
-  .site41_bann_col0_slide_cg .item-title {
-    padding-top: 10px;
-  }
-
-  .site41_bann_col0_slide_news {
-    height: 130px;
-  }
-  .site41_bann_col0_slide_news .item-title {
-    padding-top: 10px;
-  }
-
-  .site41_bann_col0_slide_news_detail {
-    height: 130px;
-  }
-  .site41_bann_col0_slide_news_detail .item-title {
-    padding-top: 10px;
-  }
-
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
-    width: 100%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
-    width: 100%;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all {
-    font-size: 13px;
-  }
-  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all img {
-    margin-top: -1px;
-    margin-left: 5px;
-  }
-
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
-    width: 100%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
-    width: 100%;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all {
-    font-size: 13px;
-  }
-  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all img {
-    margin-top: -1px;
-    margin-left: 5px;
-  }
-
-  .site41_new_col12_hoithaosukien .col-md-6 .img {
-    width: 100%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product {
-    padding-left: 0;
-    width: 100%;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product p {
-    padding-bottom: 0;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product .view-all {
-    font-size: 13px;
-  }
-  .site41_new_col12_hoithaosukien .col-md-6 .product .view-all img {
-    margin-top: -1px;
-    margin-left: 5px;
-  }
-
-  .site41_new_col8_page_chitiettintuc {
-    padding-top: 25px;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .title1_6 {
-    padding-bottom: 25px;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .date img {
-    margin-top: -1px;
-    margin-right: 2px;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit .operation .btn {
-    margin-right: 7px;
-    margin-bottom: 5px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
-    width: 85%;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
-    width: 85%;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
-    width: 85%;
-  }
-
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
-    /*huy fix*/
-    display: block;
-  }
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-    font-size: 16px;
-  }
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_red {
-    margin: auto;
-  }
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn_primary {
-    margin-top: 15px;
-  }
-
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    text-align: center;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
-    font-size: 16px;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
-    margin: 0 15px 0 0;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
-    margin-top: 0;
+  .site41_foot_col0_vcic .col-md-4 .item-input button {
+    width: 13%;
   }
 }
 @media screen and (max-width: 460px) {
@@ -5999,60 +6056,15 @@ li {
     margin: 10px 0;
   }
 
-  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-    width: 60%;
-  }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
-    left: 40px;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 130px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 130px;
-  }
-
-  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
+  .chuyengia .popup .content .item-product .item_job_information .list_job .title2_4 {
     font-size: 14px;
   }
-
   .chuyengia .popup .content .item-product .item_personal_information ul {
     padding-left: 10px;
   }
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
     font-size: 14px;
-  }
-
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn {
-    display: block;
-    text-align: center;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_red {
-    margin: auto;
-  }
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn_primary {
-    margin-top: 15px;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .gettit {
-    display: block;
-  }
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .date {
-    padding-bottom: 15px;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat {
-    width: 100%;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_html_col4_quangcao {
-    width: 100%;
-    padding: 25px 0;
-  }
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan {
-    width: 100%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -6071,56 +6083,24 @@ li {
     font-size: 50px;
   }
 
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-    padding: 15px 0 10px 0;
-  }
-
-  .site41_prodel_col12_relate_to_Information .col-md-3 {
-    width: 100%;
-  }
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-    right: 60px;
-  }
-
   .site41_head_col0_vcic .item-header-top .header-contact ul .header-tell {
     display: none;
   }
-
-  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-    width: 0%;
+  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
+    right: 60px;
   }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-    width: 100%;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 240px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-    width: 100%;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 240px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
-    width: 100px;
+  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
+    padding: 15px 0 10px 0;
   }
 
   .chuyengia .popup .content .item-product .item_personal_information ul li {
     display: block;
   }
-
   .chuyengia .popup .content .item-product .item_personal_information ul li .mail {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-
   .chuyengia .popup .content .item-product .item_personal_information ul li .image {
     height: 35px;
   }
@@ -6128,32 +6108,14 @@ li {
   .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
     font-size: 13px;
   }
-
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
-    padding-left: 0;
-  }
-
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
-    padding-left: 0;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-comment .check-cmt span {
-    padding-right: 10px;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
-    padding: 0px 0 4px 10px;
-  }
 }
 @media screen and (max-width: 285px) {
   .site41_head_col0_vcic .item-header-input .container .header-display .cart {
     display: none;
   }
-
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
     display: none;
   }
-
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     padding: 0;
   }
@@ -6167,27 +6129,7 @@ li {
     font-size: 10px;
   }
 
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 180px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 180px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
-    width: 70px;
-  }
-
   .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
     font-size: 12px;
-  }
-
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
-    font-size: 14px;
-  }
-
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-    font-size: 14px;
   }
 }

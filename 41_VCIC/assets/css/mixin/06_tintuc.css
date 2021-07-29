@@ -33,11 +33,11 @@
 }
 
 .site41_new_col12_hot_news {
-  padding: 50px 0;
+  padding: 35px 0;
   overflow: hidden;
 }
 .site41_new_col12_hot_news h2 {
-  padding-bottom: 30px;
+  padding-bottom: 35px;
   margin: 0;
 }
 .site41_new_col12_hot_news .slide_hot_news {
@@ -164,11 +164,14 @@
           align-items: center;
   padding: 10px 0;
 }
-.site41_new_col12_seminor_events .item-title a {
+.site41_new_col12_seminor_events .item-title .item-more_all {
+  padding-right: 30px;
+}
+.site41_new_col12_seminor_events .item-title .item-more_all a {
   text-decoration: none;
 }
 .site41_new_col12_seminor_events .list-post-news {
-  width: 100%;
+  margin: 0 -15px;
   float: left;
 }
 .site41_new_col12_seminor_events .list-post-news .col-md-6 {
@@ -246,11 +249,14 @@
           align-items: center;
   padding: 10px 0;
 }
-.site41_new_col12_INVENT .item-title a {
+.site41_new_col12_INVENT .item-title .item-more_all {
+  padding-right: 30px;
+}
+.site41_new_col12_INVENT .item-title .item-more_all a {
   text-decoration: none;
 }
 .site41_new_col12_INVENT .list-post-news {
-  width: 100%;
+  margin: 0 -15px;
   float: left;
 }
 .site41_new_col12_INVENT .list-post-news .col-md-6 {
@@ -310,4 +316,202 @@
 }
 .site41_new_col12_INVENT .list-post-news .col-md-6:hover .title {
   color: #2275BC;
+}
+
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 0 0 20px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 93.6%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 93.6%;
+    left: 83%;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 30%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 69%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 25px;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 30%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 69%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_new_col12_hot_news .slide_hot_news .image_news {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 95.6%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 95.6%;
+    left: 89%;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 15px 0 10px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
+    padding-bottom: 10px;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 35%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 64%;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 35%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 64%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_news {
+    padding: 0 15px;
+    height: 200px;
+  }
+  .site41_bann_col0_slide_news .item-title {
+    padding-top: 40px;
+  }
+
+  .site41_new_col12_hot_news {
+    padding: 50px 15px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next {
+    top: 50%;
+    right: 3%;
+    width: 26px;
+    height: 63px;
+    background: #2f80ed38;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-next:hover {
+    background: #8fc6f7ad;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev {
+    top: 50%;
+    left: 3%;
+    width: 26px;
+    height: 63px;
+    background: #2f80ed38;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide .slick-prev:hover {
+    background: #8fc6f7ad;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe {
+    width: 100%;
+    float: left;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .cd {
+    padding: 15px 0 10px 0;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe p {
+    padding-bottom: 5px;
+  }
+  .site41_new_col12_hot_news .slide_hot_news .cribe .date {
+    padding-bottom: 10px;
+  }
+
+  .site41_new_col12_seminor_events {
+    padding: 0 15px 30px 15px;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 40%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 59%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+
+  .site41_new_col12_INVENT {
+    padding: 0 15px 50px 15px;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 40%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 59%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_news {
+    height: 130px;
+  }
+  .site41_bann_col0_slide_news .item-title {
+    padding-top: 10px;
+  }
+
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .img {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product {
+    width: 100%;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all {
+    font-size: 13px;
+  }
+  .site41_new_col12_seminor_events .list-post-news .col-md-6 .product .view-all img {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
+
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .img {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product {
+    width: 100%;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product p {
+    padding-bottom: 0;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all {
+    font-size: 13px;
+  }
+  .site41_new_col12_INVENT .list-post-news .col-md-6 .product .view-all img {
+    margin-top: -1px;
+    margin-left: 5px;
+  }
 }
