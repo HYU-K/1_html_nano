@@ -1,0 +1,976 @@
+.container_fix {
+    max-width   : 1570px;
+    margin-left : auto;
+    margin-right: auto;
+    overflow    : hidden;
+}
+
+@media (max-width: 1600px) {
+    .container_fix {
+        max-width: 1400px;
+
+    }
+}
+
+@media (max-width: 1400px) {
+    .container_fix {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container_fix {
+        max-width: 970px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .container_fix {
+        max-width: 750px;
+    }
+}
+
+
+.site41_html_col0_taodulieu {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    background : #f2f5f8;
+    padding-top: 16px;
+    position   : relative;
+
+    .copyright {
+        font-size  : 14px;
+        line-height: 150.19%;
+        color      : #2275BC;
+        padding    : 11px 0;
+        width      : 100%;
+        text-align : center;
+    }
+
+    .container_fix {
+        display        : flex;
+        justify-content: space-between;
+
+        .bghome {
+
+            background: #FFFFFF;
+
+            .pro_left.active {
+                visibility: visible;
+                opacity   : 1;
+                z-index   : 100;
+            }
+
+            .pro_left {
+                background: #FFFFFF;
+                position  : relative;
+                width     : 300px;
+                height    : auto;
+
+                .icon_open_menu1 {
+                    position: absolute;
+                    right   : 15px;
+                    top     : 15px;
+                    display : none;
+                    width   : 20px;
+                    cursor  : pointer;
+
+                    span {
+                        display   : block;
+                        width     : 100%;
+                        height    : 2px;
+                        background: #000000;
+                        margin    : 0px 0;
+
+                        &:nth-child(1) {
+                            -webkit-transform: rotateZ(45deg);
+                            transform        : rotateZ(45deg);
+                        }
+
+                        &:nth-child(2) {
+                            display: none;
+                        }
+
+                        &:nth-child(3) {
+                            -webkit-transform: rotateZ(-45deg);
+                            transform        : rotateZ(-45deg);
+                            margin-top       : -1px;
+                        }
+                    }
+                }
+
+                .icon_open_menu1.active {
+                    display: block;
+                }
+
+                .avt {
+                    padding: 32px 0;
+
+                    .img {
+                        width        : 130px;
+                        height       : 130px;
+                        border-radius: 100%;
+                        overflow     : hidden;
+                        margin       : auto;
+                        margin-bottom: 19px;
+
+                        img {
+                            border-radius: 100%;
+                        }
+                    }
+
+                    h2 {
+                        font-weight   : 500;
+                        font-size     : 18px;
+                        line-height   : 150.19%;
+                        text-transform: uppercase;
+                        color         : #2275BC;
+                        text-align    : center;
+                        margin        : 0;
+                    }
+
+
+                }
+
+                ul {
+                    width: 100%;
+
+                    li {
+                        &:hover {
+                            a {
+                                .text {
+                                    color       : #2275BC;
+                                    padding-left: 7px;
+                                    font-weight : 500;
+
+
+                                }
+
+                                .img_cn {
+                                    padding-left: 13px;
+
+                                    .img_show {
+                                        display: block;
+                                    }
+
+                                    .img_hide {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        &.active {
+                            background: rgba(34, 117, 188, 0.1);
+
+                            a {
+                                .text {
+                                    color       : #2275BC;
+                                    padding-left: 7px;
+                                    font-weight : 500;
+                                }
+
+                                .img_cn {
+                                    padding-left: 13px;
+
+                                    .img_show {
+                                        display: block;
+                                    }
+
+                                    .img_hide {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        background : rgba(255, 255, 255, 0.1);
+                        width      : 100%;
+                        height     : 60px;
+                        display    : flex;
+
+                        a {
+                            display        : flex;
+                            align-items    : center;
+                            justify-content: space-between;
+                            width          : 100%;
+                            text-decoration: none;
+
+                            .img_cn {
+                                padding-left: 7px;
+
+                                .img_show {
+                                    display: none;
+                                }
+
+                                .img_hide {
+                                    display: block;
+                                }
+
+                            }
+
+                            .text {
+                                width      : calc(100% - 46px - 17px);
+                                font-weight: 500;
+                                font-size  : 18px;
+                                line-height: 150.19%;
+                                align-items: center;
+                                color      : #4F4F4F;
+                                white-space: nowrap;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+
+
+
+        .pro_right {
+            width      : calc(100% - 300px - 15px);
+            height     : 871px;
+            background : #FFFFFF;
+            padding    : 0 33px;
+            margin-left: 15px;
+
+            .content {
+                width          : auto;
+                background     : #2275BC;
+                height         : 60px;
+                display        : flex;
+                justify-content: center;
+                align-items    : center;
+                margin         : 0 -33px;
+
+                .icon_open_menu {
+                    display    : none;
+                    width      : 20px;
+                    margin-left: 15px;
+                    cursor     : pointer;
+
+                    span {
+                        display   : block;
+                        width     : 100%;
+                        height    : 2px;
+                        background: #ffffff;
+                        margin    : 5px 0;
+
+                        &:nth-child(1) {}
+
+                        &:nth-child(2) {}
+
+                        &:nth-child(3) {}
+                    }
+                }
+
+                h2 {
+
+                    font-weight: bold;
+                    font-size  : 24px;
+                    line-height: 150.19%;
+                    text-align : center;
+                    color      : #FFFFFF;
+                    margin     : auto;
+                }
+            }
+
+            .form_tt {
+                padding-bottom: 50px;
+
+                form {
+                    label {
+                        display      : inline-block;
+                        width        : 100%;
+                        margin-bottom: 8px;
+                        font-size    : 18px;
+                        font-weight  : normal;
+                        line-height  : 150.19%;
+                        color        : #333333;
+
+                        span {
+                            color: #EF4524;
+                        }
+
+                        &:nth-child(1) {
+                            margin-top: 20px;
+                        }
+
+                        &:nth-child(3),
+                        &:nth-child(4),
+                        &:nth-child(5) {
+                        width        : calc(100% / 3 - 20px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #333333;
+                        margin-bottom: 5px;
+                        }
+
+                        &:nth-child(9),
+                        &:nth-child(10),
+                        &:nth-child(11) {
+                        width        : calc(100% / 3 - 20px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #333333;
+                        margin-bottom: 5px;
+                        }
+
+                        &:nth-child(15),
+                        &:nth-child(16),
+                        &:nth-child(17) {
+                        width        : calc(100% / 3 - 20px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #333333;
+                        margin-bottom: 5px;
+                        }
+
+                        &:nth-child(5) {
+                            margin-right: 0;
+                        }
+
+                        &:nth-child(17) {
+                            margin-right: 0;
+                        }
+
+                        &:nth-child(11) {
+                            margin-right: 0;
+                        }
+
+                        
+
+                    }
+
+                    input,
+                    select {
+                        border       : 1px solid rgba(0, 63, 87, 0.3);
+                        box-sizing   : border-box;
+                        border-radius: 5px;
+                        padding      : 12px 0 12px 15px;
+                        width        : 100%;
+                        outline      : 0;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #000000;
+
+                        &::placeholder {
+                            font-size  : 18px;
+                            line-height: 150.19%;
+                            color      : #BDBDBD;
+                        }
+
+                        &::-webkit-input-placeholder {
+                            font-size  : 18px;
+                            line-height: 150.19%;
+                            color      : #BDBDBD;
+                        }
+                    }
+
+                    input {
+                        margin-bottom: 20px;
+                    }
+
+                    input:nth-child(2) {
+                        width: 100%;
+                    }
+
+                    input:nth-child(24),
+                    input:nth-child(25) {
+                        width        : calc(100% / 2 - 16px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #BDBDBD;
+                        margin-bottom: 20px;
+                    }
+
+                    input:nth-child(25) {
+                        margin-right: 0;
+                    }
+
+                    select * {
+                        color        : #000000;
+                        padding      : 12px 0 12px 15px;
+                        border       : 1px solid rgba(0, 63, 87, 0.3);
+                        box-sizing   : border-box;
+                        border-radius: 5px;
+                        outline      : 0;
+                        height       : 50px;
+
+                        option {
+                            color        : #000000;
+                            padding      : 12px 0 12px 15px;
+                            border       : 1px solid rgba(0, 63, 87, 0.3);
+                            box-sizing   : border-box;
+                            border-radius: 5px;
+                            outline      : 0;
+                            width        : 100%;
+                        }
+                    }
+
+                    select::selection {
+                        color: #000000;
+                    }
+
+                    select:nth-child(6),
+                    select:nth-child(7),
+                    select:nth-child(8) {
+                        width        : calc(100% / 3 - 16px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #BDBDBD;
+                        margin-bottom: 20px;
+                    }
+
+                    select:nth-child(12),
+                    select:nth-child(13),
+                    select:nth-child(14) {
+                        width        : calc(100% / 3 - 16px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #BDBDBD;
+                        margin-bottom: 20px;
+                    }
+
+                    select:nth-child(8) {
+                        margin-right: 0;
+                    }
+
+                    select:nth-child(14) {
+                        margin-right: 0;
+                    }
+
+                    select:nth-child(18),
+                    select:nth-child(19),
+                    select:nth-child(20) {
+                        width        : calc(100% / 3 - 16px);
+                        margin-right : 20px;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #BDBDBD;
+                        margin-bottom: 20px;
+                    }
+
+                    select:nth-child(20) {
+                        margin-right: 0;
+                    }
+
+                    button {
+                        background   : #2275BC;
+                        border-radius: 5px;
+                        font-weight  : normal;
+                        font-size    : 18px;
+                        line-height  : 150.19%;
+                        color        : #FFFFFF;
+                        padding      : 12px 20px;
+
+                        img {
+                            margin-right: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1400px) {
+
+    .site41_html_col0_taodulieu {
+
+
+        .copyright {
+            font-size: 14px;
+
+        }
+
+        .container_fix {
+
+
+
+            .bghome {
+                .pro_left {
+                    width: 260px;
+
+
+                    .avt {
+                        padding: 32px 0;
+
+                        .img {
+
+                            img {}
+                        }
+
+                        h2 {
+                            font-size: 15px;
+                        }
+
+
+                    }
+
+                    ul {
+
+
+                        li {
+                            &.active {
+
+                                a {
+                                    .text {}
+
+                                    .img_cn {
+                                        .img_show {}
+
+                                        .img_hide {}
+                                    }
+                                }
+                            }
+
+
+
+                            a {
+
+
+                                .img_cn {
+
+                                    .img_show {}
+
+                                    .img_hide {}
+
+                                }
+
+                                .text {
+                                    font-size: 15px;
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .pro_right {
+                width : calc(100% - 260px - 16px);
+                height: auto;
+
+                .content {
+
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                
+            }
+        }
+
+    }
+}
+
+@media (max-width:1000px) {
+
+    .site41_html_col0_taodulieu {
+
+
+        .copyright {
+            font-size: 13px;
+
+        }
+
+        .container_fix {
+            
+
+
+            .bghome {
+                .pro_left {
+                    width: 200px;
+
+
+                    .avt {
+                        padding: 15px 0;
+
+                        .img {
+
+                            img {}
+                        }
+
+                        h2 {
+                            font-size: 14px;
+                        }
+
+
+                    }
+
+                    ul {
+
+
+                        li {
+                            height: 50px;
+
+                            &.active {
+
+                                a {
+                                    .text {}
+
+                                    .img_cn {
+                                        .img_show {}
+
+                                        .img_hide {}
+                                    }
+                                }
+                            }
+
+
+
+                            a {
+
+
+                                .img_cn {
+
+                                    .img_show {}
+
+                                    .img_hide {}
+
+                                }
+
+                                .text {
+                                    font-size: 14px;
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .pro_right {
+                width : calc(100% - 200px - 16px);
+                height: auto;
+
+                .content {
+                    height : auto;
+                    padding: 10px 0;
+
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+
+                
+            }
+        }
+
+    }
+}
+
+@media (max-width:768px) {
+
+    .site41_html_col0_taodulieu {
+
+
+        .copyright {
+            font-size: 13px;
+
+        }
+
+        .container_fix {
+            padding: 0;
+
+
+            .bghome {
+                .pro_left {
+                    width     : 200px;
+                    position  : absolute;
+                    top       : 11%;
+                    transition: opacity 500ms;
+                    visibility: hidden;
+                    opacity   : 0;
+
+
+                    .avt {
+                        padding: 15px 0;
+
+
+                        .img {
+
+                            img {}
+                        }
+
+                        h2 {
+                            font-size: 14px;
+                        }
+
+
+                    }
+
+                    ul {
+
+
+                        li {
+                            height: 50px;
+
+                            &:hover {
+                                .pro_left {}
+
+                                a {
+                                    .text {
+                                        display: block;
+                                        color  : #2275BC;
+                                    }
+
+                                    .img_cn {
+
+                                        .img_show {
+                                            display: block;
+                                        }
+
+                                        .img_hide {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &.active {
+
+                                a {
+                                    .text {}
+
+                                    .img_cn {
+
+                                        .img_show {}
+
+                                        .img_hide {}
+                                    }
+                                }
+                            }
+
+
+
+                            a {
+
+
+                                .img_cn {
+
+                                    .img_show {}
+
+                                    .img_hide {}
+
+                                }
+
+                                .text {
+                                    font-size: 14px;
+
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .pro_right {
+                width      : 100%;
+                margin-left: 0;
+                padding    : 0 15px;
+
+                .content {
+                    height : auto;
+                    padding: 10px 15px;
+
+                    .icon_open_menu {
+                        display: block;
+
+                        span {}
+                    }
+
+
+                    h2 {
+                        font-size: 16px;
+                    }
+                }
+                .form_tt {
+                    padding-bottom: 50px;
+    
+                    form {
+                        label {
+                           
+    
+                            span {
+                               
+                            }
+    
+                            &:nth-child(1) {
+                               
+                            }
+    
+                            &:nth-child(3) {
+                                width: 100%;
+                            }
+    
+                            &:nth-child(4) {
+                                display: none;
+                            }
+                            &:nth-child(8){
+                               display: block;
+                            }
+                            &:nth-child(10) {
+                                
+                            }
+    
+                            &:nth-child(11) {
+                               
+                            }
+    
+                            &:nth-child(19) {
+                               
+                                width: 100%;
+                            }
+    
+                            &:nth-child(20) {
+                                display: none;
+                            }
+                            &:nth-child(22)
+                            {
+                                display: block;
+                                width: 100%;
+                            }
+                            &:nth-child(24) {
+                                width: 100%;
+                               
+                            }
+    
+                            &:nth-child(25) {
+                               display: none;
+                            }
+                            &:nth-child(27)
+                            {
+                                width: 100%;
+                                display: block;
+                            }
+    
+                        }
+    
+                        input,
+                        select {
+                           
+    
+                            &::placeholder {
+                                
+                            }
+    
+                            &::-webkit-input-placeholder {
+                            }
+                        }
+    
+                        input {
+                           
+                        }
+    
+                        input:nth-child(2) {
+                            
+                        }
+    
+                        input:nth-child(12) {
+                           
+                        }
+    
+                        input:nth-child(13) {
+                           
+                        }
+    
+                        input:nth-child(21) {
+                            width: 100%;
+                        }
+    
+                        input:nth-child(23) {
+                            width: 100%;
+                            margin-left: 0;
+                        }
+    
+                        input:nth-child(26) {
+                        width: 100%;
+                        }
+    
+                        input:nth-child(28) {
+                           
+                            width: 100%;
+                            margin-left: 0;
+                        }
+    
+                        select * {
+                            
+    
+                            option {
+                                
+                            }
+                        }
+    
+                        select::selection {
+                            color: #000000;
+                        }
+    
+                        select:nth-child(5),
+                        select:nth-child(6),
+                        select:nth-child(7) {
+                            width: calc(100% / 3 - 13px );
+                            margin-right: 15px;
+                        }
+    
+                        select:nth-child(9) {
+                            width: 100%;
+                            margin-left: 0;
+                        }
+    
+                        select:nth-child(7) {
+                            margin-right: 0px;
+                        }
+    
+                        select:nth-child(15),
+                        select:nth-child(16),
+                        select:nth-child(17) {
+                           
+                        }
+    
+                        select:nth-child(17) {
+                            
+                        }
+    
+                        button {
+                            
+    
+                            img {
+                                
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+
+    }
+
+    .bghome.active {
+        width     : 100%;
+        height    : 110%;
+        background: rgba(0, 0, 0, 0.7) !important;
+        position  : absolute;
+        top       : -58px;
+        left      : 0;
+        overflow  : hidden;
+        z-index   : 5000;
+    }
+}
