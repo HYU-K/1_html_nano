@@ -1118,6 +1118,7 @@ li {
           align-items: center;
   width: 100%;
   float: left;
+  /*huy fix*/
 }
 .site41_head_col0_vcic .item-header-input .container .header-display .logo-top {
   display: -webkit-box;
@@ -2097,6 +2098,7 @@ li {
   border: 1px solid #2275BC;
 }
 
+/**/
 .site41_bann_col0_slide_sp {
   background-image: url("../img/bg_sp.png");
   background-size: 100% 100%;
