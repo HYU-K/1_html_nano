@@ -5708,6 +5708,12 @@ li {
     margin: -6px 13px 0 0;
   }
 
+  .chuyengia .popup .content .close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 40px;
+  }
   .chuyengia .popup .content .item-product .item_personal_information {
     width: 35%;
   }
@@ -6056,7 +6062,7 @@ li {
     margin: 10px 0;
   }
 
-  .chuyengia .popup .content .item-product .item_job_information .list_job .title2_4 {
+  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
     font-size: 14px;
   }
   .chuyengia .popup .content .item-product .item_personal_information ul {
@@ -6068,22 +6074,6 @@ li {
   }
 }
 @media screen and (max-width: 400px) {
-  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
-    font-size: 13px;
-  }
-  .chuyengia .popup .content .item-product .item_personal_information ul li {
-    display: block;
-  }
-  .chuyengia .popup .content .item-product .item_personal_information ul li .mail {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-
-  .chuyengia .popup .content .item-product .item_personal_information ul li .image {
-    height: 35px;
-  }
-
   .order .popup .content label .item-title {
     margin-top: -70px;
   }
@@ -6095,86 +6085,37 @@ li {
     display: none;
   }
 
-<<<<<<< HEAD
- 
-
-  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-    right: 60px;
-=======
   .foot2 {
     font-size: 50px;
->>>>>>> aa662bbdf663b22c86312d4dca2d03d9526c2222
   }
 
   .site41_head_col0_vcic .item-header-top .header-contact ul .header-tell {
     display: none;
   }
-
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-    padding: 50px 30px 50px 25px;
-  }
-
-  .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-    font-size: 10px;
-  }
-  .site41_prodel_col12_relate_to_Information .col-md-3 {
-    width: 100%;
-  }
-  .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-    width: 0%;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-    width: 100%;
-  }
-
-  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 240px;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-    width: 100%;
-  }
-
-  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-    height: 240px;
+  .site41_head_col0_vcic .item-header-input .container .header-display .cart {
+    right: 60px;
   }
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     padding: 15px 0 10px 0;
   }
 
-  
-
-  
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-    width: 100%;
+  .chuyengia .popup .content .item-product .item_personal_information ul li {
+    display: block;
   }
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
-    height: 222px;
+  .chuyengia .popup .content .item-product .item_personal_information ul li .mail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
-
-  
-
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
-    padding-left: 0;
+  .chuyengia .popup .content .item-product .item_personal_information ul li .image {
+    height: 35px;
   }
 
-  .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
-    padding-left: 0;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-comment .check-cmt span {
-    padding-right: 10px;
-  }
-
-  .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
-    padding: 0px 0 4px 10px;
+  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 285px) {
-  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
-    font-size: 12px;
-  }
   .site41_head_col0_vcic .item-header-input .container .header-display .cart {
     display: none;
   }
@@ -6194,13 +6135,7 @@ li {
     font-size: 10px;
   }
 
-  
-
-  .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
-    font-size: 14px;
-  }
-
-  .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-    font-size: 14px;
+  .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
+    font-size: 12px;
   }
 }

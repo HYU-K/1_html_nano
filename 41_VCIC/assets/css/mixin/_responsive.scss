@@ -644,6 +644,12 @@
     .chuyengia {
         .popup {
             .content {
+                .close {
+                    position: absolute;
+                    top: 0px;
+                    right: 10px;
+                    font-size: 40px;
+                }
                 .item-product {
                     .item_personal_information {
                         width: 35%;
@@ -1097,9 +1103,10 @@
                 .item-product {
                     .item_job_information {
                         .list_job {
-                            .title {}
-                            .title2_4 {
-                                font-size: 14px;
+                            .title {
+                                .title2_4 {
+                                    font-size: 14px;
+                                }
                             }
                         }
                     }
