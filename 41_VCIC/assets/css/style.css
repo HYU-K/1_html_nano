@@ -863,11 +863,12 @@ li {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 0.1px;
+  padding-top: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #a7a7a7;
+  background-color: #FFFFFF;
 }
 
 .chuyengia {
@@ -2098,7 +2099,133 @@ li {
   border: 1px solid #2275BC;
 }
 
-/**/
+/* reponsive */
+@media screen and (max-width: 1750px) {
+  .site41_intr_col12_vcic .item-image {
+    right: 0;
+  }
+}
+@media (max-width: 1600px) {
+  .site41_intr_col12_vcic .item-image {
+    right: -7%;
+  }
+}
+@media (max-width: 1425px) {
+  .site41_intr_col12_vcic .item-image {
+    right: -15%;
+  }
+}
+@media (max-width: 1200px) {
+  .site41_intr_col12_vcic .item-image {
+    right: -30%;
+  }
+
+  .site41_pro_col12_ketquanghiencuu .item-title {
+    display: contents;
+  }
+  .site41_pro_col12_ketquanghiencuu .item-title ul {
+    position: relative;
+    padding-top: 20px;
+  }
+
+  .site41_new_col12_tintuc .item-product .main {
+    width: 100%;
+  }
+  .site41_new_col12_tintuc .item-product .list-products {
+    width: 100%;
+    padding: 50px 200px 0 10px;
+  }
+  .site41_new_col12_tintuc .item-product .list-products .extra {
+    padding-bottom: 35px;
+  }
+  .site41_new_col12_tintuc .item-product .list-products .extra .product {
+    padding-left: 25px;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_intr_col12_vcic .item-image {
+    visibility: hidden;
+  }
+  .site41_intr_col12_vcic .item-product {
+    width: 100%;
+  }
+  .site41_intr_col12_vcic .item-product ul .col-md-4 {
+    width: 33%;
+  }
+
+  .site41_new_col12_tintuc .item-product .list-products {
+    padding: 50px 10px 0 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_intr_col12_vcic {
+    padding: 0 15px 20px 15px;
+  }
+  .site41_intr_col12_vcic .item-product ul {
+    padding: 35px 0;
+  }
+
+  .site41_pro_col12_ketquanghiencuu {
+    padding: 30px 15px;
+  }
+  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
+    width: 33.33333333%;
+  }
+
+  .site41_new_col12_tintuc {
+    padding: 50px 15px;
+  }
+  .site41_new_col12_tintuc .item-title .item-more_all {
+    padding-right: 50px;
+  }
+
+  .site41_html_col12_doitac {
+    padding: 30px 15px;
+  }
+
+  .site41_html_col12_linklienket {
+    padding: 30px 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .site41_pro_col12_ketquanghiencuu .item-title ul {
+    display: none;
+  }
+  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
+    width: 50%;
+  }
+
+  .site41_new_col12_tintuc .item-product .list-products .extra .product {
+    padding-left: 15px;
+  }
+  .site41_new_col12_tintuc .item-product .list-products .extra .product .date {
+    display: none;
+  }
+  .site41_new_col12_tintuc .item-product .list-products .extra .product .title {
+    padding: 0;
+  }
+  .site41_new_col12_tintuc .item-title .item-more_all {
+    position: absolute;
+    padding: 10px 0;
+    bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .site41_html_col12_doitac .item-title ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
+    width: 100%;
+  }
+}
 .site41_bann_col0_slide_sp {
   background-image: url("../img/bg_sp.png");
   background-size: 100% 100%;
@@ -2599,6 +2726,70 @@ li {
   color: #2275BC;
 }
 
+/* repondive */
+@media (max-width: 1200px) {
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu {
+    padding-left: 15px;
+  }
+  .site41_sanpham .site41_profil_col3_danhmuckqnc {
+    padding: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu {
+    width: 100%;
+    float: left;
+    padding: 0;
+    padding-top: 30px;
+  }
+  .site41_sanpham .site41_profil_col3_danhmuckqnc {
+    width: 100%;
+    float: left;
+  }
+  .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_sp {
+    padding: 0 15px;
+    height: 200px;
+  }
+  .site41_bann_col0_slide_sp .item-title {
+    padding-top: 40px;
+  }
+
+  .site41_sanpham {
+    padding: 20px 15px;
+  }
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
+    width: 33.33333333%;
+  }
+}
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_sp {
+    height: 130px;
+  }
+  .site41_bann_col0_slide_sp .item-title {
+    padding-top: 10px;
+  }
+
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
+    width: 50%;
+  }
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-title .title {
+    display: contents;
+  }
+}
+@media screen and (max-width: 400px) {
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
+    width: 100%;
+  }
+  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
+    height: 222px;
+  }
+}
 .site41_prodel_col12_chitietsp {
   padding-bottom: 50px;
   overflow: hidden;
@@ -4375,11 +4566,6 @@ li {
 }
 
 /* end css body */
-@media screen and (max-width: 1750px) {
-  .site41_intr_col12_vcic .item-image {
-    right: 0;
-  }
-}
 @media (min-width: 1600px) {
   h1 {
     font-size: 40px;
@@ -4434,16 +4620,8 @@ li {
   .order .popup .content label .item-title h2 {
     font-size: 32px;
   }
-
-  .site41_intr_col12_vcic .item-image {
-    right: -7%;
-  }
 }
 @media (max-width: 1425px) {
-  .site41_intr_col12_vcic .item-image {
-    right: -15%;
-  }
-
   .chuyengia .popup .content .item-product .item_personal_information .introduce {
     padding: 0 10px;
   }
@@ -4498,10 +4676,6 @@ li {
 
   .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
     display: block;
-  }
-
-  .site41_intr_col12_vcic .item-image {
-    right: -30%;
   }
 
   .item-header-menu-top .container .menu-top .menu-wrapper {
@@ -4571,46 +4745,12 @@ li {
     float: none;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-title {
-    display: contents;
-  }
-
-  .site41_pro_col12_ketquanghiencuu .item-title ul {
-    position: relative;
-    padding-top: 20px;
-  }
-
-  .site41_new_col12_tintuc .item-product .main {
-    width: 100%;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products {
-    width: 100%;
-    padding: 50px 200px 0 10px;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products .extra {
-    padding-bottom: 35px;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products .extra .product {
-    padding-left: 25px;
-  }
-
   .site41_head_col0_vcic .item-header-input .container .item-recta .search button {
     width: 15%;
   }
 
   .site41_head_col0_vcic .item-header-input .container .item-recta .search input {
     width: 85%;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu {
-    padding-left: 15px;
-  }
-
-  .site41_sanpham .site41_profil_col3_danhmuckqnc {
-    padding: 0;
   }
 
   .site41_head_col0_vcic .item-header-input .container .header-display .login {
@@ -4919,34 +5059,6 @@ li {
     height: 60px;
   }
 
-  .site41_intr_col12_vcic .item-image {
-    visibility: hidden;
-  }
-
-  .site41_intr_col12_vcic .item-product {
-    width: 100%;
-  }
-
-  .site41_intr_col12_vcic .item-product ul .col-md-4 {
-    width: 33%;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products {
-    padding: 50px 10px 0 10px;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu {
-    width: 100%;
-    float: left;
-    padding: 0;
-    padding-top: 30px;
-  }
-
-  .site41_sanpham .site41_profil_col3_danhmuckqnc {
-    width: 100%;
-    float: left;
-  }
-
   .site41_foot_col0_vcic .col-md-2 .list-cate li {
     padding-bottom: 15px;
   }
@@ -4991,10 +5103,6 @@ li {
     display: flex;
     position: absolute;
     right: 50px;
-  }
-
-  .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input {
-    margin-top: 12px;
   }
 
   .site41_head_col0_vcic .item-header-input .container .header-display .login .log_in {
@@ -5169,10 +5277,6 @@ li {
     left: 35px;
   }
 
-  .site41_intr_col12_vcic .item-product ul {
-    padding: 35px 0;
-  }
-
   .site41_foot_col0_vcic .col-md-4 {
     width: 100%;
     padding-bottom: 50px;
@@ -5194,26 +5298,6 @@ li {
     padding: 10px;
   }
 
-  .site41_intr_col12_vcic {
-    padding: 0 15px 20px 15px;
-  }
-
-  .site41_new_col12_tintuc {
-    padding: 50px 15px;
-  }
-
-  .site41_pro_col12_ketquanghiencuu {
-    padding: 30px 15px;
-  }
-
-  .site41_html_col12_doitac {
-    padding: 30px 15px;
-  }
-
-  .site41_html_col12_linklienket {
-    padding: 30px 15px;
-  }
-
   .site41_foot_col0_vcic {
     padding: 0 15px;
   }
@@ -5226,28 +5310,12 @@ li {
     width: 33.33333333%;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-    width: 33.33333333%;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-    width: 33.33333333%;
-  }
-
   .site41_prodel_col12_relate_to_Information .col-md-3 {
     width: 50%;
   }
 
   .site41_head_col0_vcic .item-header-input {
     padding: 15px 10px;
-  }
-
-  .site41_sanpham {
-    padding: 20px 15px;
-  }
-
-  .site41_bann_col0_slide_sp {
-    padding: 0 15px;
   }
 
   .site41_bann_col0_slide_cg {
@@ -5340,23 +5408,12 @@ li {
     padding: 0 15px;
   }
 
-  .site41_new_col12_tintuc .item-title .item-more_all {
-    padding-right: 50px;
-  }
-
   .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
     padding-right: 50px;
   }
 
   .site41_html_col12_chuyengia {
     padding: 0 15px 50px 15px;
-  }
-
-  .site41_bann_col0_slide_sp {
-    height: 200px;
-  }
-  .site41_bann_col0_slide_sp .item-title {
-    padding-top: 40px;
   }
 
   .site41_bann_col0_slide_cg {
@@ -5709,26 +5766,6 @@ li {
     padding: 15px 10px;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-title ul {
-    display: none;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products .extra .product {
-    padding-left: 15px;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products .extra .product .date {
-    display: none;
-  }
-
-  .site41_new_col12_tintuc .item-product .list-products .extra .product .title {
-    padding: 0;
-  }
-
-  .site41_html_col12_doitac .item-title ul {
-    display: none;
-  }
-
   .site41_foot_col0_vcic .col-md-4 .item-input input {
     width: 70%;
   }
@@ -5743,18 +5780,6 @@ li {
 
   .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
     width: 50%;
-  }
-
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-    width: 50%;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-    width: 50%;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-title .title {
-    display: contents;
   }
 
   .site41_head_col0_vcic .item-header-menu-top .search-box {
@@ -5807,19 +5832,6 @@ li {
     font-size: 65px;
   }
 
-  .site41_new_col12_tintuc .item-title .item-more_all {
-    position: absolute;
-    padding: 10px 0;
-    bottom: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
   .site41_html_col12_chuyengia .item_lits_content_chuyengia {
     padding-bottom: 50px;
   }
@@ -5837,13 +5849,6 @@ li {
             justify-content: center;
     border-bottom: 1px solid #F2F2F2;
     border-top: 1px solid #F2F2F2;
-  }
-
-  .site41_bann_col0_slide_sp {
-    height: 130px;
-  }
-  .site41_bann_col0_slide_sp .item-title {
-    padding-top: 10px;
   }
 
   .site41_bann_col0_slide_cg {
@@ -5994,10 +5999,6 @@ li {
     margin: 10px 0;
   }
 
-  .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-    width: 100%;
-  }
-
   .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
     width: 60%;
   }
@@ -6122,13 +6123,6 @@ li {
 
   .chuyengia .popup .content .item-product .item_personal_information ul li .image {
     height: 35px;
-  }
-
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-    width: 100%;
-  }
-  .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 .product .item-img {
-    height: 222px;
   }
 
   .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
