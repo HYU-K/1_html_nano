@@ -413,16 +413,49 @@
 .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(20) {
   margin-right: 0;
 }
-.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form button {
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .item_img_file {
+  margin-bottom: 35px;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .item_img_file a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150.19%;
+  color: #2275BC;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .item_img_file a img {
+  margin-right: 10px;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .item_img_file a:nth-child(1) {
+  margin-right: 85px;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .luu {
   background: #2275BC;
   border-radius: 5px;
   font-weight: normal;
   font-size: 18px;
   line-height: 150.19%;
   color: #FFFFFF;
-  padding: 12px 20px;
+  padding: 12px 31px;
+  margin-right: 25px;
 }
-.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form button img {
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .luu img {
+  margin-top: -3px;
+  margin-right: 12px;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .nop {
+  background: #00B2E7;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150.19%;
+  color: #FFFFFF;
+  padding: 12px 31px;
+}
+.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form .nop img {
+  margin-top: -3px;
   margin-right: 12px;
 }
 
