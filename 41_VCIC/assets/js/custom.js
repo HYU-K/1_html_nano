@@ -217,7 +217,7 @@ $('.title_it_content').slick({
 			$('.item-header-input').removeClass('croll');
 			$('.menu-wrapper').removeClass('croll_menu');
 		}
-		if (pos_body > 900) {
+		if (pos_body > 300) {
 			$('.backtotop').addClass('show');
 		}
 		else {
