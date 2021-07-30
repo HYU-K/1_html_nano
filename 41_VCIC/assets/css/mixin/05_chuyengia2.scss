@@ -1,117 +1,225 @@
 .site41_html_col12_danhsachchuyengia {
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+  .item_title {
+    /*huy fix*/
     width: 100%;
-    padding: 50px 0;
-    overflow: hidden;
-    .item_title {
-        width: 100%;
-        float: left;
-        h2 {
-            text-align: center;
-        }
+    float: left;
+    padding-bottom: 15px;
+    h2 {
+      margin: 0;
+      text-align: center;
     }
-    .Frame_13723 {
-        width: 100%;
-        float: left;
-        justify-content: space-between;
-        display: flex;
-        align-items: center;
-        padding: 35px 0;
-        .result {
-            p {
-                margin: 0;
-            }
-        }
-        .item-list-unit {
-            position: relative;
-            float: right;
-            padding: 5px 10px;
-            border: 1px solid #E0E0E0;
-            box-sizing: border-box;
-            border-radius: 5px;
-            &::before {
-                position: absolute;
-                content: url('../img/sapxep.png');
-                top: 4px;
-                left: -35px;
-                cursor: pointer;
-                pointer-events: none;
-                transition: all 0.5s;
-              }
-            &::after {
-                position: absolute;
-                width: 1px;
-                height: 16px;
-                content: "";
-                background: #DBDBDB;
-                top: 9px;
-                left: 51%;
-            }
-            select {
-                width: 223px;
-                outline: 0;
-                option {
-                    margin-right: 10px;
-                }
-            }
-            .donvicongtac {
-                padding-left: 20px;
-            }
-        }
+  }
+  .Frame_13723 {
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    .result {
+      p {
+        margin: 0;
+      }
     }
-    .item-list-sp {
+    .item-list-unit {
+      position: relative;
+      float: right;
+      padding: 5px 10px;
+      border: 1px solid #E0E0E0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      &::before {
+        position: absolute;
+        content: url('../img/sapxep.png');
+        top: 4px;
+        left: -35px;
+        cursor: pointer;
+        pointer-events: none;
+        transition: all 0.5s;
+      }
+      &::after {
+        position: absolute;
+        width: 1px;
+        height: 16px;
+        content: "";
+        background: #DBDBDB;
+        top: 9px;
+        left: 51%;
+      }
+      select {
+        width: 223px;
+        outline: 0;
+        option {
+          margin-right: 10px;
+        }
+      }
+      .donvicongtac {
+        padding-left: 20px;
+      }
+    }
+  }
+  .item-list-sp {
+    margin: 0 -15px;
+    float: left;
+    .col-md-3 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      .product {
         width: 100%;
-        float: left;
-        .col-md-3 {
-          padding-top: 10px;
-          padding-bottom: 10px;
-          .product {
+        .item-img {
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          height: 192px;
+          border-radius: 5px;
+          img {
             width: 100%;
-            .item-img {
-              overflow: hidden;
-              position: relative;
-              width: 100%;
-              height: 192px;
-              border-radius: 5px;
-              img {
-                width: 100%;
-                height: 100%;
-                transform: scale(1);
-                transition: all 0.5s;
-              }
+            height: 100%;
+            transform: scale(1);
+            transition: all 0.5s;
+          }
+        }
+        .content {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          padding-top: 30%;
+          top: 0;
+          left: 0;
+          text-align: center;
+          z-index: -1;
+          background: rgba(52, 52, 52, 0.2);
+          .btn {
+            padding: 10px 12px;
+          }
+        }
+        &:hover {
+          transition: all 0.5s;
+          .content {
+            z-index: 1;
+          }
+          img {
+            transform: scale(1.1);
+          }
+          .detai {
+            h2 {
+              font-weight: bold;
+              color: #2275BC;
             }
-            .content {
-              position: absolute;
-              width: 100%;
-              height: 100%;
-              padding-top: 30%;
-              top: 0;
-              left: 0;
-              text-align: center;
-              z-index: -1;
-              background: rgba(52, 52, 52, 0.2);
-              .btn {
-                padding: 10px 12px;
-              }
-            }
-            &:hover {
-              transition: all 0.5s;
-              .content {
-                z-index: 1;
-              }
-              img {
-                transform: scale(1.1);
-              }
-              .detai {
-                h2 {
-                    font-weight: bold;
-                  color: #2275BC;
-                }
-                p {
-                  color: #2275BC;
-                }
-              }
+            p {
+              color: #2275BC;
             }
           }
         }
+      }
     }
+  }
+}
+
+
+
+/* repondive */
+
+@media (max-width:1200px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 155px;
+  }
+}
+
+
+
+@media (max-width:1000px) {
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .site41_html_col12_danhsachchuyengia {
+    padding: 25px 15px 50px 15px;
+    .item-list-sp {
+      .col-md-3 {
+        width: 33.33333333%;
+      }
+    }
+    .Frame_13723 {
+      display: block;
+      padding: 20px 0;
+      .result {
+        padding-bottom: 20px;
+      }
+      .item-list-unit {
+        select {
+          width: 150px;
+        }
+      }
+    }
+  }
+ 
+}
+
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 130px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .site41_html_col12_danhsachchuyengia {
+    .item-list-sp {
+      .col-md-3 {
+        width: 100%;
+        .product {
+          .item-img {
+            height: 240px;
+          }
+        }
+      }
+    }
+    .Frame_13723 {
+      .item-list-unit select {
+        width: 100px;
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 285px) {
+  .site41_html_col12_danhsachchuyengia {
+    .item-list-sp {
+      .col-md-3 {
+        .product {
+          .item-img {
+            height: 180px;
+          }
+        }
+      }
+    }
+    .Frame_13723 {
+      .item-list-unit {
+        select {
+          width: 70px;
+        }
+      }
+    }
+  }
 }

@@ -78,9 +78,9 @@ let renderHeaderInput = () => {
     return header_input;
 }
 
-let renderMenu = () => {
+let renderMenu = () => {/*huy fix*/
     var menu = '<section class="item-header-menu-top"><div class="container"><div class="row"><div class="menu-top"><div class="menu-wrapper"><div class="hamburger"><span></span><span></span><span></span></div></div>';
-    var list = '<ul class="menu-list accordion"><li class="logo-menu"><a href="" title=""><img src="./assets/img/VCIC.png" alt=""></a></li>';
+    var list = '<ul class="menu-list accordion"><li class="logo-menu"><a href="" title="" class="foot2">VCIC</a></li>';
     var search_box = '<div class="search-box"><input type="text" placeholder=" " /><span></span></div>';
     var btn_buy = '<div class="item-popup"><a href="#popup1" title="" class="btn btn_header btn_sw">Đặt mua</a></div>'
     $.each(menu_list, function (index, value) {

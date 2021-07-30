@@ -1,11 +1,3 @@
-@media screen and (max-width: 1750px) {
-    .site41_intr_col12_vcic .item-image {
-        right: 0;
-    }
-    
-}
-
-
 @media (min-width:1600px) {
     h {
         &1 {
@@ -82,17 +74,9 @@
             }
         }
     }
-    .site41_intr_col12_vcic .item-image {
-        right: -7%;
-    }
-    
-
 }
 
 @media (max-width: 1425px) {
-    .site41_intr_col12_vcic .item-image {
-      right: -15%;
-    }
     .chuyengia .popup .content .item-product .item_personal_information .introduce {
         padding: 0 10px;
     }
@@ -115,6 +99,7 @@
 }
 
 @media (max-height: 768px) {
+
 }
 
 @media (max-width:1200px) {
@@ -160,209 +145,91 @@
         width: 70%;
         height: 90%;
     }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        display: block;
+    .site41_head_col0_vcic {
+        .item-header-input {
+            .container {
+                .item-recta {
+                    .search {
+                        button {
+                            width: 15%;
+                        }
+                        input {
+                            width: 85%;
+                        }
+                    }
+                }
+                .header-display {
+                    .login {
+                        width: 27%;
+                        display: flex;
+                        .conten {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .item-header-menu-top {
+            .menu-top {
+                .menu-list {
+                    padding-left: 0;
+                    top: 0;
+                    display: block;
+                    position: fixed;
+                    background: #FFFFFF;
+                    box-shadow: rgba(100,100,100,0.2) 6px 2px 10px;
+                    z-index: 999;
+                    overflow: hidden;
+                    overflow-x: hidden;
+                    overflow-y: scroll;
+                    margin: 0 0 0 0;
+                    height: 100%;
+                    width: 35%;
+                    right: 100%;
+                    .logo-menu {
+                        display: block;
+                    }
+                    li {
+                        padding: 30px 0px 30px 40px;
+                        .menu1 {
+                            font-size: 20px;
+                            color: #2275BC;
+                        }
+                    }
+                }
+                .menu-wrapper {
+                    display: block;
+                }
+            }
+            .item-popup {
+                .btn {
+                    float: none;
+                }
+            }
+        }
     }
-    .site41_intr_col12_vcic .item-image {
-        right: -30%;
-    }
-    .item-header-menu-top .container .menu-top .menu-wrapper {
-        display: block;
-    }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(1) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(1) {
         top: 0;
     }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(2) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(2) {
         top: 9px;
     }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(3) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger span:nth-child(3) {
         top: 18px;
     }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(1) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(1) {
         transform: translateY(9px) rotate(135deg);
     }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(2) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(2) {
         opacity: 0;
         transform: translateX(-60px);
     }
-    .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(3) {
+    .site41_head_col0_vcic .item-header-menu-top .container .menu-top .menu-wrapper .hamburger.open span:nth-child(3) {
         transform: translateY(-9px) rotate(-135deg);
     }
-    .site41_head_col0_vcic .item-header-menu-top .item-popup .btn {
-        float: left;
-    }
-    .item-header-menu-top .container .menu-top .menu-list {
-        padding-left: 0;
-        top: 0;
-        display: inline-grid;
-        position: fixed;
-        background: #FFFFFF;
-        box-shadow: rgba(100,100,100,0.2) 6px 2px 10px;
-        z-index: 999;
-        overflow-y: auto;
-        overflow-x: hidden;
-        margin: 0 0 0 0;
-        padding-bottom: 100pc;
-        width: 50%;
-        right: 100%;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li {
-    padding-bottom: 80px;
-    padding-left: 40px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-        font-size: 20px;
-        color: #2275BC;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .btn {
-        float: none;
-    }
-    .site41_pro_col12_ketquanghiencuu .item-title {
-        display: contents;
-    }
-    .site41_pro_col12_ketquanghiencuu .item-title ul {
-        position: relative;
-        padding-top: 20px;
-    }
-    .site41_new_col12_tintuc .item-product .main {
-        width: 100%;
-    }
-    .site41_new_col12_tintuc .item-product .list-products {
-        width: 100%;
-        padding: 50px 200px 0 10px;
-    }
-    .site41_new_col12_tintuc .item-product .list-products .extra {
-        padding-bottom: 35px;
-    }
-    .site41_new_col12_tintuc .item-product .list-products .extra .product {
-        padding-left: 25px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .item-recta .search button {
-        width: 15%;
-    }
-    .site41_head_col0_vcic .item-header-input .container .item-recta .search input {
-        width: 85%;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu {
-        padding-left: 15px;
-    }
-    .site41_sanpham .site41_profil_col3_danhmuckqnc {
-        padding: 0;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        width: 27%;
-        display: flex;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login .conten {
-        display: none;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 155px;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 155px;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav {
-        .title3_3 {
-            margin-right: 88px;
-        }
-        .noxop {
-            margin: 0;
-        }
-    }
-    .site41_new_col12_hot_news .slide_hot_news .cribe {
-        .cd {
-            padding: 0 0 20px 0;
-        }
-        p {
-            padding-bottom: 5px;
-        }
-    }
-    .site41_new_col12_hot_news .slide_hot_news .image_news .news-slide {
-        .slick-next {
-            top: 93.6%;
-        }
-        .slick-prev {
-            top: 93.6%;
-            left: 83%;
-        }
-    }
-    .site41_new_col12_seminor_events .list-post-news {
-        .col-md-6 {
-            width: 100%;
-            .img {
-                width: 30%;
-            }
-            .product {
-                width: 69%;
-                p {
-                    padding-bottom: 25px;
-                }
-            }
-        }
-    }
-    .site41_new_col12_INVENT .list-post-news {
-        .col-md-6 {
-            width: 100%;
-            .img {
-                width: 30%;
-            }
-            .product {
-                width: 69%;
-                p {
-                    padding-bottom: 25px;
-                }
-            }
-        }
-    }
-    .site41_new_col12_hoithaosukien {
-        .col-md-6 {
-            width: 100%;
-            .img {
-                width: 30%;
-            }
-            .product {
-                width: 69%;
-                p {
-                    padding-bottom: 25px;
-                }
-            }
-        }
-    }
-    .site41_new_col8_page_chitiettintuc {
-        .site41_new_col8_chitiettintuc {
-            width: 100%;
-        }
-        .item_product_right {
-            width: 100%;
-            .site41_new_col4_tinnoibat {
-                width: 75%;
-                float: left;
-                .title1_7 {
-                    padding-bottom: 15px;
-                }
-                .list_news_hot {
-                    padding-left: 25px;
-                }
-            }
-            .site41_html_col4_quangcao {
-                float: left;
-                width: 70%;
-                padding: 25px 0 25px 25px;
-            }
-            .site41_new_col4_tinlienquan {
-                width: 75%;
-                float: left;
-                .title1_7 {
-                    padding-bottom: 15px;
-                }
-                .list_news_hot {
-                    padding-left: 25px;
-                }
-            }
-        }
-    }
 }
+
 
 @media (max-width:1000px) {
     h {
@@ -562,7 +429,6 @@
         }
     }
     
-    
     .nd {
     
         &1 {
@@ -581,6 +447,12 @@
     
         &3 {
             font-size: 11px;
+        }
+    }
+    
+    .foot {
+        &2 {
+            font-size: 80px;
         }
     }
 
@@ -607,136 +479,67 @@
             }
         }
     }
+    .site41_head_col0_vcic {
+        .item-header-input {
+            .container {
+                .header-display {
+                    position: relative;
+                    .item-recta {
+                        width: 50%;
+                        margin-left: 25px;
+                        .soe {
+                            display: none;
+                        }
+                        .search {
+                            width: 100%;
+                        }
+                    }
+                    .login {
+                        position: absolute;
+                        width: 10%;
+                        right: 80px;
+                        display: flex;
+                        .log_in {
+                            display: none;
+                        }
+                    }
+                    .cart {
+                        padding: 0 40px;
+                        display: flex;
+                        position: absolute;
+                        right: 50px;
+                    }
+                }
+            }
+           
+        }
+        .item-header-menu-top {
+            .menu-top {
+                .menu-list {
+                    .logo-menu {
+                        padding: 25px 0 50px 0;
+                    }
+                }
+            }
+        }
+    }
     .chuyengia .popup .content .item-product .item_personal_information ul li .image {
         height: 60px;
     }
-    .site41_intr_col12_vcic .item-image {
-        visibility: hidden;
-    }
-    .site41_intr_col12_vcic .item-product {
-        width: 100%;
-    }
-    .site41_intr_col12_vcic .item-product ul .col-md-4 {
-        width: 33%;
-    }
-    .site41_new_col12_tintuc .item-product .list-products {
-        padding: 50px 10px 0 10px;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu {
-        width: 100%;
-        float: left;
-        padding: 0;
-        padding-top: 30px;
-    }
-    .site41_sanpham .site41_profil_col3_danhmuckqnc {
-        width: 100%;
-        float: left;
-    }
-    .site41_foot_col0_vcic .col-md-2 .list-cate li {
-        padding-bottom: 15px;
-    }
-    .site41_foot_col0_vcic .col-md-2 .title12 {
-        padding-bottom: 15px;
-    }
-    .site41_foot_col0_vcic .col-md-4 .title12 {
-        margin: 20px 0;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .soe {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
-        width: 50%;
-        margin-left: 25px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search {
-        width: 100%;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display {
-        position: relative;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        position: absolute;
-        right: 80px;
-        display: flex;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-        padding: 0 40px;
-        display: flex;
-        position: absolute;
-        right: 50px;
-    }
-    .site41_sanpham .site41_profil_col3_danhmuckqnc .item_fields .extra li input {
-        margin-top: 12px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login .log_in {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        width: 10%;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav {
-        .title3_3 {
-            margin-right: 65px;
-        }
-        .noxop {
-            margin: 0;
-        }
-    }
-    .site41_new_col12_hot_news .slide_hot_news {
-        .image_news {
-            width: 100%;
-            float: left;
-            .news-slide {
-                .slick-next {
-                    top: 95.6%;
-                }
-                .slick-prev {
-                    top: 95.6%;
-                    left: 89%;
+    .site41_foot_col0_vcic {
+        .col-md-2 {
+            .list-cate {
+                li {
+                    padding-bottom: 15px;
                 }
             }
-        }
-        .cribe {
-            width: 100%;
-            float: left;
-            .cd {
-                padding: 15px 0 10px 0;
-            }
-            p {
-                padding-bottom: 5px;
-            }
-            .date {
-                padding-bottom: 10px;
+            .title12 {
+                padding-bottom: 15px;
             }
         }
-    }
-    .site41_new_col12_seminor_events .list-post-news {
-        .col-md-6 {
-            .img {
-                width: 35%;
-            }
-            .product {
-                width: 64%;
-            }
-        }
-    }
-    .site41_new_col12_INVENT .list-post-news {
-        .col-md-6 {
-            .img {
-                width: 35%;
-            }
-            .product {
-                width: 64%;
-            }
-        }
-    }
-    .site41_new_col12_hoithaosukien {
-        .col-md-6 {
-            .img {
-                width: 35%;
-            }
-            .product {
-                width: 64%;
+        .col-md-4 {
+            .title12 {
+                margin: 20px 0;
             }
         }
     }
@@ -838,348 +641,111 @@
             }
         }
     }
-    .chuyengia .popup .content .item-product .item_personal_information {
-        width: 35%;
-        .avt {
-            img {
-                width: 100px;
-            }
-        }
-        ul {
-            padding: 20px 0;
-        }
-    }
-    .chuyengia .popup .content .item-product .item_job_information {
-        width: 65%;
-        .list_job {
-            .time_list_job {
-                .list_yearh {
-                    .md_title {
-                        display: contents;
-                        span {
-                            padding: 10px 0 10px 10px;
+    .chuyengia {
+        .popup {
+            .content {
+                .item-product {
+                    .item_personal_information {
+                        width: 35%;
+                        .avt {
+                            img {
+                                width: 100px;
+                            }
+                        }
+                        ul {
+                            padding: 20px 0;
                         }
                     }
-                    .list_2_5 {
-                        padding-left: 20px;
+                    .item_job_information {
+                        width: 65%;
+                        .list_job {
+                            .time_list_job {
+                                .list_yearh {
+                                    .md_title {
+                                        display: contents;
+                                        span {
+                                            padding: 10px 0 10px 10px;
+                                        }
+                                    }
+                                    .list_2_5 {
+                                        padding-left: 20px;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
-    }
-    .site41_head_col0_vcic .item-header-input .container .cart {
-        padding: 0 25px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .cart span {
-        left: 35px;
-    }
-    .site41_intr_col12_vcic .item-product ul {
-        padding: 35px 0;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        padding: 50px 180px 100px 25px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li {
-        padding-left: 35px;
-        padding-bottom: 50px;
-    }
-    .site41_foot_col0_vcic .col-md-4 {
-        width: 100%;
-        padding-bottom: 50px;
-    }
-    .site41_foot_col0_vcic .col-md-4 .item-input {
-        padding-bottom: 50px;
-    }
-    .site41_foot_col0_vcic .col-md-4 .item-input input {
-        width: 75%;
-    }
-    .site41_foot_col0_vcic .col-md-4 .item-input button {
-        width: 7%;
-    }
-    .site41_head_col0_vcic .item-header-top {
-        padding: 10px;
-    }
-    .site41_intr_col12_vcic {
-        padding: 0 15px 20px 15px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .site41_new_col12_tintuc {
-        padding: 50px 15px;
-    }
-    .site41_pro_col12_ketquanghiencuu {
-        padding: 30px 15px;
-    }
-    .site41_html_col12_doitac {
-        padding: 30px 15px;
-    }
-    .site41_html_col12_linklienket {
-        padding: 30px 15px;
     }
     .site41_foot_col0_vcic {
         padding: 0 15px;
+        .col-md-4 {
+            width: 100%;
+            padding-bottom: 50px;
+            .item-input {
+                padding-bottom: 50px;
+                input {
+                    width: 75%;
+                }
+                button {
+                    width: 7%;
+                }
+            }
+        }
     }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-        width: 33.33333333%;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-        width: 33.33333333%;
-    }
-    .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-        width: 33.33333333%;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-        width: 33.33333333%;
-    }
-    .site41_prodel_col12_relate_to_Information .col-md-3 {
-        width: 50%;
-    }
-    .site41_head_col0_vcic .item-header-input {
-        padding: 15px 10px;
-    }
-    
-    .site41_sanpham {
-        padding: 20px 15px;
-    }
-    .site41_bann_col0_slide_sp {
-        padding: 0 15px;
-    }
-    .site41_bann_col0_slide_cg {
-        padding: 0 15px;
-    }
-    .site41_bann_col0_slide_news {
-        padding: 0 15px;
-    }
-    .site41_bann_col0_slide_news_detail {
-        padding: 0 15px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
-        width: 48%;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search input {
-        width: 85%;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta .search button {
-        width: 15%;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-        padding: 0 20px 0 63px;
-        position: relative;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart span {
-        top: -5px;
-        left: 73px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        width: 15%;
-        position: relative;
-        margin-left: -50px;
-        justify-content: flex-end;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-        font-size: 16px;
-    }
-    .site41_prodel_col12_chitietsp {
-        padding: 0 15px 50px 15px ;
-    }
-    .site41_prodel_col12_content_sp {
-        padding: 0 15px;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content .nac {
-        visibility: hidden;
-        opacity: 0;
-        display: none;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content .title_it_content {
-        visibility: visible;
-        opacity: 1;
-        display: inline-block;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav .title3_3 {
-        margin-right: 0;
-        justify-content: center;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-        width: 55%;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
-        left: 55px;
+    .site41_head_col0_vcic {
+        .item-header-top {
+            padding: 10px;
+        }
+        .item-header-input {
+            padding: 15px 10px;
+            .container {
+                .header-display {
+                    .item-recta {
+                        width: 48%;
+                        .search {
+                            input {
+                                width: 85%;
+                            }
+                            button {
+                                width: 15%;
+                            }
+                        }
+                    }
+                    .cart {
+                        padding: 0 20px 0 63px;
+                        position: relative;
+                        span {
+                            top: -5px;
+                            left: 73px;
+                        }
+                    }
+                    .login {
+                        width: 15%;
+                        position: relative;
+                        margin-left: -50px;
+                        justify-content: flex-end;
+                    }
+                }
+            }
+        }
+        .item-header-menu-top {
+            padding: 8px 15px;
+            .menu-top {
+                .menu-list {
+                    width: 45%;
+                    li {
+                        .menu1 {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
     }
     .btn.btn_lg {
         max-width: 220px;
-    }
-    .site41_prodel_col12_relate_to_Information {
-        padding: 0 15px;
-    }
-    .site41_new_col12_tintuc .item-title .item-more_all {
-        padding-right: 50px;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
-        padding-right: 50px;
-    }
-    .site41_html_col12_chuyengia {
-        padding: 0 15px 50px 15px;
-    }
-    .site41_bann_col0_slide_sp {
-        height: 200px;
-        .item-title {
-            padding-top: 40px;
-        }
-    }
-    .site41_bann_col0_slide_cg {
-        height: 200px;
-        .item-title {
-            padding-top: 40px;
-        }
-    }
-    .site41_bann_col0_slide_news {
-        height: 200px;
-        .item-title {
-            padding-top: 40px;
-        }
-    }
-    .site41_bann_col0_slide_news_detail {
-        height: 200px;
-        .item-title {
-            padding-top: 40px;
-        }
-    }
-    .site41_html_col12_danhsachchuyengia {
-        padding: 25px 15px 50px 15px;
-        .Frame_13723 {
-            display: block;
-            padding: 20px 0;
-            .result {
-                padding-bottom: 20px;
-            }
-            .item-list-unit {
-                select {
-                    width: 150px;
-                }
-            }
-        }
-    }
-    .site41_new_col12_hot_news {
-        padding: 50px 15px;
-        .slide_hot_news {
-            .image_news {
-                .news-slide {
-                    .slick-next {
-                        top: 50%;
-                        right: 3%;
-                        width: 26px;
-                        height: 63px;
-                        background: #2f80ed38;
-                        &:hover {
-                            background: #8fc6f7ad;
-                        }
-                    }
-                    .slick-prev {
-                        top: 50%;
-                        left: 3%;
-                        width: 26px;
-                        height: 63px;
-                        background: #2f80ed38;
-                        &:hover {
-                            background: #8fc6f7ad;
-                        }
-                    }
-                }
-            }
-            .cribe {
-                width: 100%;
-                float: left;
-                .cd {
-                    padding: 15px 0 10px 0;
-                }
-                p {
-                    padding-bottom: 5px;
-                }
-                .date {
-                    padding-bottom: 10px;
-                }
-            }
-        }
-    }
-    .site41_new_col12_seminor_events {
-        padding: 0 15px 30px 15px;
-        .list-post-news {
-            .col-md-6 {
-                .img {
-                    width: 40%;
-                }
-                .product {
-                    width: 59%;
-                    p {
-                        padding-bottom: 0;
-                    }
-                }
-            }
-        }
-    }
-    .site41_new_col12_INVENT {
-        padding: 0 15px 50px 15px;
-        .list-post-news {
-            .col-md-6 {
-                .img {
-                    width: 40%;
-                }
-                .product {
-                    width: 59%;
-                    p {
-                        padding-bottom: 0;
-                    }
-                }
-            }
-        }
-    }
-    .site41_new_col12_hoithaosukien {
-        padding: 50px 15px;
-        .col-md-6 {
-            .img {
-                width: 40%;
-            }
-            .product {
-                width: 59%;
-                p {
-                    padding-bottom: 0;
-                }
-            }
-        }
-    } 
-    .site41_new_col8_page_chitiettintuc {
-        padding: 50px 15px;
-        .site41_new_col8_chitiettintuc {
-            .item_title_page {
-                display: block;
-                .main {
-                    float: left;
-                }
-            }
-            .item-input-comment {
-                input {
-                    padding: 0 0 15px 15px;
-                }
-            }
-        }
-    }
-    .site41_prodel_col12_chitietsp {
-        .item_Information {
-            .detail {
-                .item_btn {
-                    display: block;
-                    text-align: center;
-                    .btn_red {
-                        margin: auto;
-                    }
-                    .btn_primary {
-                        margin-top: 15px;
-                    }
-                }
-            }
-        }
     }
 }
 
@@ -1403,18 +969,6 @@
             }
         }
     }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-        font-size: 14px;
-    }
-    .site41_prodel_col12_chitietsp .item_Information .column {
-        width: 100%;
-        float: left;
-    }
-    .site41_prodel_col12_chitietsp .item_Information .detail {
-        width: 100%;
-        padding-left: 10px;
-        float: left;
-    }
     .chuyengia .popup .content .item-product {
         .item_personal_information {
             width: 100%;
@@ -1436,259 +990,72 @@
             width: 100%;
         }
     }
-    .site41_head_col0_vcic .item-header-top .language {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-input .container .cart {
-        padding: 0 0 0 15px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .cart span {
-        left: 25px;
-    }
-    .site41_head_col0_vcic .item-header-input {
-        padding: 15px 10px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        padding: 50px 60px 50px 25px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li {
-        padding-left: 20px;
-        padding-bottom: 30px;
-    }
-    .site41_pro_col12_ketquanghiencuu .item-title ul {
-        display: none;
-    }
-    .site41_new_col12_tintuc .item-product .list-products .extra .product {
-        padding-left: 15px;
-    }
-    .site41_new_col12_tintuc .item-product .list-products .extra .product .date {
-        display: none;
-    }
-    .site41_new_col12_tintuc .item-product .list-products .extra .product .title {
-        padding: 0;
-    }
-    .site41_html_col12_doitac .item-title ul {
-        display: none;
-    }
-    .site41_foot_col0_vcic .col-md-4 .item-input input {
-        width: 70%;
-    }
-    .site41_foot_col0_vcic .col-md-4 .item-input button {
-        width: 13%;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-        width: 50%;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-        width: 50%;
-    }
-    .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-        width: 50%;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-        width: 50%;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-title .title {
-        display: contents;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .search-box {
-        display: inline-block;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .item-recta {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-        padding: 0 40px;
-        display: flex;
-        position: absolute;
-        right: 100px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart span {
-        top: -6px;
-        left: 50px;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        position: absolute;
-        right: 50px;
-        justify-content: flex-start;
-        width: 10%;
-        display: flex;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .croll_menu {
-        top: 16px;
-    }
-    .site41_new_col12_tintuc .item-title .item-more_all {
-        position: absolute;
-        padding: 10px 0;
-        bottom: 10px;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia {
-        padding-bottom: 50px;
+    .site41_head_col0_vcic {
+        .item-header-top {
+            .language {
+                display: none;
+            }
+        }
+        .item-header-input {
+            padding: 15px 10px;
+            .container {
+                .header-display {
+                    .item-recta {
+                        display: none;
+                    }
+                    .cart {
+                        padding: 0 0 0 15px;
+                        padding: 0 40px;
+                        display: flex;
+                        position: absolute;
+                        right: 100px;
+                        span {
+                            left: 50px;
+                            top: -6px;
+                        }
+                    }
+                    .login {
+                        position: absolute;
+                        right: 50px;
+                        justify-content: flex-start;
+                        width: 10%;
+                        display: flex;
+                    }
+                }
+            }
+        }
+        .item-header-menu-top {
+            .menu-top {
+                .menu-list {
+                    width: 50%;
+                    .logo-menu {
+                        padding: 25px 0;
+                        .foot2 {
+                            font-size: 65px;
+                        }
+                        li {
+                            padding: 20px 0px 25px 30px;
+                        }
+                    }
+                }
+            }
+            .search-box {
+                display: inline-block;
+            }
+            .croll_menu {
+                top: 16px;
+            }
+        }
     }
 
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-title .item-more_all {
-        position: absolute;
-        padding: 10px 0;
-        bottom: 10px;
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        border-bottom: 1px solid #F2F2F2;
-        border-top: 1px solid #F2F2F2;
-    }
-    .site41_bann_col0_slide_sp {
-        height: 130px;
-        .item-title {
-            padding-top: 10px;
-        }
-    }
-    .site41_bann_col0_slide_cg {
-        height: 130px;
-        .item-title {
-            padding-top: 10px;
-        }
-    }
-    .site41_bann_col0_slide_news {
-        height: 130px;
-        .item-title {
-            padding-top: 10px;
-        }
-    }
-    .site41_bann_col0_slide_news_detail {
-        height: 130px;
-        .item-title {
-            padding-top: 10px;
-        }
-    }
-    .site41_new_col12_seminor_events {
-        .list-post-news {
-            .col-md-6 {
-                .img {
-                    width: 100%;
+    .site41_foot_col0_vcic {
+        .col-md-4 {
+            .item-input {
+                input {
+                    width: 70%;
                 }
-                .product {
-                    width: 100%;
-                    p {
-                        padding-bottom: 0;
-                    }
-                    .view-all {
-                        font-size: 13px;
-                        img {
-                            margin-top: -1px;
-                            margin-left: 5px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .site41_new_col12_INVENT {
-        .list-post-news {
-            .col-md-6 {
-                .img {
-                    width: 100%;
-                }
-                .product {
-                    width: 100%;
-                    p {
-                        padding-bottom: 0;
-                    }
-                    .view-all {
-                        font-size: 13px;
-                        img {
-                            margin-top: -1px;
-                            margin-left: 5px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    .site41_new_col12_hoithaosukien {
-        .col-md-6 {
-            .img {
-                width: 100%;
-            }
-            .product {
-                padding-left: 0;
-                width: 100%;
-                p {
-                    padding-bottom: 0;
-                }
-                .view-all {
-                    font-size: 13px;
-                    img {
-                        margin-top: -1px;
-                        margin-left: 5px;
-                    }
-                }
-            }
-        }
-    }
-    .site41_new_col8_page_chitiettintuc {
-        padding-top: 25px;
-        .site41_new_col8_chitiettintuc {
-            .title1_6 {
-                padding-bottom: 25px;
-            }
-            .gettit {
-                .date {
-                    img {
-                        margin-top: -1px;
-                        margin-right: 2px;
-                    }
-                }
-                .operation {
-                    .btn {
-                        margin-right: 7px;
-                        margin-bottom: 5px;
-                    }
-                }
-            }
-        }
-        .item_product_right {
-            .site41_new_col4_tinnoibat {
-                width: 85%;
-            }
-            .site41_html_col4_quangcao {
-                width: 85%;
-            }
-            .site41_new_col4_tinlienquan {
-                width: 85%;
-            }
-        }
-    }
-    .site41_prodel_col12_content_sp .main .contents .content .single .item_btn {
-        /*huy fix*/
-        display: block;
-        .btn {
-            font-size: 16px;
-        }
-        .btn_red {
-            margin: auto;
-        }
-        .btn_primary {
-            margin-top: 15px;
-        }
-    }
-    .site41_prodel_col12_chitietsp {
-        .item_Information {
-            .detail {
-                .item_btn {
-                    display: flex;
-                    text-align: center;
-                    .btn {
-                        font-size: 16px;
-                    }
-                    .btn_red {
-                        margin: 0 15px 0 0;
-                    }
-                    .btn_primary {
-                        margin-top: 0;
-                    }
+                button {
+                    width: 13%;
                 }
             }
         }
@@ -1720,67 +1087,33 @@
             }
         }
     }
-    .site41_pro_col12_ketquanghiencuu .item-list-sp .col-md-3 {
-        width: 100%;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        padding: 50px 50px 50px 25px;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-        width: 60%;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav .title3_3::after {
-        left: 40px;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 130px;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 130px;
-    }
-    .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
-        font-size: 14px;
-    }
-    .chuyengia .popup .content .item-product .item_personal_information ul {
-        padding-left: 10px;
-    }
-    .site41_prodel_col12_chitietsp {
-        .item_Information {
-            .detail {
-                .item_btn {
-                    display: block;
-                    text-align: center;
-                    .btn_red {
-                        margin: auto;
+
+
+
+
+    .chuyengia {
+        .popup {
+            .content {
+                .item-product {
+                    .item_job_information {
+                        .list_job {
+                            .title {}
+                            .title2_4 {
+                                font-size: 14px;
+                            }
+                        }
                     }
-                    .btn_primary {
-                        margin-top: 15px;
+                    .item_personal_information {
+                        ul {
+                            padding-left: 10px;
+                        }
                     }
                 }
             }
         }
     }
-    .site41_new_col8_page_chitiettintuc {
-        .site41_new_col8_chitiettintuc {
-            .gettit {
-                display: block;
-            }
-            .date {
-                padding-bottom: 15px;
-            }
-        }
-        .item_product_right {
-            .site41_new_col4_tinnoibat {
-                width: 100%;
-            }
-            .site41_html_col4_quangcao {
-                width: 100%;
-                padding: 25px 0;
-            }
-            .site41_new_col4_tinlienquan {
-                width: 100%;
-            }
-        }
+    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
+        font-size: 14px;
     }
 }
 
@@ -1798,100 +1131,87 @@
             }
         }
     }
-    .site41_prodel_col12_relate_to_Information .col-md-3 {
-        width: 100%;
+    .foot2 {
+        font-size: 50px;
     }
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-        right: 60px;
-    }
-    .site41_head_col0_vcic .item-header-top .header-contact ul .header-tell {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        padding: 50px 30px 50px 25px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-        font-size: 10px;
-    }
-    .site41_prodel_col12_content_sp .item_lits_content nav a:hover::after, .site41_prodel_col12_content_sp .item_lits_content nav a.active::after {
-        width: 0%;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 {
-        width: 100%;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 240px;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
-        width: 100%;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 240px;
-    }
-    .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
-        width: 100px;
+    .site41_head_col0_vcic {
+        .item-header-top {
+            .header-contact {
+                ul {
+                    .header-tell {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .item-header-input {
+            .container {
+                .header-display {
+                    .cart {
+                        right: 60px;
+                    }
+                }
+            }
+        }
+        .item-header-menu-top {
+            .menu-top {
+                .menu-list {
+                    .logo-menu {
+                        padding: 15px 0 10px 0;
+                    }
+                }
+            }
+        }
     }
     .chuyengia .popup .content .item-product .item_personal_information ul li {
         display: block;
-    }
-    .chuyengia .popup .content .item-product .item_personal_information ul li .mail {
-        display: flex;
-    }
-    .chuyengia .popup .content .item-product .item_personal_information ul li .image {
-        height: 35px;
-    }
-    .site41_sanpham .site41_pro_col9_ketquanghiencuu .item-list-sp .col-md-4 {
-        width: 100%;
-        .product .item-img {
-            height: 222px;
+        .mail {
+            display: flex;
+        }
+        .image {
+            height: 35px;
         }
     }
     .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
         font-size: 13px;
     }
-    .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinnoibat .list_news_hot {
-        padding-left: 0;
-    }
-    .site41_new_col8_page_chitiettintuc .item_product_right .site41_new_col4_tinlienquan .list_news_hot {
-        padding-left: 0;
-    }
-    .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-comment .check-cmt span {
-        padding-right: 10px;
-    }
-    .site41_new_col8_page_chitiettintuc .site41_new_col8_chitiettintuc .item-input-comment input {
-        padding: 0px 0 4px 10px;
-    }
+
 }
 
 @media screen and (max-width: 285px) {
-    .site41_head_col0_vcic .item-header-input .container .header-display .cart {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-input .container .header-display .login {
-        display: none;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list .logo-menu {
-        padding: 50px 10px;
-    }
-    .site41_head_col0_vcic .item-header-menu-top .menu-top .menu-list li .menu1 {
-        font-size: 9px;
-    }
-    .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 180px;
-    }
-    .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 .product .item-img {
-        height: 180px;
-    }
-    .site41_html_col12_danhsachchuyengia .Frame_13723 .item-list-unit select {
-        width: 70px;
+    .site41_head_col0_vcic {
+        .item-header-input {
+            .container {
+                .header-display {
+                    .cart {
+                        display: none;
+                    }
+                    .login {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .item-header-menu-top {
+            .menu-top {
+                .menu-list {
+                    .logo-menu {
+                        padding: 0;
+                        .foot2 {
+                            font-size: 40px;
+                        }
+                    }
+                    li {
+                        padding: 15px 0px 15px 15px;
+                        .menu1 {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
     }
     .chuyengia .popup .content .item-product .item_job_information .list_job .title .title2_4 {
         font-size: 12px;
-    }
-    .site41_prodel_col12_chitietsp .item_Information .detail .item_btn .btn {
-        font-size: 14px;
-    }
-    .site41_prodel_col12_content_sp .main .contents .content .single .item_btn .btn {
-        font-size: 14px;
     }
 }

@@ -41,6 +41,9 @@
     .item-title {
       float: left;
       width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       padding: 30px 0;
       .title {
         float: left;
@@ -112,5 +115,126 @@
         }
       }
     }
+  }
+}
+
+
+
+/* repondive */
+
+@media (max-width:1200px) {
+  .site41_html_col12_chuyengia {
+    .item_lits_content_chuyengia {
+      .item-list-sp {
+        .col-md-3 {
+          .product {
+            .item-img {
+              height: 155px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width:1000px) {
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_cg {
+    padding: 0 15px;
+    height: 200px;
+    .item-title {
+        padding-top: 40px;
+    }
+  }
+  .site41_html_col12_chuyengia {
+    padding: 0 15px 50px 15px;
+    .item_lits_content_chuyengia {
+      .item-list-sp {
+        .col-md-3 {
+          width: 33.33333333%;
+        }
+      }
+      .item-title {
+        .item-more_all {
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+
+}
+
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_cg {
+    height: 130px;
+    .item-title {
+        padding-top: 10px;
+    }
+  }
+  .site41_html_col12_chuyengia {
+    .item_lits_content_chuyengia {
+      padding-bottom: 50px;
+      .item-list-sp {
+        .col-md-3 {
+          width: 50%;
+        }
+      }
+      .item-title {
+        .item-more_all {
+          position: absolute;
+          padding: 10px 0;
+          bottom: 10px;
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          border-bottom: 1px solid #F2F2F2;
+          border-top: 1px solid #F2F2F2;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 460px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .site41_html_col12_chuyengia {
+    .item_lits_content_chuyengia {
+      .item-list-sp {
+        .col-md-3 {
+          width: 100%;
+          .product {
+            .item-img {
+              height: 240px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .site41_html_col12_chuyengia .item_lits_content_chuyengia .item-list-sp .col-md-3 .product .item-img {
+    height: 180px;
   }
 }

@@ -1,42 +1,41 @@
 .site41_bann_col0_slide_news {
-    background-image: url('../img/bg_news.png');
-    background-size: 100% 100%;
-    overflow: hidden;
-    height: 280px;
-    width: 100%;
-    .item-title {
-      padding-top: 85px;
-      a {
-        text-decoration: none;
-        &:hover {
-          color: #FFFFFF;
-        }
-      }
-      .main {
-        position: relative;
-        padding-right: 20px;
-        &::after {
-          position: absolute;
-        content: "";
-        width: 6px;
-        height: 6px;
-        top: 7px;
-        border-top: 1px solid #FFFFFF;
-        border-right: 1px solid #FFFFFF;
-        -webkit-transform: rotateZ(45deg);
-        transform: rotateZ(45deg);
-        margin-left: 10px;
-        margin-top: 1px;
-        }
+  background-image: url('../img/bg_news.png');
+  background-size: 100% 100%;
+  overflow: hidden;
+  height: 280px;
+  width: 100%;
+  .item-title {
+    padding-top: 85px;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: #FFFFFF;
       }
     }
+    .main {
+      position: relative;
+      padding-right: 20px;
+      &::after {
+        position: absolute;
+      content: "";
+      width: 6px;
+      height: 6px;
+      top: 7px;
+      border-top: 1px solid #FFFFFF;
+      border-right: 1px solid #FFFFFF;
+      -webkit-transform: rotateZ(45deg);
+      transform: rotateZ(45deg);
+      margin-left: 10px;
+      margin-top: 1px;
+      }
+    }
+  }
 }
-  
-  .site41_new_col12_hot_news {
-    padding: 50px 0;
+.site41_new_col12_hot_news {
+    padding: 35px 0;
     overflow: hidden;
     h2 {
-      padding-bottom: 30px;
+      padding-bottom: 35px;
       margin: 0
     }
     .slide_hot_news {
@@ -139,8 +138,8 @@
         }
       }
     }
-  }
-  .site41_new_col12_seminor_events {
+}
+.site41_new_col12_seminor_events {
     overflow: hidden;
     padding-bottom: 30px;
     background: #FAFAFA;
@@ -149,12 +148,15 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 0;
-      a {
-        text-decoration: none;
+      .item-more_all {
+        padding-right: 30px;
+        a {
+          text-decoration: none;
+        }
       }
     }
     .list-post-news {
-      width: 100%;
+      margin: 0 -15px;
       float: left;
       .col-md-6 {
         padding: 15px;
@@ -214,10 +216,8 @@
         }
       }
     }
-  }
-  
-  
-  .site41_new_col12_INVENT {
+}
+.site41_new_col12_INVENT {
     overflow: hidden;
     padding-bottom: 50px;
     .item-title {
@@ -225,12 +225,15 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 0;
-      a {
-        text-decoration: none;
+      .item-more_all {
+        padding-right: 30px;
+        a {
+          text-decoration: none;
+        }
       }
     }
     .list-post-news {
-      width: 100%;
+      margin: 0 -15px;
       float: left;
       .col-md-6 {
         padding: 15px;
@@ -290,5 +293,274 @@
         }
       }
     }
+}
+
+
+
+
+
+/* repondive */
+
+@media (max-width:1200px) {
+  .site41_new_col12_hot_news {
+    .slide_hot_news {
+      .cribe {
+        .cd {
+          padding: 0 0 20px 0;
+        }
+        p {
+          padding-bottom: 5px;
+        }
+      }
+      .image_news {
+        .news-slide {
+          .slick-next {
+            top: 93.6%;
+          }
+          .slick-prev {
+            top: 93.6%;
+            left: 83%;
+          }
+        }
+      }
+    }
   }
-  
+  .site41_new_col12_seminor_events {
+    .list-post-news {
+      .col-md-6 {
+        width: 100%;
+        .img {
+          width: 30%;
+        }
+        .product {
+          width: 69%;
+          p {
+            padding-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+  .site41_new_col12_INVENT {
+    .list-post-news {
+      .col-md-6 {
+        width: 100%;
+        .img {
+          width: 30%;
+        }
+        .product {
+          width: 69%;
+          p {
+            padding-bottom: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width:1000px) {
+  .site41_new_col12_hot_news {
+    .slide_hot_news {
+      .image_news {
+        width: 100%;
+        float: left;
+        .news-slide {
+          .slick-next {
+            top: 95.6%;
+          }
+          .slick-prev {
+            top: 95.6%;
+            left: 89%;
+          }
+        }
+      }
+      .cribe {
+        width: 100%;
+        float: left;
+        .cd {
+          padding: 15px 0 10px 0;
+        }
+        p {
+          padding-bottom: 5px;
+        }
+        .date {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  .site41_new_col12_seminor_events {
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 35%;
+        }
+        .product {
+          width: 64%;
+        }
+      }
+    }
+  }
+  .site41_new_col12_INVENT {
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 35%;
+        }
+        .product {
+          width: 64%;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .site41_bann_col0_slide_news {
+    padding: 0 15px;
+    height: 200px;
+    .item-title {
+      padding-top: 40px;
+    }
+  }
+  .site41_new_col12_hot_news {
+    padding: 50px 15px;
+    .slide_hot_news {
+      .image_news {
+        .news-slide {
+          .slick-next {
+            top: 50%;
+            right: 3%;
+            width: 26px;
+            height: 63px;
+            background: #2f80ed38;
+            &:hover {
+              background: #8fc6f7ad;
+            }
+          }
+          .slick-prev {
+            top: 50%;
+            left: 3%;
+            width: 26px;
+            height: 63px;
+            background: #2f80ed38;
+            &:hover {
+              background: #8fc6f7ad;
+            }
+          }
+        }
+      }
+      .cribe {
+        width: 100%;
+        float: left;
+        .cd {
+          padding: 15px 0 10px 0;
+        }
+        p {
+          padding-bottom: 5px;
+        }
+        .date {
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  .site41_new_col12_seminor_events {
+    padding: 0 15px 30px 15px;
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 40%;
+        }
+        .product {
+          width: 59%;
+          p {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .site41_new_col12_INVENT {
+    padding: 0 15px 50px 15px;
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 40%;
+        }
+        .product {
+          width: 59%;
+          p {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* man:  mobi */
+@media screen and (max-width: 576px) {
+  .site41_bann_col0_slide_news {
+    height: 130px;
+    .item-title {
+      padding-top: 10px;
+    }
+  }
+  .site41_new_col12_seminor_events {
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 100%;
+        }
+        .product {
+          width: 100%;
+          p {
+            padding-bottom: 0;
+          }
+          .view-all {
+            font-size: 13px;
+            img {
+              margin-top: -1px;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .site41_new_col12_INVENT {
+    .list-post-news {
+      .col-md-6 {
+        .img {
+          width: 100%;
+        }
+        .product {
+          width: 100%;
+          p {
+            padding-bottom: 0;
+          }
+          .view-all {
+            font-size: 13px;
+            img {
+              margin-top: -1px;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
