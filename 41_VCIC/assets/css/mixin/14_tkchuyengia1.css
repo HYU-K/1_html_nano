@@ -570,67 +570,11 @@
   .site41_html_col0_taodulieu .container_fix .pro_right .form_tt {
     padding-bottom: 50px;
   }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(3) {
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(4) {
-    display: none;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(8) {
-    display: block;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(19) {
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(20) {
-    display: none;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(22) {
-    display: block;
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(24) {
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(25) {
-    display: none;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form label:nth-child(27) {
-    width: 100%;
-    display: block;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form input:nth-child(21) {
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form input:nth-child(23) {
-    width: 100%;
-    margin-left: 0;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form input:nth-child(26) {
-    width: 100%;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form input:nth-child(28) {
-    width: 100%;
-    margin-left: 0;
-  }
   .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select::-moz-selection {
     color: #000000;
   }
   .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select::selection {
     color: #000000;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(5),
-.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(6),
-.site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(7) {
-    width: calc(100% / 3 - 13px );
-    margin-right: 15px;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(9) {
-    width: 100%;
-    margin-left: 0;
-  }
-  .site41_html_col0_taodulieu .container_fix .pro_right .form_tt form select:nth-child(7) {
-    margin-right: 0px;
   }
   .bghome.active {
     width: 100%;
