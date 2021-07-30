@@ -148,17 +148,17 @@
     .site41_head_col0_vcic {
         .item-header-input {
             .container {
-                .item-recta {
-                    .search {
-                        button {
-                            width: 15%;
-                        }
-                        input {
-                            width: 85%;
+                .header-display {
+                    .item-recta {
+                        .search {
+                            button {
+                                width: 12.5%;
+                            }
+                            input {
+                                width: 87%;
+                            }
                         }
                     }
-                }
-                .header-display {
                     .login {
                         width: 27%;
                         display: flex;
@@ -492,6 +492,12 @@
                         }
                         .search {
                             width: 100%;
+                            button {
+                                width: 11%;
+                            }
+                            input {
+                                width: 89%;
+                            }
                         }
                     }
                     .login {

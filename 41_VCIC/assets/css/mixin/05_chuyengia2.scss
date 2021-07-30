@@ -132,7 +132,10 @@
 
 
 @media (max-width:1000px) {
-
+  .site41_bann_col0_slide_cg .item-title .main::after {
+    margin-left: 8px;
+    margin-top: 0;
+  }
 }
 
 
@@ -170,6 +173,10 @@
 @media screen and (max-width: 576px) {
   .site41_html_col12_danhsachchuyengia .item-list-sp .col-md-3 {
     width: 50%;
+  }
+  .site41_bann_col0_slide_cg .item-title .main::after {
+    margin-left: 8px;
+    margin-top: -3px;
   }
 }
 
