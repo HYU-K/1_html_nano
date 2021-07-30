@@ -32,6 +32,115 @@
 }
 
 
+.site41_head_col0_vcic-taikhoan {
+    .item-header-input {
+        overflow: hidden;
+        padding: 15px 0;
+        transition: all 0.3s;
+        .container {
+            .header-display {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                float: left;
+                .logo-top {
+                    display: flex;
+                    img {
+                        width: fit-content;
+                        height: fit-content
+                    }
+                }
+                .item-recta {
+                    margin-left: 50px;
+                    width: 100%;
+                    height: 45px;
+                    display: flex;
+                    float: left;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 150.19%;
+                    color: #828282;
+                    border: 1px solid #E0E0E0;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    .soe {
+                        width: 38%;
+                        padding: 10px;
+                        .luachon {
+                            outline: 0;
+                            width: 100%;
+                        }
+                    }
+                    .search {
+                        width: 62%;
+                        position: relative;
+                        input {
+                            outline: 0;
+                            width: 67%;
+                            padding: 10px
+                        }
+                        ::before {
+                            position: absolute;
+                            width: 1px;
+                            height: 16px;
+                            content: "";
+                            background: #DBDBDB;
+                            top: 12px;
+                            left: 0;
+                        }
+                        button {
+                            float: right;
+                            background: #2275BC;
+                            border: 1px solid #2275BC;
+                            box-sizing: border-box;
+                            border-radius: 0px 4px 4px 0px;
+                            width: 32.5%;
+                            height: 100%;
+                        }
+                    }
+                }
+                .cart {
+                    position: relative;
+                    padding: 0 40px;
+                    img {
+                        width: fit-content;
+                        height: fit-content;
+                    }
+                    span {
+                        position: absolute;
+                        font-family: Poppins;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #FFFFFF;
+                        background: #FF0B00;
+                        border-radius: 50%;
+                        padding: 0px 6px;
+                        top: -6px;
+                        left: 50px;
+                    }
+                }
+                /*huy fix*/
+                .login {
+                    width: 26%;
+                    .conten {
+                        margin-right: 10px;
+                    }
+                    a {
+                        text-decoration: none;
+                    }
+                    img {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .site41_html_col0_taodulieu {
     font-family: Roboto;
     font-style : normal;
