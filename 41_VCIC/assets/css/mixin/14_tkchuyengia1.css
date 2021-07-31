@@ -25,6 +25,9 @@
     max-width: 750px;
   }
 }
+.site41_head_col0_vcic-taikhoan {
+  overflow: hidden;
+}
 .site41_head_col0_vcic-taikhoan .item-header-input {
   overflow: hidden;
   padding: 15px 0;
@@ -615,7 +618,29 @@
   margin-right: 12px;
 }
 
+@media (max-width: 1600px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    width: 46%;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login {
+    width: 24%;
+  }
+}
 @media (max-width: 1400px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-right: 25px;
+    display: block;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login {
+    width: 25%;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login .md2 {
+    font-size: 14px;
+  }
+
   .site41_html_col0_taodulieu .copyright {
     font-size: 14px;
   }
@@ -639,7 +664,45 @@
     font-size: 20px;
   }
 }
+@media (max-width: 1200px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    padding: 0 45px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta {
+    display: block;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta .soe {
+    display: none;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta .search button {
+    font-size: 16px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-popup a {
+    font-size: 16px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login .md2 {
+    display: none;
+  }
+}
 @media (max-width: 1000px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    padding: 0 25px 0 0;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta .search button {
+    width: 43px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta .search button span {
+    display: none;
+  }
+
   .site41_html_col0_taodulieu .copyright {
     font-size: 13px;
   }
@@ -671,6 +734,19 @@
   }
 }
 @media (max-width: 768px) {
+  .site41_head_col0_vcic-taikhoan {
+    padding: 0 15px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    padding: 0 15px 0 0;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta {
+    margin-right: 15px;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-popup {
+    display: none;
+  }
+
   .site41_html_col0_taodulieu .copyright {
     font-size: 13px;
   }
@@ -741,5 +817,33 @@
     left: 0;
     overflow: hidden;
     z-index: 5000;
+  }
+}
+@media (max-width: 556px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .item-recta {
+    display: none;
+  }
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .logo-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 54%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+  }
+}
+@media (max-width: 310px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .cart {
+    display: none;
+  }
+}
+@media (max-width: 260px) {
+  .site41_head_col0_vcic-taikhoan .item-header-input .header-display .login {
+    display: none;
   }
 }

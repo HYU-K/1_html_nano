@@ -497,9 +497,54 @@
   height: fit-content;
 }
 
+.tel {
+  position: fixed;
+  bottom: 80px;
+  right: 3%;
+  outline: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 50%;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.zalo {
+  position: fixed;
+  bottom: 70px;
+  right: 3%;
+  outline: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 50%;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.mes {
+  position: fixed;
+  bottom: 60px;
+  right: 3%;
+  outline: none;
+  cursor: pointer;
+  background: #FFFFFF;
+  border-radius: 50%;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .backtotop {
   position: fixed;
-  bottom: 30px;
+  bottom: 50px;
   right: 3%;
   outline: none;
   cursor: pointer;

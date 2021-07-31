@@ -10,7 +10,6 @@
 @media (max-width: 1600px) {
     .container_fix {
         max-width: 1400px;
-
     }
 }
 
@@ -35,6 +34,7 @@
 
 
 .site41_head_col0_vcic-taikhoan {
+    overflow: hidden;
     .item-header-input {
         overflow: hidden;
         padding: 15px 0;
@@ -655,7 +655,40 @@
     }
 }
 
+@media (max-width:1600px) {
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .logo-top {
+                    width: 46%;
+                }
+                .login {
+                    width: 24%;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:1400px) {
+
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .logo-top {
+                    width: fit-content;
+                    padding-right: 25px;
+                    display: block;
+                }
+                .login {
+                    width: 25%;
+                    .md2 {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 
     .site41_html_col0_taodulieu {
 
@@ -749,8 +782,60 @@
     }
 }
 
+@media (max-width:1200px) {
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .logo-top {
+                    padding: 0 45px;
+                }
+                .item-recta {
+                    display: block;
+                    .soe {
+                        display: none;
+                    }
+                    .search button {
+                        font-size: 16px;
+                    }
+                }
+                .item-popup {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+                .login {
+                    width: fit-content;
+                    justify-content: flex-end;
+                    .md2 {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width:1000px) {
 
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .logo-top {
+                    padding: 0 25px 0 0;
+                }
+                .item-recta {
+                    .search {
+                        button {
+                            width: 43px;
+                            span {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     .site41_html_col0_taodulieu {
 
 
@@ -847,6 +932,23 @@
 }
 
 @media (max-width:768px) {
+
+    .site41_head_col0_vcic-taikhoan {
+        padding: 0 15px;
+        .item-header-input {
+            .header-display {
+                .logo-top {
+                    padding: 0 15px 0 0;
+                }
+                .item-recta {
+                    margin-right: 15px;
+                }
+                .item-popup {
+                    display: none;
+                }
+            }
+        }
+    }
 
     .site41_html_col0_taodulieu {
 
@@ -1135,5 +1237,48 @@
         left      : 0;
         overflow  : hidden;
         z-index   : 5000;
+    }
+}
+
+@media (max-width:556px) {
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                justify-content: space-around;
+                .item-recta {
+                    display: none;
+                }
+                .logo-top {
+                    display: flex;
+                    width: 54%;
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:310px) {
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .cart {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:260px) {
+    .site41_head_col0_vcic-taikhoan {
+        .item-header-input {
+            .header-display {
+                .login {
+                    display: none;
+                }
+            }
+        }
     }
 }
